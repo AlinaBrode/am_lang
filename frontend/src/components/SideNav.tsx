@@ -9,6 +9,7 @@ export default function SideNav() {
     { to: '/alphabet', label: t('nav_alphabet') },
     { to: '/words', label: t('nav_words') },
     { to: '/phrases', label: t('nav_phrases') },
+    { to: '/drivers', label: t('nav_drivers') },
     { to: '/interesting_notes', label: t('nav_interesting_notes') },
   ]
 
