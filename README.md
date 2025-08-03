@@ -15,6 +15,11 @@ npm install
 npm run dev
 ```
 
+To deploy the HTML frontend to Firebase Hosting:
+```bash
+npm --prefix frontend run build && firebase deploy --only hosting
+```
+
 ## Backend
 - Python 3.11 Flask API
 - `/tts` endpoint uses Google Cloud Text-to-Speech
