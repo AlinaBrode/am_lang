@@ -1,17 +1,19 @@
 
-* different path for ru and en languages, put different pathes into file for site traversing
-
-
 # Site
-* edit picture with boar and make transparent background
-* mobile version
+* roadmap to monetization
 * monetization:
   * tip bin
     * how to register an account?
     * how to post a link?
+* edit picture with boar and make transparent background
+* mobile version
 * left panel slides to the left by the click on a button
 * какие есть подходы к расшариванию контактов?
-
+* разобраться с метой: правильно ли что она английская для русской версии?
+* в word trainer добавить побуквенное сравнение чтобы тоже можно было соответствие звуков учить
+* somehow find a community of armenian language tutors
+* create a page for programming etudes
+* link telegram channel and web site with small etudes repository + linkedin
 
 # Education
 * html, css
@@ -32,5 +34,6 @@
 * highlight different topics in our channel and site: childrent, sightseeing, trusted drivers, ...
   * what are the best practices to attribute different topics in telegram channel?
 * create a new page with trusted drivers
+* different path for ru and en languages, put different pathes into file for site traversing
 
 
