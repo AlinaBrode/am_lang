@@ -1,7 +1,28 @@
-# Site
 
-* telegram channel
-  * create telegram channel
+* create a new page with trusted drivers
+  * send reference on this page to
+    * Alik
+    * George
+    * Alexander
+    * Guy from Burokan
+  * prepare data for the page:
+    * Name
+    * phone
+    * cars available
+    * places
+
+
+# Site
+ 
+* different path for ru and en languages, put different pathes into file for site traversing
+* edit picture with boar and make transparent background
+* mobile version
+* monetization:
+  * tip bin
+    * how to register an account?
+    * how to post a link?
+* left panel slides to the left by the click on a button
+
 
 # Education
 * html, css
@@ -11,3 +32,15 @@
 * add lint to project
 
 # Feature log
+* pin project description in the channel
+* telegram channel
+  * put reference on telegram channel on site
+    * how to put a reference?
+    * where to put a reference?
+    * align telegram reference
+    * make en and ru versions of telegram reference
+  * put reference on site in telegram channel
+* highlight different topics in our channel and site: childrent, sightseeing, trusted drivers, ...
+  * what are the best practices to attribute different topics in telegram channel?
+
+

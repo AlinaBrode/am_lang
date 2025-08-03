@@ -20,6 +20,7 @@ const strings: Record<Lang, Record<string, string>> = {
     phrases_title: 'Frequent Phrases',
     phrases_mode_single: 'Single card',
     phrases_mode_gallery: 'Gallery',
+    join_telegram: 'Join our Telegram channel',
     nav_first: 'First',
     nav_back: 'Back',
     nav_next: 'Next',
@@ -69,6 +70,7 @@ const strings: Record<Lang, Record<string, string>> = {
     nav_next: 'Вперед',
     nav_last: 'Последняя',
     nav_card_number: 'Номер',
+    join_telegram: 'Присоединяйся к нашему каналу',
     coming_soon: 'Содержимое скоро появится',
     interesting_notes_intro:
       'Здесь можно найти любопытные заметки о Ереване, Армении, языке и жизни.',
