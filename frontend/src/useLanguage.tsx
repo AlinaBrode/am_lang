@@ -14,6 +14,7 @@ const strings: Record<Lang, Record<string, string>> = {
     nav_alphabet: 'Alphabet trainer',
     nav_words: 'Word trainer',
     nav_phrases: 'Phrase trainer',
+    nav_drivers: 'Reliable drivers',
     nav_interesting_notes: 'Interesting notes',
     alphabet_title: 'Armenian Alphabet',
     words_title: 'Simple Words',
@@ -51,7 +52,13 @@ const strings: Record<Lang, Record<string, string>> = {
     note_2025_06_19_p2:
       'Once while walking through Arabkir near Druzhba station, we stopped by a pharmacy and, to our surprise, saw an owl in the middle of the room. Motionless, it mechanically turned its head at regular intervals. We thought nothing of it and went home.',
     note_2025_06_19_p3:
-      'A year later we learned the owl was alive. The pharmacy owner, Artur, had rescued her after a car accident. She lost a wing and now lives in the pharmacy. Her name is Lurik, and she is a small landmark of Komitas Street. The shop itself feels like a magic box with hidden doors\u2014but that is another story.'
+      'A year later we learned the owl was alive. The pharmacy owner, Artur, had rescued her after a car accident. She lost a wing and now lives in the pharmacy. Her name is Lurik, and she is a small landmark of Komitas Street. The shop itself feels like a magic box with hidden doors\u2014but that is another story.',
+    drivers_title: 'Reliable drivers',
+    drivers_col_name: 'Driver',
+    drivers_col_region: 'Region',
+    drivers_col_cars: 'Available cars',
+    drivers_col_phones: 'Phones',
+    drivers_col_site: 'Website',
   },
   ru: {
     welcome_title: 'Добро пожаловать в тренажеры армянского языка',
@@ -59,6 +66,7 @@ const strings: Record<Lang, Record<string, string>> = {
     nav_alphabet: 'Тренажер алфавита',
     nav_words: 'Тренажер слов',
     nav_phrases: 'Тренажер фраз',
+    nav_drivers: 'Проверенные водители',
     nav_interesting_notes: 'любопытные заметки',
     alphabet_title: 'Армянский алфавит',
     words_title: 'Простые слова',
@@ -96,7 +104,13 @@ const strings: Record<Lang, Record<string, string>> = {
     note_2025_06_19_p2:
       'Однажды, гуляя по району Арабкир недалеко от метро Дружба, мы зашли в аптеку и увидели посередине помещения сову — или чучело совы. Она сидела неподвижно и механически поворачивала голову. Мы пожали плечами и ушли.',
     note_2025_06_19_p3:
-      'Через год мы узнали, что сова всё-таки живая. Машина сбила её, и хозяин аптеки Артур выходил её, хотя она потеряла крыло. Теперь Лурик — так зовут совушку — живёт в аптеке и стала достопримечательностью улицы Комитаса. Сама аптека похожа на волшебную шкатулку с тайными дверцами, но это уже другая история.'
+      'Через год мы узнали, что сова всё-таки живая. Машина сбила её, и хозяин аптеки Артур выходил её, хотя она потеряла крыло. Теперь Лурик — так зовут совушку — живёт в аптеке и стала достопримечательностью улицы Комитаса. Сама аптека похожа на волшебную шкатулку с тайными дверцами, но это уже другая история.',
+    drivers_title: 'Проверенные водители',
+    drivers_col_name: 'Водитель',
+    drivers_col_region: 'Регион',
+    drivers_col_cars: 'Доступные машины',
+    drivers_col_phones: 'Телефоны',
+    drivers_col_site: 'Сайт',
   },
 }
 

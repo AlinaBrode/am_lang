@@ -5,6 +5,7 @@ import AlphabetPage from './pages/AlphabetPage'
 import WordsPage from './pages/WordsPage'
 import PhrasesPage from './pages/PhrasesPage'
 import InterestingNotes from './pages/InterestingNotes'
+import ReliableDriversPage from './pages/ReliableDriversPage'
 import { LanguageProvider } from './useLanguage'
 import SideNav from './components/SideNav'
 import './index.css'
@@ -22,6 +23,7 @@ export default function App() {
               <Route path="/alphabet" element={<AlphabetPage />} />
               <Route path="/words" element={<WordsPage />} />
               <Route path="/phrases" element={<PhrasesPage />} />
+              <Route path="/drivers" element={<ReliableDriversPage />} />
               <Route path="/interesting_notes" element={<InterestingNotes />} />
             </Routes>
           </div>
