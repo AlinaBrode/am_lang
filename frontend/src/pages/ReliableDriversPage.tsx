@@ -13,26 +13,26 @@ const drivers: Driver[] = [
     name: 'Жора',
     region: { en: 'Gyumri', ru: 'Гюмри' },
     cars: '-',
-    phones: ['077411503'],
+    phones: ['xxxxxxxxx'],
   },
   {
     name: 'Гор',
     region: { en: 'Tsaghkadzor', ru: 'Цахкадзор' },
     cars: '-',
-    phones: ['+374 93 584 455'],
+    phones: ['xxxxxxxxx'],
     website: 'https://tour-armenia.am/',
   },
   {
     name: 'Сергей',
     region: { en: 'Sevan', ru: 'Севан' },
     cars: '-',
-    phones: ['095244404'],
+    phones: ['xxxxxxxxx'],
   },
   {
     name: 'Алек',
     region: { en: 'Sevan', ru: 'Севан' },
     cars: '-',
-    phones: ['+37493390681'],
+    phones: ['xxxxxxxxx'],
   },
 ]
 

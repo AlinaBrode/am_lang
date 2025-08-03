@@ -1,19 +1,7 @@
 
-* create a new page with trusted drivers
-  * send reference on this page to
-    * Alik
-    * George
-    * Alexander
-    * Guy from Burokan
-  * prepare data for the page:
-    * Name
-    * phone
-    * cars available
-    * places
 
 
 # Site
- 
 * different path for ru and en languages, put different pathes into file for site traversing
 * edit picture with boar and make transparent background
 * mobile version
@@ -42,5 +30,6 @@
   * put reference on site in telegram channel
 * highlight different topics in our channel and site: childrent, sightseeing, trusted drivers, ...
   * what are the best practices to attribute different topics in telegram channel?
+* create a new page with trusted drivers
 
 
