@@ -1,8 +1,8 @@
 
+* different path for ru and en languages, put different pathes into file for site traversing
 
 
 # Site
-* different path for ru and en languages, put different pathes into file for site traversing
 * edit picture with boar and make transparent background
 * mobile version
 * monetization:
@@ -10,6 +10,7 @@
     * how to register an account?
     * how to post a link?
 * left panel slides to the left by the click on a button
+* какие есть подходы к расшариванию контактов?
 
 
 # Education
