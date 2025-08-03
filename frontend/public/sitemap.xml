@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://am-lang.web.app/</loc>
+    <loc>https://am-lang.web.app/en</loc>
   </url>
   <url>
-    <loc>https://am-lang.web.app/alphabet</loc>
+    <loc>https://am-lang.web.app/ru</loc>
   </url>
   <url>
-    <loc>https://am-lang.web.app/words</loc>
+    <loc>https://am-lang.web.app/en/alphabet</loc>
   </url>
   <url>
-    <loc>https://am-lang.web.app/phrases</loc>
+    <loc>https://am-lang.web.app/ru/alphabet</loc>
   </url>
   <url>
-    <loc>https://am-lang.web.app/interesting_notes</loc>
+    <loc>https://am-lang.web.app/en/words</loc>
+  </url>
+  <url>
+    <loc>https://am-lang.web.app/ru/words</loc>
+  </url>
+  <url>
+    <loc>https://am-lang.web.app/en/phrases</loc>
+  </url>
+  <url>
+    <loc>https://am-lang.web.app/ru/phrases</loc>
+  </url>
+  <url>
+    <loc>https://am-lang.web.app/en/drivers</loc>
+  </url>
+  <url>
+    <loc>https://am-lang.web.app/ru/drivers</loc>
+  </url>
+  <url>
+    <loc>https://am-lang.web.app/en/interesting_notes</loc>
+  </url>
+  <url>
+    <loc>https://am-lang.web.app/ru/interesting_notes</loc>
   </url>
 </urlset>

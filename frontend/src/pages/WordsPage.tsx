@@ -1,4 +1,5 @@
 import { useLanguage } from '../useLanguage'
+import Meta from '../components/Meta'
 import appleImg from '../assets/alphabet/apple.webp'
 import apricotImg from '../assets/alphabet/apricot.webp'
 import bookImg from '../assets/alphabet/book.webp'
@@ -101,7 +102,9 @@ const words: Word[] = [
 export default function WordsPage() {
   const { t } = useLanguage()
   return (
-    <div className="p-4">
+    <>
+      <Meta />
+      <div className="p-4">
       <h1 className="text-xl font-bold mb-4">{t('words_title')}</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {words.map((w) => (
@@ -129,5 +132,6 @@ export default function WordsPage() {
         ))}
       </div>
     </div>
+    </>
   )
 }

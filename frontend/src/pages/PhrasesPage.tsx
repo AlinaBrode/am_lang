@@ -21,6 +21,7 @@ import notArmenianImg from '../assets/phrases/i_am_not_armenian.webp'
 import whatIsThatImg from '../assets/phrases/what_is_that.webp'
 import myNameIsImg from '../assets/phrases/my_name_is.webp'
 import { useLanguage } from '../useLanguage'
+import Meta from '../components/Meta'
 
 interface Phrase {
   image?: string
@@ -192,7 +193,9 @@ export default function PhrasesPage() {
   const current = phrases[index]
 
   return (
-    <div className="p-4">
+    <>
+      <Meta />
+      <div className="p-4">
       <h1 className="text-xl font-bold mb-4">{t('phrases_title')}</h1>
       <div className="mb-4">
         <select
@@ -258,5 +261,6 @@ export default function PhrasesPage() {
         </div>
       )}
     </div>
+    </>
   )
 }

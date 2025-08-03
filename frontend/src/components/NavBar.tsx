@@ -6,13 +6,13 @@ export default function NavBar() {
   return (
     <header className="p-4 flex gap-4 items-center bg-gray-100">
       <nav className="flex gap-4 flex-1">
-        <Link to="/" className="font-semibold">
+        <Link to={`/${lang}`} className="font-semibold">
           {t('welcome_title')}
         </Link>
-        <Link to="/alphabet">{t('nav_alphabet')}</Link>
-        <Link to="/words">{t('nav_words')}</Link>
-        <Link to="/phrases">{t('nav_phrases')}</Link>
-        <Link to="/interesting_notes">{t('nav_interesting_notes')}</Link>
+        <Link to={`/${lang}/alphabet`}>{t('nav_alphabet')}</Link>
+        <Link to={`/${lang}/words`}>{t('nav_words')}</Link>
+        <Link to={`/${lang}/phrases`}>{t('nav_phrases')}</Link>
+        <Link to={`/${lang}/interesting_notes`}>{t('nav_interesting_notes')}</Link>
       </nav>
       <select
         className="border px-2 py-1"
