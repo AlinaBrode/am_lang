@@ -1,4 +1,5 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useEffect, useState } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 type Lang = 'en' | 'ru'
 interface I18n {
@@ -117,7 +118,28 @@ const strings: Record<Lang, Record<string, string>> = {
 const LanguageContext = createContext<I18n | undefined>(undefined)
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [lang, setLang] = useState<Lang>('en')
+  const location = useLocation()
+  const navigate = useNavigate()
+  const initial = (location.pathname.match(/^\/(en|ru)/)?.[1] as Lang) || 'en'
+  const [lang, setLangState] = useState<Lang>(initial)
+
+  useEffect(() => {
+    const current = location.pathname.match(/^\/(en|ru)/)?.[1] as Lang | undefined
+    if (current && current !== lang) {
+      setLangState(current)
+    }
+  }, [location.pathname, lang])
+
+  useEffect(() => {
+    document.documentElement.lang = lang
+  }, [lang])
+
+  const setLang = (l: Lang) => {
+    const rest = location.pathname.replace(/^\/(en|ru)/, '')
+    navigate(`/${l}${rest}${location.search}${location.hash}`)
+    setLangState(l)
+  }
+
   const t = (key: string) => strings[lang][key] || key
   return (
     <LanguageContext.Provider value={{ lang, setLang, t }}>

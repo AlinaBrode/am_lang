@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import usePageViews from './usePageViews'
 import WelcomePage from './pages/WelcomePage'
 import AlphabetPage from './pages/AlphabetPage'
@@ -12,24 +12,26 @@ import './index.css'
 
 export default function App() {
   return (
-    <LanguageProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <LanguageProvider>
         <TrackPageViews />
         <div className="flex min-h-screen">
           <SideNav />
           <div className="flex-1 ml-64">
             <Routes>
-              <Route path="/" element={<WelcomePage />} />
-              <Route path="/alphabet" element={<AlphabetPage />} />
-              <Route path="/words" element={<WordsPage />} />
-              <Route path="/phrases" element={<PhrasesPage />} />
-              <Route path="/drivers" element={<ReliableDriversPage />} />
-              <Route path="/interesting_notes" element={<InterestingNotes />} />
+              <Route path="/" element={<Navigate to="/en" replace />} />
+              <Route path="/:lang" element={<WelcomePage />} />
+              <Route path="/:lang/alphabet" element={<AlphabetPage />} />
+              <Route path="/:lang/words" element={<WordsPage />} />
+              <Route path="/:lang/phrases" element={<PhrasesPage />} />
+              <Route path="/:lang/drivers" element={<ReliableDriversPage />} />
+              <Route path="/:lang/interesting_notes" element={<InterestingNotes />} />
+              <Route path="*" element={<Navigate to="/en" replace />} />
             </Routes>
           </div>
         </div>
-      </BrowserRouter>
-    </LanguageProvider>
+      </LanguageProvider>
+    </BrowserRouter>
   )
 }
 

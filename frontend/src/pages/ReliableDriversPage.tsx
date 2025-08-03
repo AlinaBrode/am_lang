@@ -1,4 +1,5 @@
 import { useLanguage } from '../useLanguage'
+import Meta from '../components/Meta'
 
 interface Driver {
   name: string
@@ -39,7 +40,9 @@ const drivers: Driver[] = [
 export default function ReliableDriversPage() {
   const { lang, t } = useLanguage()
   return (
-    <div className="p-4">
+    <>
+      <Meta />
+      <div className="p-4">
       <h1 className="text-xl font-bold mb-4">{t('drivers_title')}</h1>
       <table className="table-auto border-collapse w-full">
         <thead>
@@ -72,5 +75,6 @@ export default function ReliableDriversPage() {
         </tbody>
       </table>
     </div>
+    </>
   )
 }

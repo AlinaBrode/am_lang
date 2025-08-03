@@ -1,4 +1,5 @@
 import { useLanguage } from '../useLanguage'
+import Meta from '../components/Meta'
 import architectImg from '../assets/architect.webp'
 import lurikImg from '../assets/stories/lurik_00.png'
 import type { ReactNode } from 'react'
@@ -51,7 +52,9 @@ const notes: Note[] = [
 export default function InterestingNotes() {
   const { t } = useLanguage()
   return (
-    <div className="p-4">
+    <>
+      <Meta />
+      <div className="p-4">
       <h1 className="text-xl font-bold mb-4">
         {t('interesting_notes_title')}
       </h1>
@@ -67,5 +70,6 @@ export default function InterestingNotes() {
         ))}
       </ul>
     </div>
+    </>
   )
 }
