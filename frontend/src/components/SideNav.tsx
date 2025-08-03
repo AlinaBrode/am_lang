@@ -5,18 +5,19 @@ export default function SideNav() {
   const { lang, setLang, t } = useLanguage()
   const location = useLocation()
 
+  const base = `/${lang}`
   const items = [
-    { to: '/alphabet', label: t('nav_alphabet') },
-    { to: '/words', label: t('nav_words') },
-    { to: '/phrases', label: t('nav_phrases') },
-    { to: '/drivers', label: t('nav_drivers') },
-    { to: '/interesting_notes', label: t('nav_interesting_notes') },
+    { to: `${base}/alphabet`, label: t('nav_alphabet') },
+    { to: `${base}/words`, label: t('nav_words') },
+    { to: `${base}/phrases`, label: t('nav_phrases') },
+    { to: `${base}/drivers`, label: t('nav_drivers') },
+    { to: `${base}/interesting_notes`, label: t('nav_interesting_notes') },
   ]
 
   return (
     <nav className="fixed w-64 min-h-screen bg-sky-200 text-blue-900 p-6 flex flex-col justify-between">
       <div>
-        <Link to="/" className="block uppercase font-bold mb-4">
+        <Link to={base} className="block uppercase font-bold mb-4">
           {t('welcome_title')}
         </Link>
         <select
@@ -44,7 +45,7 @@ export default function SideNav() {
         </ul>
       </div>
       <Link
-        to="/alphabet"
+        to={`${base}/alphabet`}
         className="mt-6 block text-center bg-white text-blue-800 font-bold border border-blue-800 rounded py-3 hover:bg-blue-50"
       >
         Start Learning

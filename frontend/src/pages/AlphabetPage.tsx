@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useLanguage } from '../useLanguage'
+import Meta from '../components/Meta'
 import polarOwl from '../assets/polar_owl.webp'
 import appleImg from '../assets/alphabet/apple.webp'
 import apricotImg from '../assets/alphabet/apricot.webp'
@@ -532,7 +533,9 @@ export default function AlphabetPage() {
   }
 
   return (
-    <div className="p-4">
+    <>
+      <Meta />
+      <div className="p-4">
       <h1 className="text-xl font-bold mb-4">{t('alphabet_title')}</h1>
       <table className="table-auto border-collapse">
         <thead>
@@ -557,7 +560,7 @@ export default function AlphabetPage() {
               <td className="border px-2 text-center text-2xl">{armLower}</td>
               <td className="border px-2">{en}</td>
               <td className="border px-2">{ru}</td>
-            </tr>
+          </tr>
             )
           })}
         </tbody>
@@ -566,5 +569,6 @@ export default function AlphabetPage() {
         <LetterModal info={active} onClose={() => setActive(null)} />
       )}
     </div>
+    </>
   )
 }
