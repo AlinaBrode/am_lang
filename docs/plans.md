@@ -1,6 +1,15 @@
+* roadmap to monetization
+  * register a tip bin which we can post on out site
+    * visit the idbank office, ask for merchant account
+      * take qr code and link for merchant account
+      * publish link on the site
+  * describe out project on kickstarter
+    * kickstarter works in US, UK only. Should ask US, UK citizens
+  * other media: youtube, linkedin, instagram
+
+
 
 # Site
-* roadmap to monetization
 * monetization:
   * tip bin
     * how to register an account?

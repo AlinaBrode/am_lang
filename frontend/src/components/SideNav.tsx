@@ -44,6 +44,9 @@ export default function SideNav() {
           })}
         </ul>
       </div>
+      <p>
+        💛 Like this site? <a href="https://boosty.to/tarstars/donate" target="_blank">Make a donation via Boosty</a>
+      </p>
       <Link
         to={`${base}/alphabet`}
         className="mt-6 block text-center bg-white text-blue-800 font-bold border border-blue-800 rounded py-3 hover:bg-blue-50"
