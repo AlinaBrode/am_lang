@@ -1,3 +1,19 @@
+
+* mobile version
+  * left panel slides to the left by the button in the right top corner of the panel
+
+
+# Site
+* link with github (small etudes)
+* mobile version
+  * popup in learning mode
+* left panel slides to the left by the click on a button
+* какие есть подходы к расшариванию контактов?
+* разобраться с метой: правильно ли что она английская для русской версии?
+* в word trainer добавить побуквенное сравнение чтобы тоже можно было соответствие звуков учить
+* somehow find a community of armenian language tutors
+* create a page for programming etudes
+* link telegram channel and web site with small etudes repository + linkedin
 * roadmap to monetization
   * register a tip bin which we can post on out site
     * visit the idbank office, ask for merchant account
@@ -6,23 +22,11 @@
   * describe out project on kickstarter
     * kickstarter works in US, UK only. Should ask US, UK citizens
   * other media: youtube, linkedin, instagram
-
-
-
-# Site
 * monetization:
-  * tip bin
+  * tip bin (armenian)
     * how to register an account?
     * how to post a link?
-* edit picture with boar and make transparent background
-* mobile version
-* left panel slides to the left by the click on a button
-* какие есть подходы к расшариванию контактов?
-* разобраться с метой: правильно ли что она английская для русской версии?
-* в word trainer добавить побуквенное сравнение чтобы тоже можно было соответствие звуков учить
-* somehow find a community of armenian language tutors
-* create a page for programming etudes
-* link telegram channel and web site with small etudes repository + linkedin
+
 
 # Education
 * html, css
@@ -44,5 +48,6 @@
   * what are the best practices to attribute different topics in telegram channel?
 * create a new page with trusted drivers
 * different path for ru and en languages, put different pathes into file for site traversing
-
+* tip jar with russian card and boosty
+* edit picture with boar and make transparent background
 
