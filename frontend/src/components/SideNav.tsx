@@ -72,7 +72,7 @@ export default function SideNav({ open, toggle }: SideNavProps) {
       </nav>
       <button
         onClick={toggle}
-        className={`fixed top-4 z-40 bg-sky-200 text-blue-900 border border-blue-900 p-2 rounded-r transition-all ${
+        className={`fixed top-12 z-40 bg-sky-200 text-blue-900 border-blue-900 p-1 rounded-r transition-all ${
           open ? 'left-64 -translate-x-full' : 'left-0'
         }`}
       >
