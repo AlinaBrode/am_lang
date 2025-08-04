@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { useState } from 'react'
 import usePageViews from './usePageViews'
 import WelcomePage from './pages/WelcomePage'
 import AlphabetPage from './pages/AlphabetPage'
@@ -11,13 +12,15 @@ import SideNav from './components/SideNav'
 import './index.css'
 
 export default function App() {
+  const [navOpen, setNavOpen] = useState(true)
   return (
     <BrowserRouter>
       <LanguageProvider>
         <TrackPageViews />
         <div className="flex min-h-screen">
-          <SideNav />
-          <div className="flex-1 ml-64">
+          {/** Side navigation with slide toggle **/}
+          <SideNav open={navOpen} toggle={() => setNavOpen(!navOpen)} />
+          <div className={`flex-1 transition-all duration-300 ${navOpen ? 'ml-64' : 'ml-0'}`}>
             <Routes>
               <Route path="/" element={<Navigate to="/en" replace />} />
               <Route path="/:lang" element={<WelcomePage />} />
