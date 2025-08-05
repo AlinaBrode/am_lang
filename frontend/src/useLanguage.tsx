@@ -54,6 +54,17 @@ const strings: Record<Lang, Record<string, string>> = {
       'Once while walking through Arabkir near Druzhba station, we stopped by a pharmacy and, to our surprise, saw an owl in the middle of the room. Motionless, it mechanically turned its head at regular intervals. We thought nothing of it and went home.',
     note_2025_06_19_p3:
       'A year later we learned the owl was alive. The pharmacy owner, Artur, had rescued her after a car accident. She lost a wing and now lives in the pharmacy. Her name is Lurik, and she is a small landmark of Komitas Street. The shop itself feels like a magic box with hidden doors\u2014but that is another story.',
+    note_2025_07_07_date: '7 Jul 2025',
+    note_2025_07_07_title: 'Surprise in Nork Arabkir Park',
+    note_2025_07_07_alt: 'Legless lizard in Nork Arabkir Park',
+    note_2025_07_07_p1:
+      'We live in the Arabkir district. It is considered prestigious locally, less expensive than Kentron (the center) and at the same time less dusty and cooler, which matters in summer.',
+    note_2025_07_07_p2:
+      'When a Muscovite hears the word "park," they picture Troparyovsky Park, Izmailovsky Park or Neskuchny Garden with vast green areas. In Yerevan, only the Botanical Garden and the park around the Armenian Genocide Museum resemble them. The rest are small cozy squares, and not every district has one.',
+    note_2025_07_07_p3:
+      'Arabkir is lucky to have the Nork Arabkir park with a stunning view of the Hrazdan Gorge, a pleasant walkway under conifers and a fountain. Our child\'s school is nearby, and we stroll here with friends while walking their dog.',
+    note_2025_07_07_p4:
+      'One warm summer evening we saw THIS on the park path! The photo is blurry because it moved quickly. Armenia is rich in snakes thanks to its mountainous dry climate, including venomous species like the viper. We googled, asked friends, even showed it to our son\'s biology teacher. The verdict: a slow worm, a legless lizard harmless to people. Still, we were quite startled when the plump meter-long reptile hurried across the path.',
     drivers_title: 'Reliable drivers',
     drivers_col_name: 'Driver',
     drivers_col_region: 'Region',
@@ -106,6 +117,17 @@ const strings: Record<Lang, Record<string, string>> = {
       'Однажды, гуляя по району Арабкир недалеко от метро Дружба, мы зашли в аптеку и увидели посередине помещения сову — или чучело совы. Она сидела неподвижно и механически поворачивала голову. Мы пожали плечами и ушли.',
     note_2025_06_19_p3:
       'Через год мы узнали, что сова всё-таки живая. Машина сбила её, и хозяин аптеки Артур выходил её, хотя она потеряла крыло. Теперь Лурик — так зовут совушку — живёт в аптеке и стала достопримечательностью улицы Комитаса. Сама аптека похожа на волшебную шкатулку с тайными дверцами, но это уже другая история.',
+    note_2025_07_07_date: '7 июля 2025',
+    note_2025_07_07_title: 'Сюрприз в парке Нор Арабкир',
+    note_2025_07_07_alt: 'веретеница в парке Нор Арабкир',
+    note_2025_07_07_p1:
+      'Мы живем в районе Арабкир. Район считается престижным по местным меркам, но не таким дорогим, как Кентрон (центр) и в то же время менее пыльным и более прохладным, что важно в летнее время.',
+    note_2025_07_07_p2:
+      'Когда москвич слышит слово "парк", он вспоминает Тропарёвский парк, Измайловский парк, Нескучный сад с их большой территорией и зелёными массивами. В Ереване на них похожи Ботанический сад и парк вокруг музея Геноцида Армян. Остальные — скорее небольшие, уютные скверы и не каждый район может похвастаться ими.',
+    note_2025_07_07_p3:
+      'Району Арабкир в этом плане повезло — у него есть парк Норк Арабкир с совершенно потрясающим видом на ущелье Раздан, приятной прогулочной зоной под хвойными деревьями и фонтаном. Рядом с парком находится школа нашего ребёнка. Здесь мы прогуливаемся с друзьями, выгуливая их пса.',
+    note_2025_07_07_p4:
+      'Итак, тёплым летним вечером на дорожке в парке мы увидели ЭТО?! Фото немного мутное, ведь оно быстро передвигалось. Армения богата змеями: горная страна с сухим и жарким климатом, здесь довольно много ядовитых видов, таких как гюрза. Мы начали гуглить, рассылать друзьям, показали учительнице биологии сына. Вердикт — это веретеница, безногая ящерица, абсолютно безопасная для людей. Но испугались мы знатно, когда метровая упитанная рептилия, спеша по своим делам, переползла мимо нас по дорожке.',
     drivers_title: 'Проверенные водители',
     drivers_col_name: 'Водитель',
     drivers_col_region: 'Регион',
