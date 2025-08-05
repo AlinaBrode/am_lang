@@ -1,12 +1,11 @@
 
-* mobile version
-  * left panel slides to the left by the button in the right top corner of the panel
+* link with github (small etudes)
 
 
 # Site
-* link with github (small etudes)
 * mobile version
-  * popup in learning mode
+  * popup in learning mode - make adaptive
+  * 
 * left panel slides to the left by the click on a button
 * какие есть подходы к расшариванию контактов?
 * разобраться с метой: правильно ли что она английская для русской версии?
@@ -50,4 +49,6 @@
 * different path for ru and en languages, put different pathes into file for site traversing
 * tip jar with russian card and boosty
 * edit picture with boar and make transparent background
+* mobile version
+  * left panel slides to the left by the button in the right top corner of the panel
 
