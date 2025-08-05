@@ -13,19 +13,20 @@ interface Note {
 
 const notes: Note[] = [
   {
-    dateKey: 'note_2025_06_17_date',
-    titleKey: 'note_2025_06_17_title',
+    dateKey: 'note_2025_07_07_date',
+    titleKey: 'note_2025_07_07_title',
     render: (t) => (
       <div className="grid md:grid-cols-2 gap-4 items-start">
         <img
-          src={architectImg}
-          alt={t('note_2025_06_17_alt')}
+          src={reptileImg}
+          alt={t('note_2025_07_07_alt')}
           className="w-full md:max-w-xs mx-auto"
         />
         <div className="space-y-4 text-lg">
-          <p>{t('note_2025_06_17_p1')}</p>
-          <p>{t('note_2025_06_17_p2')}</p>
-          <p>{t('note_2025_06_17_p3')}</p>
+          <p>{t('note_2025_07_07_p1')}</p>
+          <p>{t('note_2025_07_07_p2')}</p>
+          <p>{t('note_2025_07_07_p3')}</p>
+          <p>{t('note_2025_07_07_p4')}</p>
         </div>
       </div>
     ),
@@ -49,20 +50,19 @@ const notes: Note[] = [
     ),
   },
   {
-    dateKey: 'note_2025_07_07_date',
-    titleKey: 'note_2025_07_07_title',
+    dateKey: 'note_2025_06_17_date',
+    titleKey: 'note_2025_06_17_title',
     render: (t) => (
       <div className="grid md:grid-cols-2 gap-4 items-start">
         <img
-          src={reptileImg}
-          alt={t('note_2025_07_07_alt')}
+          src={architectImg}
+          alt={t('note_2025_06_17_alt')}
           className="w-full md:max-w-xs mx-auto"
         />
         <div className="space-y-4 text-lg">
-          <p>{t('note_2025_07_07_p1')}</p>
-          <p>{t('note_2025_07_07_p2')}</p>
-          <p>{t('note_2025_07_07_p3')}</p>
-          <p>{t('note_2025_07_07_p4')}</p>
+          <p>{t('note_2025_06_17_p1')}</p>
+          <p>{t('note_2025_06_17_p2')}</p>
+          <p>{t('note_2025_06_17_p3')}</p>
         </div>
       </div>
     ),
