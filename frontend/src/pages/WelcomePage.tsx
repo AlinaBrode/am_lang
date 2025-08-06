@@ -8,10 +8,11 @@ export default function WelcomePage() {
   const { t, lang } = useLanguage()
   const styles = {
     h1: 'text-4xl font-bold',
-    h2: 'text-3xl font-bold',
+    h2: 'text-2xl font-bold',
     h3: 'text-2xl font-bold',
     h4: 'text-xl font-bold',
     li: 'text-xl text-left max-w-prose',
+    p: 'text-xl text-left max-w-6xl',
   }
   return (
     <>
@@ -34,16 +35,20 @@ export default function WelcomePage() {
 
         {lang === 'ru' ? (
           <>
-            <h1 className={styles.h1}>Пет проект Алины Бродецкой</h1>
+            <h1 className={`${styles.h1} my-4`}> Добро пожаловать в мир Армянского языка</h1>
+
+            <p className={styles.p}>
+              Этот сайт про переезд в Армению. Здесь можно изучить самые азы армянского языка: алфавит по смешным картинкам,
+              наиболее ходовые слова и фразы. Кроме того, мы надеемся собрать комьюнити из желающих
+              изучать язык и преподавать его а также делиться своими впечатлениями об Армении.
+              Мы - это Алина и Арсений. Мы недавно переехали и делимся здесь своими трагикомическими историями.
+              Кроме того, этот сайт - практический проект по изучению JavaScript и освоению профессии
+              фронтендер. Поэтому здесь будут заметки об обучении основам программирования, маленькие учебные программки,
+              заметки об учебных курсах.
+            </p>
 
             <h2 className={styles.h2}>Из чего состоит</h2>
-            <h3 className={styles.h3}>Тренажеры</h3>
-            <ul>
-              <li className={styles.li}>Тренажер алфавита</li>
-              <li className={styles.li}>Тренажер частотных слов</li>
-              <li className={styles.li}>Тренажер частотных фраз</li>
-              <li className={styles.li}>Учимся по вывескам</li>
-            </ul>
+          
             <h3 className={styles.h3}>Про жизнь в Армении</h3>
             <ul>
               <li className={styles.li}>
@@ -60,11 +65,10 @@ export default function WelcomePage() {
                 </p>
               </li>
             </ul>
-
-            <h2 className={styles.h2}>Как пользоваться тренажерами</h2>
+            <h2 className={styles.h2}>Тренажеры армянского языка</h2>
             <ul>
               <li className={styles.li}>
-                <h3 className={`${styles.h3} underline`}>Тренажер алфавита</h3>
+                <h4 className={`${styles.h4} underline`}>Тренажер алфавита</h4>
                 <ul className="list-disc pl-6">
                   <li>
                     Переходим по <a href="/ru/alphabet">ссылке</a>
@@ -80,7 +84,7 @@ export default function WelcomePage() {
                 </ul>
               </li>
               <li className={styles.li}>
-                <h3 className={`${styles.h3} underline`}>Тренажер частотных слов</h3>
+                <h4 className={`${styles.h4} underline`}>Тренажер частотных слов</h4>
                 <ul className="list-disc pl-6">
                   <li>
                     Переходим по <a href="/ru/words">ссылке</a>
@@ -89,7 +93,7 @@ export default function WelcomePage() {
                 </ul>
               </li>
               <li className={styles.li}>
-                <h3 className={`${styles.h3} underline`}>Тренажер частотных фраз</h3>
+                <h4 className={`${styles.h4} underline`}>Тренажер частотных фраз</h4>
                 <ul className="list-disc pl-6">
                   <li>
                     Переходим по <a href="/ru/phrases">ссылке</a>
@@ -101,7 +105,7 @@ export default function WelcomePage() {
                 </ul>
               </li>
               <li className={styles.li}>
-                <h3 className={`${styles.h3} underline`}>Учимся по вывескам</h3>
+                <h4 className={`${styles.h4} underline`}>Учимся по вывескам</h4>
                 <ul className="list-disc pl-6">
                   <li>
                     Переходим по <a href="/ru/plaques">ссылке</a>
