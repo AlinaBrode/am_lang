@@ -1,15 +1,9 @@
-* expand introductory article on the site
-  * pet project for study js
-  * educational place to break through Armenian alphabet and a frequent set of common phrases
-  * place to find a community of people studying and teaching armenian language
-
 
 
 
 # Site
 * mobile version
   * popup in learning mode - make adaptive
-  * 
 * left panel slides to the left by the click on a button
 * какие есть подходы к расшариванию контактов?
 * разобраться с метой: правильно ли что она английская для русской версии?
@@ -74,4 +68,8 @@
 * mobile version
   * left panel slides to the left by the button in the right top corner of the panel
 * link with github (small etudes)
+* expand introductory article on the site
+  * pet project for study js
+  * educational place to break through Armenian alphabet and a frequent set of common phrases
+  * place to find a community of people studying and teaching armenian language
 
