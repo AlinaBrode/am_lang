@@ -120,16 +120,25 @@ export default function WelcomePage() {
           </>
         ) : (
           <>
-            <h1 className={styles.h1}>Alina Brodetskaya's pet project</h1>
+            <h1 className={`${styles.h1} my-4`}>
+              Welcome to the world of the Armenian language
+            </h1>
+
+            <p className={styles.p}>
+              This site is about moving to Armenia. Here you can learn the very
+              basics of the Armenian language: the alphabet through funny
+              pictures, the most common words and phrases. In addition, we hope
+              to bring together a community of people who want to learn and
+              teach the language as well as share their impressions of Armenia.
+              We are Alina and Arseniy. We recently moved and share our
+              tragicomic stories here. This site is also a practical project for
+              learning JavaScript and becoming frontend developers. Therefore,
+              you will find notes on learning the basics of programming, small
+              training programs, and comments on training courses.
+            </p>
 
             <h2 className={styles.h2}>What it includes</h2>
-            <h3 className={styles.h3}>Trainers</h3>
-            <ul>
-              <li className={styles.li}>Alphabet trainer</li>
-              <li className={styles.li}>Frequent words trainer</li>
-              <li className={styles.li}>Frequent phrases trainer</li>
-              <li className={styles.li}>Learning through signs</li>
-            </ul>
+
             <h3 className={styles.h3}>About life in Armenia</h3>
             <ul>
               <li className={styles.li}>
@@ -143,45 +152,55 @@ export default function WelcomePage() {
                 <h4 className={styles.h4}>Places and stories of Yerevan and Armenia</h4>
                 <p>
                   Follow the <a href="/en/alphabet">link</a> for notes about Yerevan
-                  and Armenia.
+                  and Armenia
                 </p>
               </li>
             </ul>
-
-            <h2 className={styles.h2}>How to use the trainers</h2>
+            <h2 className={styles.h2}>Armenian language trainers</h2>
             <ul>
               <li className={styles.li}>
-                <h3 className={`${styles.h3} underline`}>Alphabet trainer</h3>
+                <h4 className={`${styles.h4} underline`}>Alphabet trainer</h4>
                 <ul className="list-disc pl-6">
-                  <li>Go to the <a href="/en/alphabet">link</a></li>
+                  <li>
+                    Go to the <a href="/en/alphabet">link</a>
+                  </li>
                   <li>
                     Select the letter you want to practise and click it in the
                     alphabet.
                   </li>
-                  <li>See the uppercase and lowercase forms and hear how it sounds.</li>
+                  <li>
+                    See the uppercase and lowercase forms and hear how it
+                    sounds.
+                  </li>
                 </ul>
               </li>
               <li className={styles.li}>
-                <h3 className={`${styles.h3} underline`}>Frequent words trainer</h3>
+                <h4 className={`${styles.h4} underline`}>Frequent words trainer</h4>
                 <ul className="list-disc pl-6">
-                  <li>Go to the <a href="/en/words">link</a></li>
+                  <li>
+                    Go to the <a href="/en/words">link</a>
+                  </li>
                   <li>Look at the pictures and memorise the words.</li>
                 </ul>
               </li>
               <li className={styles.li}>
-                <h3 className={`${styles.h3} underline`}>Frequent phrases trainer</h3>
+                <h4 className={`${styles.h4} underline`}>Frequent phrases trainer</h4>
                 <ul className="list-disc pl-6">
-                  <li>Go to the <a href="/en/phrases">link</a></li>
                   <li>
-                    Look at the pictures, remember frequent phrases and use the
+                    Go to the <a href="/en/phrases">link</a>
+                  </li>
+                  <li>
+                    Look at the pictures, memorise frequent phrases, and use the
                     transcription to check pronunciation.
                   </li>
                 </ul>
               </li>
               <li className={styles.li}>
-                <h3 className={`${styles.h3} underline`}>Learning through signs</h3>
+                <h4 className={`${styles.h4} underline`}>Learning through signs</h4>
                 <ul className="list-disc pl-6">
-                  <li>Go to the <a href="/en/plaques">link</a></li>
+                  <li>
+                    Go to the <a href="/en/plaques">link</a>
+                  </li>
                   <li>
                     Study bilingual signs, learn letter pronunciation and read
                     notes about the signs.
