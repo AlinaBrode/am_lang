@@ -45,6 +45,8 @@
 * put Ararat picture as telegram channel image
 * stresses in words and phrases
 * customization of the piglet for each page: make a bubble for piglet in which it says something important for the page
+* welcome page: references styling (default higlight and hover)
+
 
 
 # Education
