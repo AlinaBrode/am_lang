@@ -1,5 +1,9 @@
+* expand introductory article on the site
+  * pet project for study js
+  * educational place to break through Armenian alphabet and a frequent set of common phrases
+  * place to find a community of people studying and teaching armenian language
 
-* link with github (small etudes)
+
 
 
 # Site
@@ -25,7 +29,21 @@
   * tip bin (armenian)
     * how to register an account?
     * how to post a link?
-
+* enhance entrance page:
+  * explain how to work with alphabet trainer
+  * explain how to work with words trainer
+  * explain how to work with phrases trainer
+* per user customization:
+  * login, tracking of user activity
+* subscription:
+  * limit access without payment
+* per user payment tracking
+* new page for bilingual photos with explanation what is going on here
+* find forums and channels with armenian tutors, ask them about our site, would they consider it interesting or helpful
+* show our site to Vlad's armenian teacher
+* format pdf pages with some extracts from our materials: print and put on the wall in your bathroom
+* put Ararat picture as telegram channel image
+* stresses in words and phrases
 
 # Education
 * html, css
@@ -51,4 +69,5 @@
 * edit picture with boar and make transparent background
 * mobile version
   * left panel slides to the left by the button in the right top corner of the panel
+* link with github (small etudes)
 
