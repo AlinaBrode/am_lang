@@ -1,5 +1,8 @@
 import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
+import type { WordInfo } from '../components/LetterModal'
+import { wordInfoMap } from './AlphabetPage'
+
 import appleImg from '../assets/alphabet/apple.webp'
 import apricotImg from '../assets/alphabet/apricot.webp'
 import bookImg from '../assets/alphabet/book.webp'
@@ -99,6 +102,18 @@ const words: Word[] = [
   { image: tableImg, hy: 'սեղան', en: 'table', ru: 'стол' },
 ]
 
+const infoLookup = Object.fromEntries(
+  Object.values(wordInfoMap)
+    .flat()
+    .map((info) => [info.wordLower.join(''), info]),
+)
+
+const wordInfos: WordInfo[] = words.map((w) => {
+  const key = w.hy.toLowerCase().replace(/^եվ/, 'և')
+  const info = infoLookup[key]
+  return { ...info, image: w.image, wordEn: w.en, wordRu: w.ru }
+})
+
 export default function WordsPage() {
   const { t } = useLanguage()
   return (
@@ -107,31 +122,111 @@ export default function WordsPage() {
       <div className="p-4">
       <h1 className="text-xl font-bold mb-4">{t('words_title')}</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {words.map((w) => (
-          <div key={w.hy} className="flex flex-col items-center gap-2">
-            <img src={w.image} alt={w.en} className="w-24 sm:w-32 md:w-40 h-auto" />
-            <table className="table-auto border-collapse">
-              <tbody>
-                <tr>
-                  <td className="border px-2 py-1 text-xl text-center">
-                    {w.hy.toUpperCase()}
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border px-2 py-1 text-xl text-center">{w.hy}</td>
-                </tr>
-                <tr>
-                  <td className="border px-2 py-1 text-center">{w.ru}</td>
-                </tr>
-                <tr>
-                  <td className="border px-2 py-1 text-center">{w.en}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ))}
+        {wordInfos.map((info) => {
+          const maxLen = Math.max(
+            info.wordUpper.length,
+            info.wordLower.length,
+            info.soundRu?.length ?? 0,
+            info.soundEn?.length ?? 0,
+          )
+
+          const ruCaps = (info.soundRu ?? []).map((s) => s.toUpperCase())
+          const enCaps = (info.soundEn ?? []).map((s) => s.toUpperCase())
+
+          return (
+            <div
+              key={info.wordLower.join('')}
+              className="flex flex-col items-center gap-2"
+            >
+              <img
+                src={info.image}
+                alt={info.wordEn}
+                className="w-24 sm:w-32 md:w-40 h-auto"
+              />
+              <table className="table-auto border-collapse">
+                <tbody>
+                  <tr>
+                    <td
+                      colSpan={maxLen}
+                      className="border px-2 py-1 text-xl text-center"
+                    >
+                      {info.wordUpper.join('')}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      colSpan={maxLen}
+                      className="border px-2 py-1 text-xl text-center"
+                    >
+                      {info.wordLower.join('')}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colSpan={maxLen} className="border px-2 py-1 text-center">
+                      {(info.soundRu ?? []).join('')}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colSpan={maxLen} className="border px-2 py-1 text-center">
+                      {(info.soundEn ?? []).join('')}
+                    </td>
+                  </tr>
+                  <tr>
+                    {info.wordUpper.map((l, i) => (
+                      <td
+                        key={`u${i}`}
+                        className="border px-2 py-1 text-xl text-center"
+                      >
+                        {l}
+                      </td>
+                    ))}
+                  </tr>
+                  <tr>
+                    {info.wordLower.map((l, i) => (
+                      <td
+                        key={`l${i}`}
+                        className="border px-2 py-1 text-xl text-center"
+                      >
+                        {l}
+                      </td>
+                    ))}
+                  </tr>
+                  <tr>
+                    {ruCaps.map((s, i) => (
+                      <td key={`r${i}`} className="border px-2 py-1 text-center">
+                        {s}
+                      </td>
+                    ))}
+                  </tr>
+                  <tr>
+                    {enCaps.map((s, i) => (
+                      <td key={`e${i}`} className="border px-2 py-1 text-center">
+                        {s}
+                      </td>
+                    ))}
+                  </tr>
+                  {info.wordRu && (
+                    <tr>
+                      <td colSpan={maxLen} className="border px-2 py-1 text-center">
+                        {info.wordRu}
+                      </td>
+                    </tr>
+                  )}
+                  {info.wordEn && (
+                    <tr>
+                      <td colSpan={maxLen} className="border px-2 py-1 text-center">
+                        {info.wordEn}
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          )
+        })}
       </div>
     </div>
     </>
   )
 }
+
