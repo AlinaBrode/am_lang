@@ -34,3 +34,4 @@ coverage/
 api/google-cloud-sdk
 
 tmp/
+frontend/am_lang.tar.gz

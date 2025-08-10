@@ -1,9 +1,8 @@
 
-
-
-# Site
 * mobile version
   * popup in learning mode - make adaptive
+
+# Site
 * left panel slides to the left by the click on a button
 * какие есть подходы к расшариванию контактов?
 * разобраться с метой: правильно ли что она английская для русской версии?
