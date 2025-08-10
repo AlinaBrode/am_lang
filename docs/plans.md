@@ -2,9 +2,8 @@
 * mobile version
   * popup in learning mode - make adaptive
 
+
 # Site
-* left panel slides to the left by the click on a button
-* какие есть подходы к расшариванию контактов?
 * разобраться с метой: правильно ли что она английская для русской версии?
 * в word trainer добавить побуквенное сравнение чтобы тоже можно было соответствие звуков учить
 * somehow find a community of armenian language tutors
@@ -40,7 +39,8 @@
 * customization of the piglet for each page: make a bubble for piglet in which it says something important for the page
 * welcome page: references styling (default higlight and hover)
 * add new page - learn by bilingual photos
-
+* when there is popup, button "hide/show navigation panel" looks weird
+* implement approach where a user writes a note to a driver via our form
 
 # Education
 * html, css
@@ -71,4 +71,6 @@
   * pet project for study js
   * educational place to break through Armenian alphabet and a frequent set of common phrases
   * place to find a community of people studying and teaching armenian language
+* left panel slides to the left by the click on a button
+* какие есть подходы к расшариванию контактов?
 
