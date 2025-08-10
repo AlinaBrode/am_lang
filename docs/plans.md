@@ -41,6 +41,9 @@
 * add new page - learn by bilingual photos
 * when there is popup, button "hide/show navigation panel" looks weird
 * implement approach where a user writes a note to a driver via our form
+* background for vocabulary popup
+* scroll for vocabulary popup
+
 
 # Education
 * html, css
