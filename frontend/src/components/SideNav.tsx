@@ -16,6 +16,7 @@ export default function SideNav({ open, toggle }: SideNavProps) {
     { to: `${base}/words`, label: t('nav_words') },
     { to: `${base}/phrases`, label: t('nav_phrases') },
     { to: `${base}/drivers`, label: t('nav_drivers') },
+    { to: `${base}/small_etudes`, label: t('nav_small_etudes') },
     { to: `${base}/interesting_notes`, label: t('nav_interesting_notes') },
   ]
 
