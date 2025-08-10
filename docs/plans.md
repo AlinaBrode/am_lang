@@ -1,12 +1,8 @@
-
-* mobile version
-  * popup in learning mode - make adaptive
+* разобраться с метой: правильно ли что она английская для русской версии?
 
 
 # Site
-* разобраться с метой: правильно ли что она английская для русской версии?
 * в word trainer добавить побуквенное сравнение чтобы тоже можно было соответствие звуков учить
-* somehow find a community of armenian language tutors
 * create a page for programming etudes
 * link telegram channel and web site with small etudes repository + linkedin
 * roadmap to monetization
@@ -43,6 +39,9 @@
 * implement approach where a user writes a note to a driver via our form
 * background for vocabulary popup
 * scroll for vocabulary popup
+* for nav bar: small font for narrow screens
+* take an entry from pdf with armenian-expat community, make a move
+
 
 
 # Education
@@ -76,4 +75,7 @@
   * place to find a community of people studying and teaching armenian language
 * left panel slides to the left by the click on a button
 * какие есть подходы к расшариванию контактов?
+* mobile version
+  * popup in learning mode - make adaptive
+* somehow find a community of armenian language tutors - we have a pdf document with forums, channels etc
 
