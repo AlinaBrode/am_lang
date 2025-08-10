@@ -106,10 +106,10 @@ export default function WordsPage() {
       <Meta />
       <div className="p-4">
       <h1 className="text-xl font-bold mb-4">{t('words_title')}</h1>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {words.map((w) => (
           <div key={w.hy} className="flex flex-col items-center gap-2">
-            <img src={w.image} alt={w.en} className="w-40 h-auto" />
+            <img src={w.image} alt={w.en} className="w-24 sm:w-32 md:w-40 h-auto" />
             <table className="table-auto border-collapse">
               <tbody>
                 <tr>
