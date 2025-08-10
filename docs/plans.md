@@ -1,9 +1,11 @@
-* разобраться с метой: правильно ли что она английская для русской версии?
+* в word trainer добавить побуквенное сравнение чтобы тоже можно было соответствие звуков учить
+
+* create a page for programming etudes
+  * create a description on welcome page about programming etudes
+  * create a page in the same format as "interesting notes" for programming etudes
 
 
 # Site
-* в word trainer добавить побуквенное сравнение чтобы тоже можно было соответствие звуков учить
-* create a page for programming etudes
 * link telegram channel and web site with small etudes repository + linkedin
 * roadmap to monetization
   * register a tip bin which we can post on out site
@@ -41,6 +43,10 @@
 * scroll for vocabulary popup
 * for nav bar: small font for narrow screens
 * take an entry from pdf with armenian-expat community, make a move
+* Use vite-plugin-ssg or vite-plugin-prerender
+* explore ways of making interactive js insets 
+  * show our small projects in place: code + run result
+  * interaction: past code -> view results
 
 
 
@@ -78,4 +84,7 @@
 * mobile version
   * popup in learning mode - make adaptive
 * somehow find a community of armenian language tutors - we have a pdf document with forums, channels etc
+* разобраться с метой: правильно ли что она английская для русской версии?
+  * то, что мета для русского языка английская - неправильно
+  * попробовали сделать meta через helmet - не зашло
 
