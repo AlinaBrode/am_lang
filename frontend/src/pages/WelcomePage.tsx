@@ -116,6 +116,14 @@ export default function WelcomePage() {
                   </li>
                 </ul>
               </li>
+              <li className={styles.li}>
+                <h4 className={`${styles.h4} underline`}>Маленькие этюды</h4>
+                <p>
+                  По <a href="/ru/small_etudes">ссылке</a> – короткие заметки о
+                  JavaScript и небольшие программки, которые показывают
+                  интересные идеи информатики или практические трюки.
+                </p>
+              </li>
             </ul>
           </>
         ) : (
@@ -206,6 +214,14 @@ export default function WelcomePage() {
                     notes about the signs.
                   </li>
                 </ul>
+              </li>
+              <li className={styles.li}>
+                <h4 className={`${styles.h4} underline`}>Small etudes</h4>
+                <p>
+                  Follow the <a href="/en/small_etudes">link</a> for short notes
+                  about JavaScript and tiny programs that highlight interesting
+                  computer science ideas or practical tricks.
+                </p>
               </li>
             </ul>
           </>

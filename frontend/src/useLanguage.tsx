@@ -16,6 +16,7 @@ const strings: Record<Lang, Record<string, string>> = {
     nav_words: 'Word trainer',
     nav_phrases: 'Phrase trainer',
     nav_drivers: 'Reliable drivers',
+    nav_small_etudes: 'Small etudes',
     nav_interesting_notes: 'Interesting notes',
     alphabet_title: 'Armenian Alphabet',
     words_title: 'Simple Words',
@@ -29,12 +30,15 @@ const strings: Record<Lang, Record<string, string>> = {
     nav_last: 'Last',
     nav_card_number: 'Card #',
     coming_soon: 'Content coming soon',
+    small_etudes_intro:
+      'Short notes and tiny programs about JavaScript.',
     interesting_notes_intro:
       'Here one can find interesting notes about Yerevan, Armenia, language and life.',
     letter: 'Letter',
     latin: 'Latin',
     russian: 'Russian phonetic',
     lowercase: 'Lowercase',
+    small_etudes_title: 'Small etudes',
     interesting_notes_title: 'Interesting notes',
     note_2025_06_17_date: '17 Jun 2025',
     note_2025_06_17_title: "It's impossible to pronounce",
@@ -65,6 +69,19 @@ const strings: Record<Lang, Record<string, string>> = {
       'Arabkir is lucky to have the Nork Arabkir park with a stunning view of the Hrazdan Gorge, a pleasant walkway under conifers and a fountain. Our child\'s school is nearby, and we stroll here with friends while walking their dog.',
     note_2025_07_07_p4:
       'One warm summer evening we saw THIS on the park path! The photo is blurry because it moved quickly. Armenia is rich in snakes thanks to its mountainous dry climate, including venomous species like the viper. We googled, asked friends, even showed it to our son\'s biology teacher. The verdict: a slow worm, a legless lizard harmless to people. Still, we were quite startled when the plump meter-long reptile hurried across the path.',
+    etude_2025_07_08_date: '8 Jul 2025',
+    etude_2025_07_08_alt: 'Primitive vs reference types in JavaScript',
+    etude_2025_07_08_long1:
+      'The memory of a computer contains zeroes and ones. In order to perform calculations, draw pictures and send messages, we must attribute meaning to them. A bit is either zero or one. Eight bits make a byte. Groups of bytes can store characters, numbers, true or false values. Type tells us what sense we assign to a group of bits.',
+    etude_2025_07_08_long2:
+      'There are primitive types in JavaScript: Number, String, Boolean, Undefined, Null. When we work with them, one can say "The value is in a variable" and results of operations are predictable. "a=b" means we take a value from b and place a copy into a.',
+    etude_2025_07_08_long3:
+      'There are also non-primitive types like Object, Array, Function. In this case a variable contains a reference to an object somewhere in memory. "a=b" means now "a" references the same object as "b", so changes via "b" affect "a" as well.',
+    etude_2025_07_08_short1: 'Type defines how to interpret values in memory.',
+    etude_2025_07_08_short2:
+      'Primitive types: Number, String, Boolean, Undefined, Null — value stored directly.',
+    etude_2025_07_08_short3:
+      'Reference types: Object, Array, Function — variable holds a reference.',
     drivers_title: 'Reliable drivers',
     drivers_col_name: 'Driver',
     drivers_col_region: 'Region',
@@ -79,6 +96,7 @@ const strings: Record<Lang, Record<string, string>> = {
     nav_words: 'Тренажер слов',
     nav_phrases: 'Тренажер фраз',
     nav_drivers: 'Проверенные водители',
+    nav_small_etudes: 'маленькие этюды',
     nav_interesting_notes: 'любопытные заметки',
     alphabet_title: 'Армянский алфавит',
     words_title: 'Простые слова',
@@ -92,12 +110,15 @@ const strings: Record<Lang, Record<string, string>> = {
     nav_card_number: 'Номер',
     join_telegram: 'Присоединяйся к нашему каналу',
     coming_soon: 'Содержимое скоро появится',
+    small_etudes_intro:
+      'Короткие заметки о JavaScript и маленькие программки.',
     interesting_notes_intro:
       'Здесь можно найти любопытные заметки о Ереване, Армении, языке и жизни.',
     letter: 'Буква',
     latin: 'Латиница',
     russian: 'Русская фонетика',
     lowercase: 'строчная',
+    small_etudes_title: 'маленькие этюды',
     interesting_notes_title: 'любопытные заметки',
     note_2025_06_17_date: '17 июня 2025',
     note_2025_06_17_title: 'Невозможно произнести',
@@ -128,6 +149,19 @@ const strings: Record<Lang, Record<string, string>> = {
       'Району Арабкир в этом плане повезло — у него есть парк Норк Арабкир с совершенно потрясающим видом на ущелье Раздан, приятной прогулочной зоной под хвойными деревьями и фонтаном. Рядом с парком находится школа нашего ребёнка. Здесь мы прогуливаемся с друзьями, выгуливая их пса.',
     note_2025_07_07_p4:
       'Итак, тёплым летним вечером на дорожке в парке мы увидели ЭТО?! Фото немного мутное, ведь оно быстро передвигалось. Армения богата змеями: горная страна с сухим и жарким климатом, здесь довольно много ядовитых видов, таких как гюрза. Мы начали гуглить, рассылать друзьям, показали учительнице биологии сына. Вердикт — это веретеница, безногая ящерица, абсолютно безопасная для людей. Но испугались мы знатно, когда метровая упитанная рептилия, спеша по своим делам, переползла мимо нас по дорожке.',
+    etude_2025_07_08_date: '8 июля 2025',
+    etude_2025_07_08_alt: 'примитивные и ссылочные типы в JavaScript',
+    etude_2025_07_08_long1:
+      'Память компьютера состоит из нулей и единиц. Чтобы выполнять вычисления, рисовать картинки и отправлять сообщения, мы должны придать им смысл. Бит — это 0 или 1. Восемь бит — байт. Группы байтов могут хранить символы, числа, значения «истина/ложь». Тип говорит, какой смысл мы вкладываем в набор битов.',
+    etude_2025_07_08_long2:
+      'В JavaScript есть примитивные типы: Number, String, Boolean, Undefined, Null. Когда мы работаем с ними, можно сказать «значение находится в переменной», и результаты операций предсказуемы. «a=b» читаем как «берём значение из b и кладём его копию в a».',
+    etude_2025_07_08_long3:
+      'Есть и ссылочные типы: Object, Array, Function. В этом случае переменная содержит ссылку на объект где-то в памяти компьютера. «a=b» означает «теперь a ссылается на тот же объект, что и b», поэтому изменения через b затрагивают значение a.',
+    etude_2025_07_08_short1: 'Тип определяет, как интерпретировать значения в памяти.',
+    etude_2025_07_08_short2:
+      'Примитивные типы: Number, String, Boolean, Undefined, Null — значение хранится в переменной.',
+    etude_2025_07_08_short3:
+      'Ссылочные типы: Object, Array, Function — в переменной хранится ссылка.',
     drivers_title: 'Проверенные водители',
     drivers_col_name: 'Водитель',
     drivers_col_region: 'Регион',
