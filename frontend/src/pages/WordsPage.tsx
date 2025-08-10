@@ -85,6 +85,22 @@ export default function WordsPage() {
             <table className="table-auto border-collapse">
               <tbody>
                 <tr>
+                  <td
+                    colSpan={w.wordUpper.length}
+                    className="border px-2 py-1 text-center"
+                  >
+                    {w.ru}
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    colSpan={w.wordUpper.length}
+                    className="border px-2 py-1 text-center"
+                  >
+                    {w.en}
+                  </td>
+                </tr>
+                <tr>
                   {w.wordUpper.map((s, i) => (
                     <td
                       key={`u-${i}`}
@@ -117,22 +133,6 @@ export default function WordsPage() {
                       {s.toUpperCase()}
                     </td>
                   ))}
-                </tr>
-                <tr>
-                  <td
-                    colSpan={w.wordUpper.length}
-                    className="border px-2 py-1 text-center"
-                  >
-                    {w.ru}
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    colSpan={w.wordUpper.length}
-                    className="border px-2 py-1 text-center"
-                  >
-                    {w.en}
-                  </td>
                 </tr>
               </tbody>
             </table>

@@ -1,5 +1,3 @@
-* в word trainer добавить побуквенное сравнение чтобы тоже можно было соответствие звуков учить
-
 * create a page for programming etudes
   * create a description on welcome page about programming etudes
   * create a page in the same format as "interesting notes" for programming etudes
@@ -47,6 +45,7 @@
 * explore ways of making interactive js insets 
   * show our small projects in place: code + run result
   * interaction: past code -> view results
+* align tables with pictures in word trainer in some regular grid
 
 
 
@@ -87,4 +86,5 @@
 * разобраться с метой: правильно ли что она английская для русской версии?
   * то, что мета для русского языка английская - неправильно
   * попробовали сделать meta через helmet - не зашло
+* в word trainer добавить побуквенное сравнение чтобы тоже можно было соответствие звуков учить
 
