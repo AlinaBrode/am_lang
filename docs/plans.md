@@ -1,4 +1,7 @@
 
+* new note on bilingual titles
+  * review new text
+  * add picture
 
 # Site
 * link telegram channel and web site with small etudes repository + linkedin
@@ -44,6 +47,9 @@
   * interaction: past code -> view results
 * align tables with pictures in word trainer in some regular grid
 * create a short on youtube (using veo?) for small_etudes_post_00
+* format small etudes in the same way as other projects on welcome page
+* duplicate our posts on site in our telegram channel
+* make publication on linkedin with reference to programming post
 
 
 # Education
