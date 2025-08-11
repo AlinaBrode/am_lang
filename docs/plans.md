@@ -2,7 +2,6 @@
 
 
 # Site
-* we are working with .env in local environment. What about deploy?
 * new page for bilingual photos with explanation what is going on here
 * find forums and channels with armenian tutors, ask them about our site, would they consider it interesting or helpful
 * show our site to Vlad's armenian teacher
@@ -103,3 +102,5 @@
   * explain how to work with words trainer
   * explain how to work with phrases trainer
 * panel for user login and registration added
+* we are working with .env in local environment. What about deploy?
+  * env.production created, compilator uses it for production build

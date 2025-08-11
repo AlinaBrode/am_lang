@@ -7,8 +7,10 @@ export default function usePageViews() {
   const location = useLocation()
 
   useEffect(() => {
-    logEvent(analytics, 'page_view', {
-      page_path: location.pathname + location.search,
-    })
+    if (analytics) {
+      logEvent(analytics, 'page_view', {
+        page_path: location.pathname + location.search,
+      })
+    }
   }, [location])
 }

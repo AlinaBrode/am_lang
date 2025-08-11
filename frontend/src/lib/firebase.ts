@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics, isSupported } from "firebase/analytics";
+import { getAnalytics, isSupported, type Analytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
@@ -18,7 +18,8 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app, "db-progress");
 
-// Analytics only works in browsers that support it (avoids SSR issues)
-export const analytics = await isSupported().then((yes) =>
-  yes ? getAnalytics(app) : null
-);
+let analytics: Analytics | null = null;
+isSupported().then((yes) => {
+  if (yes) analytics = getAnalytics(app);
+});
+export { analytics };
