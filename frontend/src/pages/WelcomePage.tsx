@@ -125,6 +125,25 @@ export default function WelcomePage() {
                 </p>
               </li>
             </ul>
+            <h2 className={styles.h2}>Контакты</h2>
+            <ul className='max-w-prose w-full'>
+            <li className={styles.li}>
+                <h4 className={`${styles.h4} underline`}>Алина</h4>
+                <ul className="list-disc pl-6">
+                  <li>
+                    <p><a href="https://github.com/AlinaBrode">Профиль на github</a></p>
+                  </li>
+                </ul>
+              </li>
+              <li className={styles.li}>
+                <h4 className={`${styles.h4} underline`}>Арсений</h4>
+                <ul className="list-disc pl-6">
+                  <li>
+                    <a href="http://www.linkedin.com/in/tarstars">Linkedin</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </>
         ) : (
           <>
@@ -222,6 +241,25 @@ export default function WelcomePage() {
                   about JavaScript and tiny programs that highlight interesting
                   computer science ideas or practical tricks.
                 </p>
+              </li>
+            </ul>
+            <h2 className={styles.h2}>Contacts</h2>
+            <ul className='max-w-prose w-full'>
+            <li className={styles.li}>
+                <h4 className={`${styles.h4} underline`}>Alina</h4>
+                <ul className="list-disc pl-6">
+                  <li>
+                    <p><a href="https://github.com/AlinaBrode">github profile</a></p>
+                  </li>
+                </ul>
+              </li>
+              <li className={styles.li}>
+                <h4 className={`${styles.h4} underline`}>Arseniy</h4>
+                <ul className="list-disc pl-6">
+                  <li>
+                    <a href="http://www.linkedin.com/in/tarstars">Linkedin</a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </>

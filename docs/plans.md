@@ -1,10 +1,8 @@
 
-* new note on bilingual titles
-  * review new text
-  * add picture
+* move posts from site to telegram channel
+
 
 # Site
-* link telegram channel and web site with small etudes repository + linkedin
 * roadmap to monetization
   * register a tip bin which we can post on out site
     * visit the idbank office, ask for merchant account
@@ -51,7 +49,8 @@
 * duplicate our posts on site in our telegram channel
 * make publication on linkedin with reference to programming post
 * each note in interesting notes should be linkable (to share link in telegram or on the other site)
-
+* fix error in article "It's impossible to pronounce". Review for similar.
+* put on site Alina and Arseniy "hello!" intruduction
 
 # Education
 * html, css
@@ -94,4 +93,9 @@
 * create a page for programming etudes
   * create a description on welcome page about programming etudes
   * create a page in the same format as "interesting notes" for programming etudes
+* new note on bilingual titles, js in the project
+  * review new text
+  * add picture
+* link telegram channel and web site with small etudes repository + linkedin
+  * on the website: on welcome page create a new section "Contacts", two subsections: Alina, Arseniy. Put links on github and linkedin
 
