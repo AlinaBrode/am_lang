@@ -1,29 +1,7 @@
 
-* move posts from site to telegram channel
 
 
 # Site
-* roadmap to monetization
-  * register a tip bin which we can post on out site
-    * visit the idbank office, ask for merchant account
-      * take qr code and link for merchant account
-      * publish link on the site
-  * describe out project on kickstarter
-    * kickstarter works in US, UK only. Should ask US, UK citizens
-  * other media: youtube, linkedin, instagram
-* monetization:
-  * tip bin (armenian)
-    * how to register an account?
-    * how to post a link?
-* enhance entrance page:
-  * explain how to work with alphabet trainer
-  * explain how to work with words trainer
-  * explain how to work with phrases trainer
-* per user customization:
-  * login, tracking of user activity
-* subscription:
-  * limit access without payment
-* per user payment tracking
 * new page for bilingual photos with explanation what is going on here
 * find forums and channels with armenian tutors, ask them about our site, would they consider it interesting or helpful
 * show our site to Vlad's armenian teacher
@@ -51,6 +29,25 @@
 * each note in interesting notes should be linkable (to share link in telegram or on the other site)
 * fix error in article "It's impossible to pronounce". Review for similar.
 * put on site Alina and Arseniy "hello!" intruduction
+* in alphabet trainer somehow make it obvious that you are to click on uppercase letter
+* instagram
+* next step with registered user
+  * subscription:
+    * limit access without payment
+  * per user payment tracking
+
+
+* on pause until Yerevan
+  * roadmap to monetization
+    * register a tip bin which we can post on out site
+      * visit the idbank office, ask for merchant account
+        * take qr code and link for merchant account
+        * publish link on the site
+    * describe out project on kickstarter
+      * kickstarter works in US, UK only. Should ask US, UK citizens
+    * other media: youtube, linkedin, instagram
+
+
 
 # Education
 * html, css
@@ -98,4 +95,10 @@
   * add picture
 * link telegram channel and web site with small etudes repository + linkedin
   * on the website: on welcome page create a new section "Contacts", two subsections: Alina, Arseniy. Put links on github and linkedin
-
+* move posts from site to telegram channel
+* move posts from telegram channel to site
+* enhance entrance page:
+  * explain how to work with alphabet trainer
+  * explain how to work with words trainer
+  * explain how to work with phrases trainer
+* panel for user login and registration added

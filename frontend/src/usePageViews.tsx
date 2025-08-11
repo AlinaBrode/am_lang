@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import { analytics } from './firebase'
+import { analytics } from './lib/firebase'
 import { logEvent } from 'firebase/analytics'
 
 export default function usePageViews() {

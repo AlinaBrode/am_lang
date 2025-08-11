@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useLanguage } from '../useLanguage'
+import AuthPanel from "../components/AuthPanel";
 
 interface SideNavProps {
   open: boolean
@@ -70,6 +71,7 @@ export default function SideNav({ open, toggle }: SideNavProps) {
         >
           Start Learning
         </Link>
+        <AuthPanel/>
       </nav>
       <button
         onClick={toggle}
