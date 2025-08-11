@@ -50,6 +50,7 @@
 * format small etudes in the same way as other projects on welcome page
 * duplicate our posts on site in our telegram channel
 * make publication on linkedin with reference to programming post
+* each note in interesting notes should be linkable (to share link in telegram or on the other site)
 
 
 # Education
