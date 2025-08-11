@@ -40,6 +40,17 @@ const strings: Record<Lang, Record<string, string>> = {
     lowercase: 'Lowercase',
     small_etudes_title: 'Small etudes',
     interesting_notes_title: 'Interesting notes',
+    note_2025_07_20_date: '20 Jul 2025',
+    note_2025_07_20_title: 'Why JavaScript on a language site',
+    note_2025_07_20_alt: 'Hrazdan Gorge in Yerevan',
+    note_2025_07_20_p1:
+      'It may seem strange to find a programming section on a site about Armenian words and notes about Yerevan.',
+    note_2025_07_20_p2:
+      'After leaving my accounting career, I chose to retrain as a frontend developer. After a Practicum course I kept writing training programs in JS and exploring HTML and CSS.',
+    note_2025_07_20_p3:
+      'At the same time we tried to learn Armenian. The alphabet was a barrier: it is bigger than the Russian one, upper and lowercase letters differ, and no simple self-study guides combined picture, word, meaning and pronunciation.',
+    note_2025_07_20_p4:
+      'We noticed many signs with Armenian words duplicated in Russian or Latin letters, making the alphabet easier to grasp. So we launched a simple HTML/CSS/JS project for newcomers like us and added a blog section about JavaScript basics\u2014after all, it is a language too.',
     note_2025_06_17_date: '17 Jun 2025',
     note_2025_06_17_title: "It's impossible to pronounce",
     note_2025_06_17_alt: 'Alexander Tamanian',
@@ -120,6 +131,17 @@ const strings: Record<Lang, Record<string, string>> = {
     lowercase: 'строчная',
     small_etudes_title: 'маленькие этюды',
     interesting_notes_title: 'любопытные заметки',
+    note_2025_07_20_date: '20 июля 2025',
+    note_2025_07_20_title: 'Зачем JavaScript на языковом сайте',
+    note_2025_07_20_alt: 'ущелье Раздана в Ереване',
+    note_2025_07_20_p1:
+      'Сначала может показаться странным, что на сайте о армянских словах и заметках про Армению есть раздел про программирование.',
+    note_2025_07_20_p2:
+      'После того как я окончательно порвала с бухгалтерией и законами, выбрала переподготовку по фронтенду и после курса Практикума продолжаю писать учебные программки на JS, выкладывать их на git и разбираться в html и css.',
+    note_2025_07_20_p3:
+      'Параллельно мы пытались учить армянский язык. Алфавит оказался непреодолимым: он больше и сложнее русского, заглавные и строчные буквы различаются, а простых самоучителей со связкой картинка-слово-значение-произношение нет.',
+    note_2025_07_20_p4:
+      'На городских вывесках мы заметили дублирование армянских слов русскими или латинскими буквами, что облегчает освоение алфавита. Так возникла идея простого проекта на html, css и js для таких релокантов, как мы. Поэтому в блог добавили раздел про основы JavaScript — ведь это тоже язык.',
     note_2025_06_17_date: '17 июня 2025',
     note_2025_06_17_title: 'Невозможно произнести',
     note_2025_06_17_alt: 'Александр Таманян',
