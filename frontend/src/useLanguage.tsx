@@ -44,14 +44,14 @@ const strings: Record<Lang, Record<string, string>> = {
     small_etudes_title: 'Small etudes',
     interesting_notes_title: 'Interesting notes',
     bilingual_signs_title: 'Bilingual signs',
-    sign_2025_07_20_date: '20 Jul 2025',
+    sign_2025_07_20_date: '12 Aug 2025',
     sign_2025_07_20_title: 'Hrazdan railroad station',
     sign_2025_07_20_alt: 'Hrazdan railroad station sign',
     sign_2025_07_20_p1:
       'In Armenia, many signs are also translated into Russian or English. This is a surprisingly good way to learn the Armenian alphabet. Today we want to share with you a picture we took at the Hrazdan railway station. This place is not widely known as a tourist attraction but nevertheless has its own charm. Later we will share more photos of this place.',
     sign_2025_07_20_p2:
       'Below is a table showing the correspondence between the Armenian name ՀՐԱԶԴԱՆ and its Latin transliteration “hrazdan.” Here one can see that the letter Հ (H) is not pronounced in this context, Ր corresponds to “R,” Ա to “A,” Զ to “Z,” Դ to “D,” the second Ա again to “A,” and Ն to “N.”',
-    note_2025_07_20_date: '20 Jul 2025',
+    note_2025_07_20_date: '11 Aug 2025',
     note_2025_07_20_title: 'Why JavaScript on a language site',
     note_2025_07_20_alt: 'Hrazdan Gorge in Yerevan',
     note_2025_07_20_p1:
@@ -146,14 +146,14 @@ const strings: Record<Lang, Record<string, string>> = {
     small_etudes_title: 'маленькие этюды',
     interesting_notes_title: 'любопытные заметки',
     bilingual_signs_title: 'Двуязычные вывески',
-    sign_2025_07_20_date: '20 июля 2025',
+    sign_2025_07_20_date: '12 августа 2025',
     sign_2025_07_20_title: 'Железнодорожная станция Раздан',
     sign_2025_07_20_alt: 'вывеска железнодорожной станции Раздан',
     sign_2025_07_20_p1:
       'В Армении многие вывески продублированы на русском или английском. Это удивительно хороший способ выучить армянский алфавит. Сегодня мы хотим поделиться фотографией, сделанной на железнодорожной станции Раздан. Это место не является популярной туристической достопримечательностью, но всё же обладает своим шармом. Позже мы поделимся и другими фотографиями этого места.',
     sign_2025_07_20_p2:
       'Ниже приведена таблица соответствия между армянским названием ՀՐԱԶԴԱՆ и его русской транслитерацией «раздан». Видно, что буква Հ (H) здесь не произносится, Ր соответствует «Р», Ա — «А», Զ — «З», Դ — «Д», второе Ա снова «А», а Ն — «Н».',
-    note_2025_07_20_date: '20 июля 2025',
+    note_2025_07_20_date: '11 августа 2025',
     note_2025_07_20_title: 'Зачем JavaScript на языковом сайте',
     note_2025_07_20_alt: 'ущелье Раздана в Ереване',
     note_2025_07_20_p1:

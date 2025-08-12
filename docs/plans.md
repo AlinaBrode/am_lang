@@ -1,9 +1,8 @@
+* find forums and channels with armenian tutors, ask them about our site, would they consider it interesting or helpful
 
 
 
 # Site
-* new page for bilingual photos with explanation what is going on here
-* find forums and channels with armenian tutors, ask them about our site, would they consider it interesting or helpful
 * show our site to Vlad's armenian teacher
 * format pdf pages with some extracts from our materials: print and put on the wall in your bathroom
 * put Ararat picture as telegram channel image
@@ -35,6 +34,12 @@
   * subscription:
     * limit access without payment
   * per user payment tracking
+* create a new post in telegram about bilingual signs
+* download bilingual photos to computer
+* fix too heavy expression "популярной туристической достопримечательностью" in Hrazdan article
+* fix code so dates in variables name are the same as in content
+* fix width of "login" and "password" inputs in the sign up form
+
 
 
 * on pause until Yerevan
@@ -104,3 +109,4 @@
 * panel for user login and registration added
 * we are working with .env in local environment. What about deploy?
   * env.production created, compilator uses it for production build
+* new page for bilingual photos with explanation what is going on here
