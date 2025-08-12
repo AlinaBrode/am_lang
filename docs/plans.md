@@ -1,10 +1,9 @@
-* find forums and channels with armenian tutors, ask them about our site, would they consider it interesting or helpful
-
+* format pdf pages with some extracts from our materials: print and put on the wall in your bathroom
+  * ways to implement:
+    * separate page available for registered users only. On this page one can select a subset of all cards. This subset will be printed out
 
 
 # Site
-* show our site to Vlad's armenian teacher
-* format pdf pages with some extracts from our materials: print and put on the wall in your bathroom
 * put Ararat picture as telegram channel image
 * stresses in words and phrases
 * customization of the piglet for each page: make a bubble for piglet in which it says something important for the page
@@ -39,6 +38,18 @@
 * fix too heavy expression "популярной туристической достопримечательностью" in Hrazdan article
 * fix code so dates in variables name are the same as in content
 * fix width of "login" and "password" inputs in the sign up form
+* find telegram channels about Armenian language education, check whether we can mention our channel and web site
+  * use query about Armenian alphabet
+* find forums where people asks about armenian basics
+* our site is not educational, it is a hobby place where we express our own opinion and share our experience
+* create a special post in telegram channel: useful feedback, set a link on this post to collect feedback
+* in armenian school for russians we put our advertisement for site and channel
+  * 2000 rub for advertisement in yandex
+* https://www.internations.org/armenia-expats/russians#:~:text=%2A%20Browse%20our%20high,Russian%20embassy%20and%20many%20others
+  * find other russians to share your hobbies with - find groups for studying Armenian, share site and channel
+* find forums and channels with armenian tutors, ask them about our site, would they consider it interesting or helpful
+  * posted hello on https://www.expat.com/en/forum/middle-east/armenia/
+
 
 
 
@@ -51,6 +62,11 @@
     * describe out project on kickstarter
       * kickstarter works in US, UK only. Should ask US, UK citizens
     * other media: youtube, linkedin, instagram
+  * show our site to Vlad's armenian teacher
+
+
+# Backlog
+* expand list of words we use in word trainer
 
 
 
