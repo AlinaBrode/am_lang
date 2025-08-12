@@ -1,16 +1,7 @@
 import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
 import { rawWordInfoList } from '../data/rawWordInfoList'
-
-interface Word {
-  image: string
-  wordUpper: string[]
-  wordLower: string[]
-  soundRu: string[]
-  soundEn: string[]
-  en: string
-  ru: string
-}
+import WordCard, { Word } from '../components/WordCard'
 
 const selectedWordEns = new Set([
   'apple',
@@ -77,69 +68,13 @@ export default function WordsPage() {
     <>
       <Meta />
       <div className="p-4">
-      <h1 className="text-xl font-bold mb-4">{t('words_title')}</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {words.map((w) => (
-          <div key={w.wordLower.join('')} className="flex flex-col items-center gap-2">
-            <img src={w.image} alt={w.en} className="w-24 sm:w-32 md:w-40 h-auto" />
-            <table className="table-auto border-collapse">
-              <tbody>
-                <tr>
-                  <td
-                    colSpan={w.wordUpper.length}
-                    className="border px-2 py-1 text-center"
-                  >
-                    {w.ru}
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    colSpan={w.wordUpper.length}
-                    className="border px-2 py-1 text-center"
-                  >
-                    {w.en}
-                  </td>
-                </tr>
-                <tr>
-                  {w.wordUpper.map((s, i) => (
-                    <td
-                      key={`u-${i}`}
-                      className="border px-2 py-1 text-xl text-center"
-                    >
-                      {s}
-                    </td>
-                  ))}
-                </tr>
-                <tr>
-                  {w.wordLower.map((s, i) => (
-                    <td
-                      key={`l-${i}`}
-                      className="border px-2 py-1 text-xl text-center"
-                    >
-                      {s}
-                    </td>
-                  ))}
-                </tr>
-                <tr>
-                  {w.soundRu.map((s, i) => (
-                    <td key={`r-${i}`} className="border px-2 py-1 text-center">
-                      {s.toUpperCase()}
-                    </td>
-                  ))}
-                </tr>
-                <tr>
-                  {w.soundEn.map((s, i) => (
-                    <td key={`e-${i}`} className="border px-2 py-1 text-center">
-                      {s.toUpperCase()}
-                    </td>
-                  ))}
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ))}
+        <h1 className="text-xl font-bold mb-4">{t('words_title')}</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {words.map((w) => (
+            <WordCard key={w.wordLower.join('')} word={w} />
+          ))}
+        </div>
       </div>
-    </div>
     </>
   )
 }
