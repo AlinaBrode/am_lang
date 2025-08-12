@@ -8,6 +8,7 @@ import PhrasesPage from './pages/PhrasesPage'
 import InterestingNotes from './pages/InterestingNotes'
 import ReliableDriversPage from './pages/ReliableDriversPage'
 import SmallEtudes from './pages/SmallEtudes'
+import BilingualSigns from './pages/BilingualSigns'
 import { LanguageProvider } from './useLanguage'
 import SideNav from './components/SideNav'
 import './index.css'
@@ -30,6 +31,7 @@ export default function App() {
               <Route path="/:lang/phrases" element={<PhrasesPage />} />
               <Route path="/:lang/drivers" element={<ReliableDriversPage />} />
               <Route path="/:lang/interesting_notes" element={<InterestingNotes />} />
+              <Route path="/:lang/bilingual_signs" element={<BilingualSigns />} />
               <Route path="/:lang/small_etudes" element={<SmallEtudes />} />
               <Route path="*" element={<Navigate to="/en" replace />} />
             </Routes>

@@ -13,6 +13,7 @@ export default function NavBar() {
         <Link to={`/${lang}/words`}>{t('nav_words')}</Link>
         <Link to={`/${lang}/phrases`}>{t('nav_phrases')}</Link>
         <Link to={`/${lang}/interesting_notes`}>{t('nav_interesting_notes')}</Link>
+        <Link to={`/${lang}/bilingual_signs`}>{t('nav_bilingual_signs')}</Link>
       </nav>
       <select
         className="border px-2 py-1"
