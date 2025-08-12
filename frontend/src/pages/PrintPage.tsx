@@ -41,7 +41,7 @@ export default function PrintPage() {
   const handleDownload = () => {
     const nodes = selected
       .map((id) => cardRefs.current[id])
-      .filter((n): n is HTMLElement => !!n)
+      .filter((n): n is HTMLDivElement => !!n)
     if (nodes.length > 0) printCards(nodes)
   }
 
@@ -98,7 +98,11 @@ export default function PrintPage() {
             </div>
           </>
         ) : authorized === false ? (
-          <p>you are to be authorized to use this function</p>
+          <div className="flex items-center justify-center h-full">
+            <div className="bg-white p-8 border-4 border-red-500 text-2xl font-bold text-center">
+              Unauthorized user. Sign in to print PDF cards.
+            </div>
+          </div>
         ) : null}
       </div>
     </>
