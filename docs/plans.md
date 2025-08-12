@@ -1,7 +1,3 @@
-* format pdf pages with some extracts from our materials: print and put on the wall in your bathroom
-  * ways to implement:
-    * separate page available for registered users only. On this page one can select a subset of all cards. This subset will be printed out
-
 
 # Site
 * put Ararat picture as telegram channel image
@@ -49,7 +45,10 @@
   * find other russians to share your hobbies with - find groups for studying Armenian, share site and channel
 * find forums and channels with armenian tutors, ask them about our site, would they consider it interesting or helpful
   * posted hello on https://www.expat.com/en/forum/middle-east/armenia/
-
+* improve "Print cards" feature:
+  * no checkbox in pdf
+  * lean box around card 
+  * only one column when print
 
 
 
@@ -126,3 +125,6 @@
 * we are working with .env in local environment. What about deploy?
   * env.production created, compilator uses it for production build
 * new page for bilingual photos with explanation what is going on here
+* format pdf pages with some extracts from our materials: print and put on the wall in your bathroom
+  * ways to implement:
+    * separate page available for registered users only. On this page one can select a subset of all cards. This subset will be printed out
