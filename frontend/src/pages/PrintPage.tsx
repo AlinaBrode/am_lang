@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { onAuthStateChanged } from 'firebase/auth'
-import { collection, getDocs } from 'firebase/firestore'
-import { auth, db } from '../lib/firebase'
+import { auth } from '../lib/firebase'
 import Meta from '../components/Meta'
 import printCards from '../lib/printCards'
 
@@ -10,21 +9,20 @@ interface Card {
   [key: string]: unknown
 }
 
+const placeholderCards: Card[] = [
+  { id: 'placeholder-1', name: 'Placeholder 1' },
+  { id: 'placeholder-2', name: 'Placeholder 2' },
+]
+
 export default function PrintPage() {
-  const [cards, setCards] = useState<Card[]>([])
+  const [cards] = useState<Card[]>(placeholderCards)
   const [authorized, setAuthorized] = useState<boolean | null>(null)
   const [selected, setSelected] = useState<string[]>([])
   const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
 
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, async (u) => {
-      if (!u) {
-        setAuthorized(false)
-        return
-      }
-      const snap = await getDocs(collection(db, 'cards'))
-      setCards(snap.docs.map((d) => ({ id: d.id, ...d.data() })))
-      setAuthorized(true)
+    const unsub = onAuthStateChanged(auth, (u) => {
+      setAuthorized(u != null)
     })
     return () => unsub()
   }, [])
