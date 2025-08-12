@@ -32,8 +32,8 @@ export default function AuthPanel() {
       }
       setEmail("");
       setPass("");
-    } catch (e: any) {
-      setErr(e.message ?? String(e));
+    } catch (e: unknown) {
+      setErr(e instanceof Error ? e.message : String(e));
     }
   }
 

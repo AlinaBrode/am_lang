@@ -72,7 +72,7 @@ export default function SideNav({ open, toggle }: SideNavProps) {
         >
           Start Learning
         </Link>
-        <AuthPanel/>
+        <AuthPanel />
       </nav>
       <button
         onClick={toggle}

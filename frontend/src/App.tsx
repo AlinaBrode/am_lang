@@ -9,6 +9,7 @@ import InterestingNotes from './pages/InterestingNotes'
 import ReliableDriversPage from './pages/ReliableDriversPage'
 import SmallEtudes from './pages/SmallEtudes'
 import BilingualSigns from './pages/BilingualSigns'
+import PrintPage from './pages/PrintPage'
 import { LanguageProvider } from './useLanguage'
 import SideNav from './components/SideNav'
 import './index.css'
@@ -25,6 +26,7 @@ export default function App() {
           <div className={`flex-1 transition-all duration-300 ${navOpen ? 'ml-64' : 'ml-0'}`}>
             <Routes>
               <Route path="/" element={<Navigate to="/en" replace />} />
+              <Route path="/print" element={<PrintPage />} />
               <Route path="/:lang" element={<WelcomePage />} />
               <Route path="/:lang/alphabet" element={<AlphabetPage />} />
               <Route path="/:lang/words" element={<WordsPage />} />
