@@ -49,6 +49,7 @@
   * no checkbox in pdf
   * lean box around card 
   * only one column when print
+  * on welcome page describe functionality of pdf printing
 
 
 
