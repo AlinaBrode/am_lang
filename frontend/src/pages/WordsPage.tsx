@@ -3,7 +3,7 @@ import Meta from '../components/Meta'
 import { rawWordInfoList } from '../data/rawWordInfoList'
 import WordCard, { Word } from '../components/WordCard'
 
-const selectedWordEns = new Set([
+export const selectedWordEns = new Set([
   'apple',
   'apricot',
   'book',

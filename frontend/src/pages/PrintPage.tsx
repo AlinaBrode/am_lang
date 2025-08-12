@@ -3,19 +3,23 @@ import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from '../lib/firebase'
 import Meta from '../components/Meta'
 import printCards from '../lib/printCards'
+import { rawWordInfoList } from '../data/rawWordInfoList'
+import WordCard, { Word } from '../components/WordCard'
+import { selectedWordEns } from './WordsPage'
 
-interface Card {
-  id: string
-  [key: string]: unknown
-}
-
-const placeholderCards: Card[] = [
-  { id: 'placeholder-1', name: 'Placeholder 1' },
-  { id: 'placeholder-2', name: 'Placeholder 2' },
-]
+const words: Word[] = rawWordInfoList
+  .filter((w) => w.wordEn && selectedWordEns.has(w.wordEn.toLowerCase()))
+  .map((w) => ({
+    image: w.image,
+    wordUpper: w.wordUpper,
+    wordLower: w.wordLower,
+    soundRu: w.soundRu ?? [],
+    soundEn: w.soundEn ?? [],
+    en: w.wordEn!,
+    ru: w.wordRu!,
+  }))
 
 export default function PrintPage() {
-  const [cards] = useState<Card[]>(placeholderCards)
   const [authorized, setAuthorized] = useState<boolean | null>(null)
   const [selected, setSelected] = useState<string[]>([])
   const cardRefs = useRef<Record<string, HTMLDivElement | null>>({})
@@ -33,7 +37,7 @@ export default function PrintPage() {
     )
   }
 
-  const selectAll = () => setSelected(cards.map((c) => c.id))
+  const selectAll = () => setSelected(words.map((w) => w.en))
   const clear = () => setSelected([])
 
   const handleDownload = () => {
@@ -74,23 +78,17 @@ export default function PrintPage() {
               </button>
             </div>
             <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-              {cards.map((card) => (
+              {words.map((w) => (
                 <div
-                  key={card.id}
-                  ref={(el) => (cardRefs.current[card.id] = el)}
-                  className="border rounded p-2"
+                  key={w.en}
+                  ref={(el) => (cardRefs.current[w.en] = el)}
+                  className="border rounded p-2 flex justify-center"
                 >
-                  <label className="flex items-start gap-2">
-                    <input
-                      type="checkbox"
-                      checked={selected.includes(card.id)}
-                      onChange={() => toggle(card.id)}
-                      className="mt-1"
-                    />
-                    <pre className="whitespace-pre-wrap text-xs flex-1">
-                      {JSON.stringify(card, null, 2)}
-                    </pre>
-                  </label>
+                  <WordCard
+                    word={w}
+                    checked={selected.includes(w.en)}
+                    onToggle={() => toggle(w.en)}
+                  />
                 </div>
               ))}
             </div>
