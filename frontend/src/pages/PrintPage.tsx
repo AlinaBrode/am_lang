@@ -4,7 +4,7 @@ import { auth } from '../lib/firebase'
 import Meta from '../components/Meta'
 import printCards from '../lib/printCards'
 import { rawWordInfoList } from '../data/rawWordInfoList'
-import WordCard, { Word } from '../components/WordCard'
+import WordCard, { type Word } from '../components/WordCard'
 import { selectedWordEns } from './WordsPage'
 
 const words: Word[] = rawWordInfoList

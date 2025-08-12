@@ -1,7 +1,7 @@
 import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
 import { rawWordInfoList } from '../data/rawWordInfoList'
-import WordCard, { Word } from '../components/WordCard'
+import WordCard, { type Word } from '../components/WordCard'
 
 export const selectedWordEns = new Set([
   'apple',
