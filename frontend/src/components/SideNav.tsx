@@ -19,6 +19,7 @@ export default function SideNav({ open, toggle }: SideNavProps) {
     { to: `${base}/drivers`, label: t('nav_drivers') },
     { to: `${base}/small_etudes`, label: t('nav_small_etudes') },
     { to: `${base}/interesting_notes`, label: t('nav_interesting_notes') },
+    { to: `${base}/bilingual_signs`, label: t('nav_bilingual_signs') },
   ]
 
   return (
