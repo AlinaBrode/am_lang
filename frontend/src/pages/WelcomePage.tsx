@@ -1,11 +1,9 @@
 import araratImg from '../assets/ararat.webp'
-import boarImg from '../assets/little-boar400x600.webp'
-import telegramLogo from '../assets/telegram_logo.svg'
 import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
 
 export default function WelcomePage() {
-  const { t, lang } = useLanguage()
+  const { lang } = useLanguage()
   const styles = {
     h1: 'text-4xl font-bold',
     h2: 'text-2xl font-bold',
@@ -19,19 +17,6 @@ export default function WelcomePage() {
       <Meta />
       <div className="relative flex flex-col items-center gap-4 p-4">
         <img src={araratImg} alt="Mount Ararat" className="w-320 rounded" />
-        <div className="fixed right-4 bottom-4 w-40">
-          <img src={boarImg} alt="Little boar" />
-          <p className="relative -top-7">
-            <a
-              href="https://t.me/alina_yerevan_js"
-              target="_blank"
-              rel="noopener"
-            >
-              <img src={telegramLogo} alt="Telegram icon" width="20" />
-              {t('join_telegram')}
-            </a>
-          </p>
-        </div>
 
         {lang === 'ru' ? (
           <>
