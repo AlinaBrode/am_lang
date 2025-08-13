@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@layer base {
+  a {
+    @apply text-blue-600 visited:text-purple-600 no-underline hover:underline;
+  }
+}
+
 body {
   background-image: url('./assets/back.webp');
   background-size: cover;
