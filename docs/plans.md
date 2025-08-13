@@ -1,11 +1,7 @@
+* when there is popup, button "hide/show navigation panel" looks weird
+
 
 # Site
-* put Ararat picture as telegram channel image
-* stresses in words and phrases
-* customization of the piglet for each page: make a bubble for piglet in which it says something important for the page
-* welcome page: references styling (default higlight and hover)
-* add new page - learn by bilingual photos
-* when there is popup, button "hide/show navigation panel" looks weird
 * implement approach where a user writes a note to a driver via our form
 * background for vocabulary popup
 * scroll for vocabulary popup
@@ -50,8 +46,15 @@
   * lean box around card 
   * only one column when print
   * on welcome page describe functionality of pdf printing
-
-
+* check what Yandex Rhytm is and whether we can use it
+* talk with the Iron Friend about stress exceptions, create an arcticle with this material
+* mobile adaptation:
+  * navigation panel is closed by default
+* adjust boar with bubble:
+  * make bubble bigger
+  * lower bubble
+  * put more phrases
+  * switch phrases on transitions between pages
 
 * on pause until Yerevan
   * roadmap to monetization
@@ -129,3 +132,9 @@
 * format pdf pages with some extracts from our materials: print and put on the wall in your bathroom
   * ways to implement:
     * separate page available for registered users only. On this page one can select a subset of all cards. This subset will be printed out
+* put Ararat picture as telegram channel image
+* stresses in words and phrases
+  * in our current word set there is no exceptions with stress
+* customization of the piglet for each page: make a bubble for piglet in which it says something important for the page
+* welcome page: references styling (default higlight and hover)
+ 

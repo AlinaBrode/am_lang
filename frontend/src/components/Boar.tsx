@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import boarImg from '../assets/little-boar400x600.webp'
 import telegramLogo from '../assets/telegram_logo.svg'
-import { useLanguage, Lang } from '../useLanguage'
+import { useLanguage, type Lang } from '../useLanguage'
 
 const phrases: Record<Lang, string[]> = {
   en: ['Hi there!', 'Have fun!', 'Keep learning!'],

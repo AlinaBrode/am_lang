@@ -2,7 +2,7 @@
 
 @layer base {
   a {
-    @apply text-blue-600 visited:text-purple-600 no-underline hover:underline;
+    @apply text-blue-600 visited:text-blue-600 no-underline hover:underline;
   }
 }
 
