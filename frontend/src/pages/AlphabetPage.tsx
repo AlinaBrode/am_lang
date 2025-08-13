@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
 import LetterModal from '../components/LetterModal'
@@ -64,9 +64,23 @@ const letterSoundMap: Record<string, { en: string; ru: string }> = Object.fromEn
   letters.map(([upper, , en, ru]) => [upper, { en, ru }])
 )
 
-export default function AlphabetPage() {
+interface AlphabetPageProps {
+  onModalToggle?: (hidden: boolean) => void
+}
+
+export default function AlphabetPage({ onModalToggle }: AlphabetPageProps) {
   const { t } = useLanguage()
   const [active, setActive] = useState<WordInfo | null>(null)
+
+  useEffect(() => {
+    onModalToggle?.(active !== null)
+  }, [active, onModalToggle])
+
+  useEffect(() => {
+    return () => {
+      onModalToggle?.(false)
+    }
+  }, [onModalToggle])
 
   const openInfo = (letter: string) => {
     const infoList = wordInfoMap[letter]
