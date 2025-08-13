@@ -1,4 +1,3 @@
-* when there is popup, button "hide/show navigation panel" looks weird
 
 
 # Site
@@ -137,4 +136,5 @@
   * in our current word set there is no exceptions with stress
 * customization of the piglet for each page: make a bubble for piglet in which it says something important for the page
 * welcome page: references styling (default higlight and hover)
+* when there is popup, button "hide/show navigation panel" looks weird
  
