@@ -12,6 +12,7 @@ import BilingualSigns from './pages/BilingualSigns'
 import PrintPage from './pages/PrintPage'
 import { LanguageProvider } from './useLanguage'
 import SideNav from './components/SideNav'
+import Boar from './components/Boar'
 import './index.css'
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
     <BrowserRouter>
       <LanguageProvider>
         <TrackPageViews />
+        <Boar />
         <div className="flex min-h-screen">
           {/** Side navigation with slide toggle **/}
           <SideNav open={navOpen} toggle={() => setNavOpen(!navOpen)} />
