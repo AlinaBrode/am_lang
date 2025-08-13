@@ -5,9 +5,10 @@ import AuthPanel from "../components/AuthPanel";
 interface SideNavProps {
   open: boolean
   toggle: () => void
+  hideToggle?: boolean
 }
 
-export default function SideNav({ open, toggle }: SideNavProps) {
+export default function SideNav({ open, toggle, hideToggle }: SideNavProps) {
   const { lang, setLang, t } = useLanguage()
   const location = useLocation()
 
@@ -75,14 +76,16 @@ export default function SideNav({ open, toggle }: SideNavProps) {
         </Link>
         <AuthPanel />
       </nav>
-      <button
-        onClick={toggle}
-        className={`fixed top-12 z-40 bg-sky-200 text-blue-900 border-blue-900 p-1 rounded-r transition-all ${
-          open ? 'left-64 -translate-x-full' : 'left-0'
-        }`}
-      >
-        {open ? '◀' : '▶'}
-      </button>
+      {!hideToggle && (
+        <button
+          onClick={toggle}
+          className={`fixed top-12 z-40 bg-sky-200 text-blue-900 border-blue-900 p-1 rounded-r transition-all ${
+            open ? 'left-64 -translate-x-full' : 'left-0'
+          }`}
+        >
+          {open ? '◀' : '▶'}
+        </button>
+      )}
     </>
   )
 }
