@@ -1,9 +1,8 @@
-* implement approach where a user writes a note to a driver via our form
+* background for vocabulary popup
+* scroll for vocabulary popup
 
 
 # Site
-* background for vocabulary popup
-* scroll for vocabulary popup
 * for nav bar: small font for narrow screens
 * take an entry from pdf with armenian-expat community, make a move
 * Use vite-plugin-ssg or vite-plugin-prerender
@@ -137,4 +136,6 @@
 * customization of the piglet for each page: make a bubble for piglet in which it says something important for the page
 * welcome page: references styling (default higlight and hover)
 * when there is popup, button "hide/show navigation panel" looks weird
+* implement approach where a user writes a note to a driver via our form
+  * we created a post in telegram channel and put the link to this post on web page
  
