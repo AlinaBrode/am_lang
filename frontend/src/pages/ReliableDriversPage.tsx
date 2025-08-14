@@ -44,6 +44,16 @@ export default function ReliableDriversPage() {
       <Meta />
       <div className="p-4">
       <h1 className="text-xl font-bold mb-4">{t('drivers_title')}</h1>
+      <p className="mb-4">
+        <a
+          href="https://t.me/yourgroup/12345?utm_source=site&utm_medium=cta&utm_campaign=rides"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg text-blue-600 underline"
+        >
+          {t('drivers_leave_request')}
+        </a>
+      </p>
       <table className="table-auto border-collapse w-full">
         <thead>
           <tr>
