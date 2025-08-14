@@ -26,11 +26,19 @@ export default function SideNav({ open, toggle }: SideNavProps) {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 w-56 sm:w-64 min-h-screen bg-sky-200 text-blue-900 p-6 flex flex-col justify-between
+        className={`fixed top-0 left-0 w-[30vw] sm:w-64 min-h-screen bg-sky-200 text-blue-900 p-6 flex flex-col justify-between
         transform transition-transform duration-300 text-xs sm:text-sm md:text-base ${
           open ? 'translate-x-0' : '-translate-x-full'
-        }`}
+        } relative`}
       >
+        <button
+          onClick={toggle}
+          className={`absolute top-12 right-0 bg-sky-200 text-blue-900 border border-blue-900 p-1 rounded-r z-40 transition-all ${
+            open ? '' : 'translate-x-full'
+          }`}
+        >
+          {open ? '◀' : '▶'}
+        </button>
         <div>
           <Link to={base} className="block uppercase font-bold mb-4">
             {t('welcome_title')}
@@ -75,14 +83,6 @@ export default function SideNav({ open, toggle }: SideNavProps) {
         </Link>
         <AuthPanel />
       </nav>
-      <button
-        onClick={toggle}
-        className={`fixed top-12 z-40 bg-sky-200 text-blue-900 border-blue-900 p-1 rounded-r transition-all ${
-          open ? 'left-56 sm:left-64 -translate-x-full' : 'left-0'
-        }`}
-      >
-        {open ? '◀' : '▶'}
-      </button>
     </>
   )
 }
