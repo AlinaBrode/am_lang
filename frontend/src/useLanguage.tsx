@@ -111,6 +111,7 @@ const strings: Record<Lang, Record<string, string>> = {
     drivers_col_cars: 'Available cars',
     drivers_col_phones: 'Phones',
     drivers_col_site: 'Website',
+    drivers_leave_request: 'Leave a travel request in Telegram',
   },
   ru: {
     welcome_title: 'Добро пожаловать в тренажеры армянского языка',
@@ -214,6 +215,7 @@ const strings: Record<Lang, Record<string, string>> = {
     drivers_col_cars: 'Доступные машины',
     drivers_col_phones: 'Телефоны',
     drivers_col_site: 'Сайт',
+    drivers_leave_request: 'Оставить заявку на поездку в Telegram',
   },
 }
 
