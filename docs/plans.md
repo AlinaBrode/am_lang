@@ -53,6 +53,10 @@
   * lower bubble
   * put more phrases
   * switch phrases on transitions between pages
+* remove access:
+  * to the most armenian letters in alphabet trainer
+  * to corresponding pictures in word training
+
 
 * on pause until Yerevan
   * roadmap to monetization
