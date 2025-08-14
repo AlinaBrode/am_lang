@@ -1,9 +1,6 @@
-* background for vocabulary popup
-* scroll for vocabulary popup
-
+* for nav bar: small font for narrow screens
 
 # Site
-* for nav bar: small font for narrow screens
 * take an entry from pdf with armenian-expat community, make a move
 * Use vite-plugin-ssg or vite-plugin-prerender
 * explore ways of making interactive js insets 
@@ -142,4 +139,7 @@
 * when there is popup, button "hide/show navigation panel" looks weird
 * implement approach where a user writes a note to a driver via our form
   * we created a post in telegram channel and put the link to this post on web page
+* background for vocabulary popup
+* scroll for vocabulary popup
+  * we forgot what should be done here, now it looks ok  
  
