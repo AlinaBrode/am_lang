@@ -1,4 +1,3 @@
-* for nav bar: small font for narrow screens
 
 # Site
 * take an entry from pdf with armenian-expat community, make a move
@@ -53,6 +52,8 @@
 * remove access:
   * to the most armenian letters in alphabet trainer
   * to corresponding pictures in word training
+* move nav panel button to avoid overlap with content
+* adjust colors of background blanket and blue color on side panel
 
 
 * on pause until Yerevan
@@ -142,4 +143,5 @@
 * background for vocabulary popup
 * scroll for vocabulary popup
   * we forgot what should be done here, now it looks ok  
+* for nav bar: small font for narrow screens
  
