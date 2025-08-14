@@ -33,14 +33,14 @@ export default function SideNav({ open, toggle }: SideNavProps) {
             : '-translate-x-full w-0 p-0 overflow-hidden'
         } relative`}
       >
-        <button
-          onClick={toggle}
-          className={`absolute top-12 right-0 bg-sky-200 text-blue-900 border border-blue-900 p-1 rounded-r z-40 transition-all ${
-            open ? '' : 'translate-x-full'
-          }`}
-        >
-          {open ? '◀' : '▶'}
-        </button>
+        {open && (
+          <button
+            onClick={toggle}
+            className="absolute top-12 right-0 bg-sky-200 text-blue-900 border border-blue-900 p-1 rounded-r z-40"
+          >
+            ◀
+          </button>
+        )}
         <div>
           <Link to={base} className="block uppercase font-bold mb-4">
             {t('welcome_title')}
@@ -85,6 +85,14 @@ export default function SideNav({ open, toggle }: SideNavProps) {
         </Link>
         <AuthPanel />
       </nav>
+      {!open && (
+        <button
+          onClick={toggle}
+          className="fixed top-12 left-0 bg-sky-200 text-blue-900 border border-blue-900 p-1 rounded-r z-40"
+        >
+          ▶
+        </button>
+      )}
     </>
   )
 }
