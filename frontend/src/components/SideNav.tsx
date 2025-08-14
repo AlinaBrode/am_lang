@@ -26,9 +26,11 @@ export default function SideNav({ open, toggle }: SideNavProps) {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 w-[30vw] sm:w-64 min-h-screen bg-sky-200 text-blue-900 p-6 flex flex-col justify-between
-        transform transition-transform duration-300 text-xs sm:text-sm md:text-base ${
-          open ? 'translate-x-0' : '-translate-x-full'
+        className={`fixed top-0 left-0 min-h-screen bg-sky-200 text-blue-900 flex flex-col justify-between
+        transform transition-all duration-300 text-xs sm:text-sm md:text-base ${
+          open
+            ? 'translate-x-0 w-[30vw] sm:w-64 p-6'
+            : '-translate-x-full w-0 p-0 overflow-hidden'
         } relative`}
       >
         <button
