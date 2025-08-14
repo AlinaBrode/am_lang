@@ -26,8 +26,8 @@ export default function SideNav({ open, toggle }: SideNavProps) {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 w-64 min-h-screen bg-sky-200 text-blue-900 p-6 flex flex-col justify-between
-        transform transition-transform duration-300 text-sm sm:text-base ${
+        className={`fixed top-0 left-0 w-56 sm:w-64 min-h-screen bg-sky-200 text-blue-900 p-6 flex flex-col justify-between
+        transform transition-transform duration-300 text-xs sm:text-sm md:text-base ${
           open ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
@@ -36,7 +36,7 @@ export default function SideNav({ open, toggle }: SideNavProps) {
             {t('welcome_title')}
           </Link>
           <select
-            className="mb-6 bg-sky-100 border rounded px-2 py-1 text-sm w-full"
+            className="mb-6 bg-sky-100 border rounded px-2 py-1 text-xs sm:text-sm w-full"
             value={lang}
             onChange={(e) => setLang(e.target.value as 'en' | 'ru')}
           >
@@ -78,7 +78,7 @@ export default function SideNav({ open, toggle }: SideNavProps) {
       <button
         onClick={toggle}
         className={`fixed top-12 z-40 bg-sky-200 text-blue-900 border-blue-900 p-1 rounded-r transition-all ${
-          open ? 'left-64 -translate-x-full' : 'left-0'
+          open ? 'left-56 sm:left-64 -translate-x-full' : 'left-0'
         }`}
       >
         {open ? '◀' : '▶'}
