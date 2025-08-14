@@ -17,7 +17,6 @@ import './index.css'
 
 export default function App() {
   const [navOpen, setNavOpen] = useState(false)
-  const [hideToggle, setHideToggle] = useState(false)
   return (
     <BrowserRouter>
       <LanguageProvider>
@@ -25,13 +24,13 @@ export default function App() {
         <Boar />
         <div className="flex min-h-screen">
           {/** Side navigation with slide toggle **/}
-          <SideNav open={navOpen} toggle={() => setNavOpen(!navOpen)} hideToggle={hideToggle} />
+          <SideNav open={navOpen} toggle={() => setNavOpen(!navOpen)} />
           <div className={`flex-1 transition-all duration-300 ${navOpen ? 'ml-64' : 'ml-0'}`}>
             <Routes>
               <Route path="/" element={<Navigate to="/en" replace />} />
               <Route path="/print" element={<PrintPage />} />
               <Route path="/:lang" element={<WelcomePage />} />
-              <Route path="/:lang/alphabet" element={<AlphabetPage onModalToggle={setHideToggle} />} />
+              <Route path="/:lang/alphabet" element={<AlphabetPage />} />
               <Route path="/:lang/words" element={<WordsPage />} />
               <Route path="/:lang/phrases" element={<PhrasesPage />} />
               <Route path="/:lang/drivers" element={<ReliableDriversPage />} />
