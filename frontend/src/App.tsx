@@ -25,7 +25,7 @@ export default function App() {
         <div className="flex min-h-screen">
           {/** Side navigation with slide toggle **/}
           <SideNav open={navOpen} toggle={() => setNavOpen(!navOpen)} />
-          <div className={`flex-1 transition-all duration-300 ${navOpen ? 'ml-64' : 'ml-0'}`}>
+          <div className={`flex-1 transition-all duration-300 ${navOpen ? 'ml-[30vw] sm:ml-64' : 'ml-0'}`}>
             <Routes>
               <Route path="/" element={<Navigate to="/en" replace />} />
               <Route path="/print" element={<PrintPage />} />
