@@ -1,7 +1,7 @@
+* implement approach where a user writes a note to a driver via our form
 
 
 # Site
-* implement approach where a user writes a note to a driver via our form
 * background for vocabulary popup
 * scroll for vocabulary popup
 * for nav bar: small font for narrow screens
