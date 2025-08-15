@@ -56,6 +56,8 @@
 * adjust colors of background blanket and blue color on side panel
 * take an entry from pdf with armenian-expat community, make a move
 * check whether all is OK in meta for Yandex and Google (references with / and without /) 
+* write an example for const object article, make a reference
+
 
 
 * on pause until Yerevan
