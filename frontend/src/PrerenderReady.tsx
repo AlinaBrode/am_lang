@@ -8,7 +8,11 @@ export default function PrerenderReady() {
   useEffect(() => {
     const seg = pathname.match(/^\/(en|ru)/)?.[1]
     if (import.meta.env.PROD && seg === lang) {
-      document.dispatchEvent(new Event('prerender-ready'))
+      // Defer the event to the next frame so Helmet has time to
+      // inject all meta tags before the prerenderer snapshots.
+      requestAnimationFrame(() => {
+        document.dispatchEvent(new Event('prerender-ready'))
+      })
     }
   }, [lang, pathname])
   return null

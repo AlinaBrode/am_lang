@@ -21,8 +21,10 @@ export default defineConfig(({ command }) => {
   const prerenderPlugins = prerender({
     routes,
     renderer: new PuppeteerRenderer({
-      // renderAfterDocumentEvent: 'prerender-ready',
-      renderAfterElementExists: 'head link[rel="canonical"]',
+      // Wait until the app signals that prerender data (like meta tags)
+      // has been injected. This avoids capturing empty tags.
+      renderAfterDocumentEvent: 'prerender-ready',
+      // renderAfterElementExists: 'head link[rel="canonical"]',
       skipThirdPartyRequests: true,
       maxConcurrentRoutes: 3,
       // headless: true, // optional; defaults to true
