@@ -1,7 +1,7 @@
+* Use vite-plugin-ssg or vite-plugin-prerender
+
 
 # Site
-* take an entry from pdf with armenian-expat community, make a move
-* Use vite-plugin-ssg or vite-plugin-prerender
 * explore ways of making interactive js insets 
   * show our small projects in place: code + run result
   * interaction: past code -> view results
@@ -54,7 +54,8 @@
   * to corresponding pictures in word training
 * move nav panel button to avoid overlap with content
 * adjust colors of background blanket and blue color on side panel
-
+* take an entry from pdf with armenian-expat community, make a move
+  
 
 * on pause until Yerevan
   * roadmap to monetization
@@ -144,4 +145,5 @@
 * scroll for vocabulary popup
   * we forgot what should be done here, now it looks ok  
 * for nav bar: small font for narrow screens
- 
+* take an entry from pdf with armenian-expat community, make a move
+  *  we asked a moderator on expat.com and created a template with the description of our site
