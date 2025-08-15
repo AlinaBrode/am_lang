@@ -4,6 +4,7 @@ import primitiveImg from '../assets/etudes/primitive_reference.webp'
 import letVarConstImg from '../assets/etudes/let_var_const_musketeers.webp'
 
 interface Etude {
+  titleKey: string
   dateKey: string
   altKey: string
   longTextKeys: string[]
@@ -14,6 +15,7 @@ interface Etude {
 
 const etudes: Etude[] = [
   {
+    titleKey: 'etude_2025_08_15_title',
     dateKey: 'etude_2025_08_15_date',
     altKey: 'etude_2025_08_15_alt',
     longTextKeys: ['etude_2025_08_15_long1', 'etude_2025_08_15_long2'],
@@ -28,6 +30,7 @@ const etudes: Etude[] = [
     img: letVarConstImg,
   },
   {
+    titleKey: 'etude_2025_07_08_title',
     dateKey: 'etude_2025_07_08_date',
     altKey: 'etude_2025_07_08_alt',
     longTextKeys: [
@@ -66,9 +69,12 @@ export default function SmallEtudes() {
         <ul className="space-y-8">
           {etudes.map((etude) => (
             <li key={etude.dateKey}>
+              <h2 className="text-lg font-semibold mb-2">
+                {t(etude.titleKey)}
+              </h2>
               <div className="grid md:grid-cols-3 gap-4 items-start">
                 <div>
-                  <p className="font-semibold mb-2">{t(etude.dateKey)}</p>
+                  <p className="mb-2">{t(etude.dateKey)}</p>
                   <img
                     src={etude.img}
                     alt={t(etude.altKey)}

@@ -1,5 +1,5 @@
 15 aug 2025
-# Let, const and var
+# Let, var, const
 
 ## First column (conspect)
 * var – old, deprecated

@@ -93,6 +93,7 @@ const strings: Record<Lang, Record<string, string>> = {
     note_2025_07_07_p4:
       'One warm summer evening we saw THIS on the park path! The photo is blurry because it moved quickly. Armenia is rich in snakes thanks to its mountainous dry climate, including venomous species like the viper. We googled, asked friends, even showed it to our son\'s biology teacher. The verdict: a slow worm, a legless lizard harmless to people. Still, we were quite startled when the plump meter-long reptile hurried across the path.',
     etude_2025_07_08_date: '8 Jul 2025',
+    etude_2025_07_08_title: 'Types: primitive, object',
     etude_2025_07_08_alt: 'Primitive vs reference types in JavaScript',
     etude_2025_07_08_long1:
       'The memory of a computer contains zeroes and ones. In order to perform calculations, draw pictures and send messages, we must attribute meaning to them. A bit is either zero or one. Eight bits make a byte. Groups of bytes can store characters, numbers, true or false values. Type tells us what sense we assign to a group of bits.',
@@ -106,6 +107,7 @@ const strings: Record<Lang, Record<string, string>> = {
     etude_2025_07_08_short3:
       'Reference types: Object, Array, Function — variable holds a reference.',
     etude_2025_08_15_date: '15 Aug 2025',
+    etude_2025_08_15_title: 'Let, var, const',
     etude_2025_08_15_alt: 'Three musketeers representing let, const and var',
     etude_2025_08_15_long1:
       'Keywords var, let, and const let you create a new variable and give it an initial value. var is an old construction and is now obsolete. To create a variable with a constant value, use const. For a variable whose value changes, use let.',
@@ -210,6 +212,7 @@ const strings: Record<Lang, Record<string, string>> = {
     note_2025_07_07_p4:
       'Итак, тёплым летним вечером на дорожке в парке мы увидели ЭТО?! Фото немного мутное, ведь оно быстро передвигалось. Армения богата змеями: горная страна с сухим и жарким климатом, здесь довольно много ядовитых видов, таких как гюрза. Мы начали гуглить, рассылать друзьям, показали учительнице биологии сына. Вердикт — это веретеница, безногая ящерица, абсолютно безопасная для людей. Но испугались мы знатно, когда метровая упитанная рептилия, спеша по своим делам, переползла мимо нас по дорожке.',
     etude_2025_07_08_date: '8 июля 2025',
+    etude_2025_07_08_title: 'Типы: примитив, объект',
     etude_2025_07_08_alt: 'примитивные и ссылочные типы в JavaScript',
     etude_2025_07_08_long1:
       'Память компьютера состоит из нулей и единиц. Чтобы выполнять вычисления, рисовать картинки и отправлять сообщения, мы должны придать им смысл. Бит — это 0 или 1. Восемь бит — байт. Группы байтов могут хранить символы, числа, значения «истина/ложь». Тип говорит, какой смысл мы вкладываем в набор битов.',
@@ -223,6 +226,7 @@ const strings: Record<Lang, Record<string, string>> = {
     etude_2025_07_08_short3:
       'Ссылочные типы: Object, Array, Function — в переменной хранится ссылка.',
     etude_2025_08_15_date: '15 августа 2025',
+    etude_2025_08_15_title: 'Let, var и const',
     etude_2025_08_15_alt: 'три мушкетёра, представляющие let, const и var',
     etude_2025_08_15_long1:
       'Ключевые слова var, let и const позволяют создать новую переменную и задать ей начальное значение. var — старая конструкция, сейчас она устарела. Чтобы создать переменную с неизменяемым значением, используйте const. Для переменной, значение которой будет меняться, используйте let.',
