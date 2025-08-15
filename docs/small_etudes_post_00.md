@@ -1,4 +1,4 @@
-# Variables, types
+# Types: primitive, object
 
 ## First column (conspect)
 * DEF type is a way of interpreting values in computer memory
