@@ -6,6 +6,7 @@ import AlphabetPage from './pages/AlphabetPage'
 import WordsPage from './pages/WordsPage'
 import PhrasesPage from './pages/PhrasesPage'
 import InterestingNotes from './pages/InterestingNotes'
+import PrerenderReady from './PrerenderReady';
 import ReliableDriversPage from './pages/ReliableDriversPage'
 import SmallEtudes from './pages/SmallEtudes'
 import BilingualSigns from './pages/BilingualSigns'
@@ -41,6 +42,7 @@ export default function App() {
             </Routes>
           </div>
         </div>
+        <PrerenderReady />
       </LanguageProvider>
     </BrowserRouter>
   )

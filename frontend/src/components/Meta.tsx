@@ -2,10 +2,17 @@ import { Helmet } from 'react-helmet-async'
 import { useLocation } from 'react-router-dom'
 import { useLanguage } from '../useLanguage'
 
+const ORIGIN = 'https://am-lang.web.app';
+
+function ensureTrailingSlash(p: string) {
+  return p.endsWith('/') ? p : p + '/'
+}
+
 export default function Meta() {
   const { lang } = useLanguage()
   const location = useLocation()
-  const path = location.pathname.replace(/^\/(en|ru)/, '') || '/'
+  const rawPath = location.pathname.replace(/^\/(en|ru)/, '') || '/'
+  const path = ensureTrailingSlash(rawPath) // <-- always end with "/"
   const canonical = `https://am-lang.web.app/${lang}${path}`
   const meta = {
     en: {
@@ -23,20 +30,28 @@ export default function Meta() {
         'армянский язык, изучение армянского, армянский алфавит, армянские слова, армянские фразы',
     },
   } as const
+
+  console.log("lang=", lang);
+
   const current = meta[lang]
+
+  console.log("current=", current);
+
   const en = `https://am-lang.web.app/en${path}`
   const ru = `https://am-lang.web.app/ru${path}`
   return (
     <Helmet htmlAttributes={{ lang }}>
       <title>{current.title}</title>
+      {/* Canonical + alternates (always with trailing slash) */}
       <link rel="canonical" href={canonical} />
       <link rel="alternate" href={en} hrefLang="en" />
       <link rel="alternate" href={ru} hrefLang="ru" />
+      <link rel="alternate" href={`${ORIGIN}/en${path}`} hrefLang="x-default" />
       <meta name="description" content={current.description} />
       <meta name="keywords" content={current.keywords} />
       <meta property="og:title" content={current.title} />
       <meta property="og:description" content={current.description} />
-      <meta property="og:image" content="/favicon.ico" />
+      <meta property="og:image" content={`${ORIGIN}/favicon.ico`} />
       <meta property="og:url" content={canonical} />
       <meta property="og:type" content="website" />
     </Helmet>
