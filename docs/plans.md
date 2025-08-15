@@ -1,4 +1,4 @@
-* Use vite-plugin-ssg or vite-plugin-prerender
+
 
 
 # Site
@@ -55,7 +55,8 @@
 * move nav panel button to avoid overlap with content
 * adjust colors of background blanket and blue color on side panel
 * take an entry from pdf with armenian-expat community, make a move
-  
+* check whether all is OK in meta for Yandex and Google (references with / and without /) 
+
 
 * on pause until Yerevan
   * roadmap to monetization
@@ -147,3 +148,4 @@
 * for nav bar: small font for narrow screens
 * take an entry from pdf with armenian-expat community, make a move
   *  we asked a moderator on expat.com and created a template with the description of our site
+* Use vite-plugin-ssg or vite-plugin-prerender
