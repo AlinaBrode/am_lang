@@ -105,6 +105,19 @@ const strings: Record<Lang, Record<string, string>> = {
       'Primitive types: Number, String, Boolean, Undefined, Null — value stored directly.',
     etude_2025_07_08_short3:
       'Reference types: Object, Array, Function — variable holds a reference.',
+    etude_2025_08_15_date: '15 Aug 2025',
+    etude_2025_08_15_alt: 'Three musketeers representing let, const and var',
+    etude_2025_08_15_long1:
+      'Keywords var, let, and const let you create a new variable and give it an initial value. var is an old construction and is now obsolete. To create a variable with a constant value, use const. For a variable whose value changes, use let.',
+    etude_2025_08_15_long2:
+      'Be aware whether your value is a Primitive or an Object. const a = 5 completely forbids any change because 5 is a primitive type and the statement "value 5 is stored in variable a" remains true. But const b = [5] forbids writing b = [6] yet allows changing the array\u2019s elements, like b[0] = 777. That\'s because the value of b is a reference to an array; we use this variable to read the reference and then access the array by index.',
+    etude_2025_08_15_short1: 'var \u2013 old, deprecated',
+    etude_2025_08_15_short2: 'let, const \u2013 modern',
+    etude_2025_08_15_short3: 'let: value can change',
+    etude_2025_08_15_short4: 'const: value can\'t be reassigned',
+    etude_2025_08_15_short5: 'const + primitive = nothing can be changed',
+    etude_2025_08_15_short6:
+      'const + Object = no new object; existing object can change',
     drivers_title: 'Reliable drivers',
     drivers_col_name: 'Driver',
     drivers_col_region: 'Region',
@@ -209,6 +222,19 @@ const strings: Record<Lang, Record<string, string>> = {
       'Примитивные типы: Number, String, Boolean, Undefined, Null — значение хранится в переменной.',
     etude_2025_07_08_short3:
       'Ссылочные типы: Object, Array, Function — в переменной хранится ссылка.',
+    etude_2025_08_15_date: '15 августа 2025',
+    etude_2025_08_15_alt: 'три мушкетёра, представляющие let, const и var',
+    etude_2025_08_15_long1:
+      'Ключевые слова var, let и const позволяют создать новую переменную и задать ей начальное значение. var — старая конструкция, сейчас она устарела. Чтобы создать переменную с неизменяемым значением, используйте const. Для переменной, значение которой будет меняться, используйте let.',
+    etude_2025_08_15_long2:
+      'Важно понимать, является ли ваше значение примитивом или объектом. const a = 5 полностью запрещает любые изменения, потому что 5 — примитивный тип, и утверждение «значение 5 хранится в переменной a» остаётся верным. А const b = [5] запрещает писать b = [6], но позволяет менять элементы массива, например b[0] = 777. Это происходит потому, что значение b — ссылка на массив; мы читаем эту ссылку из переменной и затем обращаемся к массиву по индексу.',
+    etude_2025_08_15_short1: 'var – старый, устаревший',
+    etude_2025_08_15_short2: 'let, const – современный',
+    etude_2025_08_15_short3: 'let: можно изменять значение',
+    etude_2025_08_15_short4: 'const: нельзя присваивать новое значение',
+    etude_2025_08_15_short5: 'const + примитив = изменить ничего нельзя',
+    etude_2025_08_15_short6:
+      'const + объект = новый объект нельзя, существующий менять можно',
     drivers_title: 'Проверенные водители',
     drivers_col_name: 'Водитель',
     drivers_col_region: 'Регион',
