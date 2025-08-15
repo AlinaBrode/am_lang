@@ -1,6 +1,7 @@
 import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
 import primitiveImg from '../assets/etudes/primitive_reference.webp'
+import letVarConstImg from '../assets/etudes/let_var_const_musketeers.webp'
 
 interface Etude {
   dateKey: string
@@ -8,9 +9,24 @@ interface Etude {
   longTextKeys: string[]
   shortTextKeys: string[]
   img: string
+  code?: string
 }
 
 const etudes: Etude[] = [
+  {
+    dateKey: 'etude_2025_08_15_date',
+    altKey: 'etude_2025_08_15_alt',
+    longTextKeys: ['etude_2025_08_15_long1', 'etude_2025_08_15_long2'],
+    shortTextKeys: [
+      'etude_2025_08_15_short1',
+      'etude_2025_08_15_short2',
+      'etude_2025_08_15_short3',
+      'etude_2025_08_15_short4',
+      'etude_2025_08_15_short5',
+      'etude_2025_08_15_short6',
+    ],
+    img: letVarConstImg,
+  },
   {
     dateKey: 'etude_2025_07_08_date',
     altKey: 'etude_2025_07_08_alt',
@@ -25,6 +41,17 @@ const etudes: Etude[] = [
       'etude_2025_07_08_short3',
     ],
     img: primitiveImg,
+    code: `let a = 5;
+let b = a;
+b = 8;
+console.log(a,b)
+// 5, 8
+
+let a = [5];
+let b = a;
+b[0] = 8;
+console.log(a, b)
+// [8], [8]`,
   },
 ]
 
@@ -59,19 +86,11 @@ export default function SmallEtudes() {
                       <li key={k}>{t(k)}</li>
                     ))}
                   </ul>
-                  <pre className="bg-gray-100 p-2 rounded overflow-x-auto text-sm">
-{`let a = 5;
-let b = a;
-b = 8;
-console.log(a,b)
-// 5, 8
-
-let a = [5];
-let b = a;
-b[0] = 8;
-console.log(a, b)
-// [8], [8]`}
-                  </pre>
+                  {etude.code && (
+                    <pre className="bg-gray-100 p-2 rounded overflow-x-auto text-sm">
+                      {etude.code}
+                    </pre>
+                  )}
                 </div>
               </div>
             </li>
