@@ -1,4 +1,5 @@
-
+* **Done** - new hashtags: junior, medium, senior, explanations
+  * article about visibility of variables
 
 
 # Site
@@ -57,7 +58,8 @@
 * take an entry from pdf with armenian-expat community, make a move
 * check whether all is OK in meta for Yandex and Google (references with / and without /) 
 * write an example for const object article, make a reference
-
+* Cross-promotion — swap mentions with related channels; submit to channel directories/ratings (e.g., TGStat) to gain external discovery.
+* span of time when it is possible to edit telegram posts
 
 
 * on pause until Yerevan
@@ -151,3 +153,5 @@
 * take an entry from pdf with armenian-expat community, make a move
   *  we asked a moderator on expat.com and created a template with the description of our site
 * Use vite-plugin-ssg or vite-plugin-prerender
+* registered on TGStat
+  
