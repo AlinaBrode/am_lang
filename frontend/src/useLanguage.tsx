@@ -126,7 +126,7 @@ const strings: Record<Lang, Record<string, string>> = {
     etude_2025_08_17_long1:
       'In languages like C++, Java and Go you cannot use a variable before it is declared. JavaScript scans a file twice, processing declarations first.',
     etude_2025_08_17_long2:
-      'Then it runs the program, effectively lifting declarations to the top. A var may print undefined, while the temporal dead zone makes let and const throw an error.',
+      'Then it runs the program, effectively lifting declarations to the top. A <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/hoisting/trap.js" target="_blank" rel="noopener noreferrer">program</a> with var may print undefined, while the temporal dead zone makes <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/hoisting/let.js" target="_blank" rel="noopener noreferrer">let</a> and <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/hoisting/const.js" target="_blank" rel="noopener noreferrer">const</a> throw an error.',
     etude_2025_08_17_short1: 'Hoisting moves declarations to the scope top',
     etude_2025_08_17_short2: 'var is accessible before declaration (undefined)',
     etude_2025_08_17_short3: 'let and const are inaccessible before declaration',
@@ -256,7 +256,7 @@ const strings: Record<Lang, Record<string, string>> = {
     etude_2025_08_17_long1:
       'В языках вроде C++, Java и Go нельзя использовать переменную до её объявления. JavaScript дважды просматривает файл, сначала обрабатывая объявления.',
     etude_2025_08_17_long2:
-      'Затем выполняется программа, и объявления как бы поднимаются наверх. Переменная var может вывести undefined, а временная мёртвая зона заставляет let и const выбросить ошибку.',
+      'Затем выполняется программа, и объявления как бы поднимаются наверх. <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/hoisting/trap.js" target="_blank" rel="noopener noreferrer">var-программа</a> может вывести undefined, а «временная мёртвая зона» заставляет <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/hoisting/let.js" target="_blank" rel="noopener noreferrer">let</a> и <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/hoisting/const.js" target="_blank" rel="noopener noreferrer">const</a> выбросить ошибку.',
     etude_2025_08_17_short1: 'Хойстинг поднимает объявления в начало области',
     etude_2025_08_17_short2: 'var доступна до объявления (undefined)',
     etude_2025_08_17_short3: 'let и const недоступны до объявления',

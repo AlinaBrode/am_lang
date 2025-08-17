@@ -97,13 +97,19 @@ export default function SmallEtudes() {
                 </div>
                 <div className="space-y-4 text-lg">
                   {etude.longTextKeys.map((k) => (
-                    <p key={k}>{t(k)}</p>
+                    <p
+                      key={k}
+                      dangerouslySetInnerHTML={{ __html: t(k) }}
+                    />
                   ))}
                 </div>
                 <div className="space-y-2 text-lg">
                   <ul className="list-disc pl-6">
                     {etude.shortTextKeys.map((k) => (
-                      <li key={k}>{t(k)}</li>
+                      <li
+                        key={k}
+                        dangerouslySetInnerHTML={{ __html: t(k) }}
+                      />
                     ))}
                   </ul>
                   {etude.code && (
