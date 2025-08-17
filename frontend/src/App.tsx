@@ -35,9 +35,9 @@ export default function App() {
               <Route path="/:lang/words" element={<WordsPage />} />
               <Route path="/:lang/phrases" element={<PhrasesPage />} />
               <Route path="/:lang/drivers" element={<ReliableDriversPage />} />
-              <Route path="/:lang/interesting_notes" element={<InterestingNotes />} />
-              <Route path="/:lang/bilingual_signs" element={<BilingualSigns />} />
-              <Route path="/:lang/small_etudes" element={<SmallEtudes />} />
+              <Route path="/:lang/interesting_notes/:slug?" element={<InterestingNotes />} />
+              <Route path="/:lang/bilingual_signs/:slug?" element={<BilingualSigns />} />
+              <Route path="/:lang/small_etudes/:slug?" element={<SmallEtudes />} />
               <Route path="*" element={<Navigate to="/en" replace />} />
             </Routes>
           </div>

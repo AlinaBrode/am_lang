@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
 import architectImg from '../assets/architect.webp'
@@ -7,6 +9,7 @@ import hrazdanImg from '../assets/bilingual/hrazdan.webp'
 import type { ReactNode } from 'react'
 
 interface Note {
+  slug: string
   dateKey: string
   titleKey: string
   render: (t: (key: string) => string) => ReactNode
@@ -14,6 +17,7 @@ interface Note {
 
 const notes: Note[] = [
   {
+    slug: 'why-javascript-on-a-language-site',
     dateKey: 'note_2025_07_20_date',
     titleKey: 'note_2025_07_20_title',
     render: (t) => (
@@ -33,6 +37,7 @@ const notes: Note[] = [
     ),
   },
   {
+    slug: 'surprise-in-nork-arabkir-park',
     dateKey: 'note_2025_07_07_date',
     titleKey: 'note_2025_07_07_title',
     render: (t) => (
@@ -52,6 +57,7 @@ const notes: Note[] = [
     ),
   },
   {
+    slug: 'the-pharmacy-owl',
     dateKey: 'note_2025_06_19_date',
     titleKey: 'note_2025_06_19_title',
     render: (t) => (
@@ -70,6 +76,7 @@ const notes: Note[] = [
     ),
   },
   {
+    slug: 'its-impossible-to-pronounce',
     dateKey: 'note_2025_06_17_date',
     titleKey: 'note_2025_06_17_title',
     render: (t) => (
@@ -90,26 +97,40 @@ const notes: Note[] = [
 ]
 
 export default function InterestingNotes() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
+  const { slug } = useParams<{ slug?: string }>()
+
+  useEffect(() => {
+    if (slug) {
+      document.getElementById(slug)?.scrollIntoView()
+    }
+  }, [slug])
+
   return (
     <>
       <Meta />
       <div className="p-4">
-      <h1 className="text-xl font-bold mb-4">
-        {t('interesting_notes_title')}
-      </h1>
-      <p className="mb-6">{t('interesting_notes_intro')}</p>
-      <ul className="space-y-8">
-        {notes.map((note) => (
-          <li key={note.titleKey} className="space-y-2">
-            <h2 className="text-lg font-semibold">
-              {t(note.dateKey)} - {t(note.titleKey)}
-            </h2>
-            <div>{note.render(t)}</div>
-          </li>
-        ))}
-      </ul>
-    </div>
+        <h1 className="text-xl font-bold mb-4">
+          {t('interesting_notes_title')}
+        </h1>
+        <p className="mb-6">{t('interesting_notes_intro')}</p>
+        <ul className="space-y-8">
+          {notes.map((note) => (
+            <li key={note.slug} id={note.slug} className="space-y-2">
+              <h2 className="text-lg font-semibold flex items-center">
+                <a
+                  href={`/${lang}/interesting_notes/${note.slug}`}
+                  className="mr-2 text-gray-400"
+                >
+                  #
+                </a>
+                {t(note.dateKey)} - {t(note.titleKey)}
+              </h2>
+              <div>{note.render(t)}</div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </>
   )
 }

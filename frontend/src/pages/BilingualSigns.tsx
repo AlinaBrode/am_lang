@@ -1,9 +1,12 @@
+import { useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 import { useLanguage, type Lang } from '../useLanguage'
 import Meta from '../components/Meta'
 import hrazdanImg from '../assets/bilingual/hrazdan.webp'
 import type { ReactNode } from 'react'
 
 interface Sign {
+  slug: string
   dateKey: string
   titleKey: string
   render: (t: (key: string) => string, lang: Lang) => ReactNode
@@ -11,6 +14,7 @@ interface Sign {
 
 const signs: Sign[] = [
   {
+    slug: 'hrazdan-railroad-station',
     dateKey: 'sign_2025_07_20_date',
     titleKey: 'sign_2025_07_20_title',
     render: (t, lang) => {
@@ -56,6 +60,14 @@ const signs: Sign[] = [
 
 export default function BilingualSigns() {
   const { t, lang } = useLanguage()
+  const { slug } = useParams<{ slug?: string }>()
+
+  useEffect(() => {
+    if (slug) {
+      document.getElementById(slug)?.scrollIntoView()
+    }
+  }, [slug])
+
   return (
     <>
       <Meta />
@@ -64,8 +76,14 @@ export default function BilingualSigns() {
         <p className="mb-6">{t('bilingual_signs_intro')}</p>
         <ul className="space-y-8">
           {signs.map((sign) => (
-            <li key={sign.titleKey} className="space-y-2">
-              <h2 className="text-lg font-semibold">
+            <li key={sign.slug} id={sign.slug} className="space-y-2">
+              <h2 className="text-lg font-semibold flex items-center">
+                <a
+                  href={`/${lang}/bilingual_signs/${sign.slug}`}
+                  className="mr-2 text-gray-400"
+                >
+                  #
+                </a>
                 {t(sign.dateKey)} - {t(sign.titleKey)}
               </h2>
               <div>{sign.render(t, lang)}</div>
