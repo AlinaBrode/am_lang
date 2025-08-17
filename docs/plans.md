@@ -1,10 +1,7 @@
-* align tables with pictures in word trainer in some regular grid
-
+* format small etudes in the same way as other projects on welcome page
 
 
 # Site
-* create a short on youtube (using veo?) for small_etudes_post_00
-* format small etudes in the same way as other projects on welcome page
 * duplicate our posts on site in our telegram channel
 * make publication on linkedin with reference to programming post
 * each note in interesting notes should be linkable (to share link in telegram or on the other site)
@@ -59,6 +56,10 @@
 * create an editor and result window for a programming post
   * https://chatgpt.com/share/68a1c7c6-f8e4-8001-9d0d-f121e5ef5eae 
 * make our stories linkable, create a link from gihub to story in the site 
+* create a short on youtube (using veo?) for small_etudes_post_00
+  * can't progress, try later
+
+
 
 * on pause until Yerevan
   * roadmap to monetization

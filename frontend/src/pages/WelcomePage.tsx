@@ -103,11 +103,16 @@ export default function WelcomePage() {
               </li>
               <li className={styles.li}>
                 <h4 className={`${styles.h4} underline`}>Маленькие этюды</h4>
-                <p>
-                  По <a href="/ru/small_etudes">ссылке</a> – короткие заметки о
-                  JavaScript и небольшие программки, которые показывают
-                  интересные идеи информатики или практические трюки.
-                </p>
+                <ul className="list-disc pl-6">
+                  <li>
+                    Переходим по <a href="/ru/small_etudes">ссылке</a>
+                  </li>
+                  <li>
+                    Читаем короткие заметки о
+                    JavaScript и небольшие программки, которые показывают
+                    интересные идеи информатики или практические трюки.
+                  </li>
+                </ul>
               </li>
             </ul>
             <h2 className={styles.h2}>Контакты</h2>
@@ -221,11 +226,14 @@ export default function WelcomePage() {
               </li>
               <li className={styles.li}>
                 <h4 className={`${styles.h4} underline`}>Small etudes</h4>
-                <p>
-                  Follow the <a href="/en/small_etudes">link</a> for short notes
+                <ul className="list-disc pl-6">
+                  <li>Go to the <a href="/en/small_etudes">link</a> </li>
+                  <li>
+                  Read short notes
                   about JavaScript and tiny programs that highlight interesting
                   computer science ideas or practical tricks.
-                </p>
+                  </li>
+                </ul>
               </li>
             </ul>
             <h2 className={styles.h2}>Contacts</h2>
