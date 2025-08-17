@@ -1,10 +1,8 @@
-* format small etudes in the same way as other projects on welcome page
+* each note in interesting notes should be linkable (to share link in telegram or on the other site)
 
 
 # Site
-* duplicate our posts on site in our telegram channel
 * make publication on linkedin with reference to programming post
-* each note in interesting notes should be linkable (to share link in telegram or on the other site)
 * fix error in article "It's impossible to pronounce". Review for similar.
 * put on site Alina and Arseniy "hello!" intruduction
 * in alphabet trainer somehow make it obvious that you are to click on uppercase letter
@@ -159,3 +157,6 @@
   * show our small projects in place: code + run result
   * interaction: past code -> view results
   * https://chatgpt.com/share/68a1c7c6-f8e4-8001-9d0d-f121e5ef5eae
+* format small etudes in the same way as other projects on welcome page
+* duplicate our posts on site in our telegram channel
+
