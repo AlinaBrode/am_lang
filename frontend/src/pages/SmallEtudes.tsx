@@ -2,6 +2,7 @@ import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
 import primitiveImg from '../assets/etudes/primitive_reference.webp'
 import letVarConstImg from '../assets/etudes/let_var_const_musketeers.webp'
+import hoistingImg from '../assets/etudes/let_var_const_musketeers_hoisting.webp'
 
 interface Etude {
   titleKey: string
@@ -14,6 +15,19 @@ interface Etude {
 }
 
 const etudes: Etude[] = [
+  {
+    titleKey: 'etude_2025_08_17_title',
+    dateKey: 'etude_2025_08_17_date',
+    altKey: 'etude_2025_08_17_alt',
+    longTextKeys: ['etude_2025_08_17_long1', 'etude_2025_08_17_long2'],
+    shortTextKeys: [
+      'etude_2025_08_17_short1',
+      'etude_2025_08_17_short2',
+      'etude_2025_08_17_short3',
+      'etude_2025_08_17_short4',
+    ],
+    img: hoistingImg,
+  },
   {
     titleKey: 'etude_2025_08_15_title',
     dateKey: 'etude_2025_08_15_date',
