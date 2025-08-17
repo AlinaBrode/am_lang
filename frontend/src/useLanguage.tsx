@@ -120,6 +120,17 @@ const strings: Record<Lang, Record<string, string>> = {
     etude_2025_08_15_short5: 'const + primitive = nothing can be changed',
     etude_2025_08_15_short6:
       'const + Object = no new object; existing object can change',
+    etude_2025_08_17_date: '17 Aug 2025',
+    etude_2025_08_17_title: 'Hoisting',
+    etude_2025_08_17_alt: 'Three musketeers demonstrating hoisting',
+    etude_2025_08_17_long1:
+      'In languages like C++, Java and Go you cannot use a variable before it is declared. JavaScript scans a file twice, processing declarations first.',
+    etude_2025_08_17_long2:
+      'Then it runs the program, effectively lifting declarations to the top. A var may print undefined, while the temporal dead zone makes let and const throw an error.',
+    etude_2025_08_17_short1: 'Hoisting moves declarations to the scope top',
+    etude_2025_08_17_short2: 'var is accessible before declaration (undefined)',
+    etude_2025_08_17_short3: 'let and const are inaccessible before declaration',
+    etude_2025_08_17_short4: 'TDZ enforces this rule',
     drivers_title: 'Reliable drivers',
     drivers_col_name: 'Driver',
     drivers_col_region: 'Region',
@@ -239,6 +250,17 @@ const strings: Record<Lang, Record<string, string>> = {
     etude_2025_08_15_short5: 'const + примитив = изменить ничего нельзя',
     etude_2025_08_15_short6:
       'const + объект = новый объект нельзя, существующий менять можно',
+    etude_2025_08_17_date: '17 августа 2025',
+    etude_2025_08_17_title: 'Хойстинг',
+    etude_2025_08_17_alt: 'три мушкетёра демонстрируют хойстинг',
+    etude_2025_08_17_long1:
+      'В языках вроде C++, Java и Go нельзя использовать переменную до её объявления. JavaScript дважды просматривает файл, сначала обрабатывая объявления.',
+    etude_2025_08_17_long2:
+      'Затем выполняется программа, и объявления как бы поднимаются наверх. Переменная var может вывести undefined, а временная мёртвая зона заставляет let и const выбросить ошибку.',
+    etude_2025_08_17_short1: 'Хойстинг поднимает объявления в начало области',
+    etude_2025_08_17_short2: 'var доступна до объявления (undefined)',
+    etude_2025_08_17_short3: 'let и const недоступны до объявления',
+    etude_2025_08_17_short4: 'TDZ обеспечивает это поведение',
     drivers_title: 'Проверенные водители',
     drivers_col_name: 'Водитель',
     drivers_col_region: 'Регион',
