@@ -1,4 +1,3 @@
-* each note in interesting notes should be linkable (to share link in telegram or on the other site)
 
 
 # Site
@@ -159,4 +158,5 @@
   * https://chatgpt.com/share/68a1c7c6-f8e4-8001-9d0d-f121e5ef5eae
 * format small etudes in the same way as other projects on welcome page
 * duplicate our posts on site in our telegram channel
+* each note in interesting notes should be linkable (to share link in telegram or on the other site)
 
