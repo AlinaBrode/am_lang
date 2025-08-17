@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
 import primitiveImg from '../assets/etudes/primitive_reference.webp'
@@ -12,6 +14,7 @@ interface Etude {
   shortTextKeys: string[]
   img: string
   code?: string
+  slug: string
 }
 
 const etudes: Etude[] = [
@@ -27,6 +30,7 @@ const etudes: Etude[] = [
       'etude_2025_08_17_short4',
     ],
     img: hoistingImg,
+    slug: 'hoisting',
   },
   {
     titleKey: 'etude_2025_08_15_title',
@@ -42,6 +46,7 @@ const etudes: Etude[] = [
       'etude_2025_08_15_short6',
     ],
     img: letVarConstImg,
+    slug: 'let-var-const',
   },
   {
     titleKey: 'etude_2025_07_08_title',
@@ -69,11 +74,19 @@ let b = a;
 b[0] = 8;
 console.log(a, b)
 // [8], [8]`,
+    slug: 'types-primitive-object',
   },
 ]
 
 export default function SmallEtudes() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
+  const { slug } = useParams<{ slug?: string }>()
+
+  useEffect(() => {
+    if (slug) {
+      document.getElementById(slug)?.scrollIntoView()
+    }
+  }, [slug])
   return (
     <>
       <Meta />
@@ -82,8 +95,14 @@ export default function SmallEtudes() {
         <p className="mb-6">{t('small_etudes_intro')}</p>
         <ul className="space-y-8">
           {etudes.map((etude) => (
-            <li key={etude.dateKey}>
-              <h2 className="text-lg font-semibold mb-2">
+            <li key={etude.slug} id={etude.slug}>
+              <h2 className="text-lg font-semibold mb-2 flex items-center">
+                <a
+                  href={`/${lang}/small_etudes/${etude.slug}`}
+                  className="mr-2 text-gray-400"
+                >
+                  #
+                </a>
                 {t(etude.titleKey)}
               </h2>
               <div className="grid md:grid-cols-3 gap-4 items-start">

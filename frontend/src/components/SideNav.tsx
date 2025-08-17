@@ -55,7 +55,8 @@ export default function SideNav({ open, toggle }: SideNavProps) {
           </select>
           <ul className="space-y-2">
             {items.map(({ to, label }) => {
-              const active = location.pathname === to
+              const active =
+                location.pathname === to || location.pathname.startsWith(to + '/')
               return (
                 <li key={to}>
                   <Link
