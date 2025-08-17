@@ -1,12 +1,8 @@
-* **Done** - new hashtags: junior, medium, senior, explanations
-  * article about visibility of variables
+* align tables with pictures in word trainer in some regular grid
+
 
 
 # Site
-* explore ways of making interactive js insets 
-  * show our small projects in place: code + run result
-  * interaction: past code -> view results
-* align tables with pictures in word trainer in some regular grid
 * create a short on youtube (using veo?) for small_etudes_post_00
 * format small etudes in the same way as other projects on welcome page
 * duplicate our posts on site in our telegram channel
@@ -60,7 +56,9 @@
 * write an example for const object article, make a reference
 * Cross-promotion — swap mentions with related channels; submit to channel directories/ratings (e.g., TGStat) to gain external discovery.
 * span of time when it is possible to edit telegram posts
-
+* create an editor and result window for a programming post
+  * https://chatgpt.com/share/68a1c7c6-f8e4-8001-9d0d-f121e5ef5eae 
+* make our stories linkable, create a link from gihub to story in the site 
 
 * on pause until Yerevan
   * roadmap to monetization
@@ -154,4 +152,9 @@
   *  we asked a moderator on expat.com and created a template with the description of our site
 * Use vite-plugin-ssg or vite-plugin-prerender
 * registered on TGStat
-  
+* new hashtags: junior, medium, senior, explanations
+  article about visibility of variables
+* explore ways of making interactive js insets 
+  * show our small projects in place: code + run result
+  * interaction: past code -> view results
+  * https://chatgpt.com/share/68a1c7c6-f8e4-8001-9d0d-f121e5ef5eae
