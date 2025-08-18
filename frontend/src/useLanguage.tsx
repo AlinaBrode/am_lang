@@ -63,6 +63,30 @@ const strings: Record<Lang, Record<string, string>> = {
       'At the same time we tried to learn Armenian. The alphabet was a barrier: it is bigger than the Russian one, upper and lowercase letters differ, and no simple self-study guides combined picture, word, meaning and pronunciation.',
     note_2025_07_20_p4:
       'We noticed many signs with Armenian words duplicated in Russian or Latin letters, making the alphabet easier to grasp. So we launched a simple HTML/CSS/JS project for newcomers like us and added a blog section about JavaScript basics\u2014after all, it is a language too.',
+    note_2025_08_18_date: '18 Aug 2025',
+    note_2025_08_18_title: 'Moving to Yerevan. Part 1',
+    note_2025_08_18_alt: 'Packed suitcases before moving',
+    note_2025_08_18_p1:
+      'Let\'s go back to 2023 when we prepared to move. This is the first post of the series.',
+    note_2025_08_18_p2:
+      'The first question was where to go. To stay close to relatives we considered only visa-free countries. The first candidate was Serbia. We read channels and articles, exchanged euros, estimated monthly expenses, looked at school options. A sad finding: in winter the air pollution index on iqair.com goes off the scale. In Yerevan it isn\'t perfect either, but more about that later. We planned to visit Moscow a couple of times a year, and the price of a direct Moscow–Belgrade flight—230 thousand rubles—made this plan unrealistic. For Armenia the price is about 75–100 thousand rubles for three adults, with many direct flights of Russian airlines (Aeroflot, UTair, Ural Airlines etc.) and Armenian ones—ShirakAvia, FlyOne Armenia. The final step before choosing Armenia was to find a school. We searched via channels t.me/ru_schools_armenia and t.me/erevanmoms.',
+    note_2025_08_18_p3: 'Here is our relocation checklist:',
+    note_2025_08_18_li1:
+      'Power of attorney for a close relative. Needed to represent your interests in organizations. If you plan to rent out your apartment, mention this as a separate item.',
+    note_2025_08_18_li2:
+      'Withdraw cash rubles for exchange in Armenia. Russian bank cards are not accepted for payment, so you need cash. The best dram/ruble rate is in SAS exchange offices—a department store chain in Yerevan. You can track favorable rates in Telegram channels, e.g. t.me/armeniaCurrency.',
+    note_2025_08_18_li3:
+      'Obtain a residence permit or plan visa runs. A non-resident may stay in Armenia for 180 days; afterward a visa run is required. Our residence permit was arranged by an employer. A child under 18 can stay in Armenia without crossing the border every six months.',
+    note_2025_08_18_li4:
+      'Choose a school. We\'ll cover school selection in a separate post.',
+    note_2025_08_18_li5:
+      'Choose an apartment. Armenian channels offer many rental options; there is list.am where in the long-term rental section one can pick an apartment. The downside of this site is many fake listings from realtors. We used a realtor recommended by friends.',
+    note_2025_08_18_li6:
+      'Rent out your apartment. We used Yandex.Rent to lease our Moscow flat. You don\'t have to meet the tenant; you choose one via an application form. There\'s a contract. The downside is that it\'s harder to rent out. For tenants the service adds a 7% monthly commission to the rent.',
+    note_2025_08_18_li7:
+      'Set up essential services. Download necessary apps—banking, Gosuslugi, mos.ru, the taxpayer\'s cabinet. All apps work via VPN.',
+    note_2025_08_18_li8:
+      'Check for outstanding debts: unpaid fines, child support, etc. Otherwise you may not be allowed to leave the country.',
     note_2025_06_17_date: '17 Jun 2025',
     note_2025_06_17_title: "It's impossible to pronounce",
     note_2025_06_17_alt: 'Alexander Tamanian',
@@ -193,6 +217,30 @@ const strings: Record<Lang, Record<string, string>> = {
       'Параллельно мы пытались учить армянский язык. Алфавит оказался непреодолимым: он больше и сложнее русского, заглавные и строчные буквы различаются, а простых самоучителей со связкой картинка-слово-значение-произношение нет.',
     note_2025_07_20_p4:
       'На городских вывесках мы заметили дублирование армянских слов русскими или латинскими буквами, что облегчает освоение алфавита. Так возникла идея простого проекта на html, css и js для таких релокантов, как мы. Поэтому в блог добавили раздел про основы JavaScript — ведь это тоже язык.',
+    note_2025_08_18_date: '18 августа 2025',
+    note_2025_08_18_title: 'Переезд в Ереван. Часть 1',
+    note_2025_08_18_alt: 'Собранные чемоданы перед переездом',
+    note_2025_08_18_p1:
+      'Перенесёмся в 2023 год, когда мы готовились к переезду. Это первый пост из серии.',
+    note_2025_08_18_p2:
+      'Вопрос первый: куда? Чтобы не быть отрезанными от родственников, рассматривали только безвизовые страны. Первый кандидат — Сербия. Читаем каналы и статьи, меняем евро, считаем затраты в месяц, смотрим варианты школ. Грустная находка — зимой зашкаливает индекс загрязнённости воздуха на iqair.com. В Ереване он тоже не идеален, но об этом позже. Мы планировали пару раз в год приезжать в Москву, и цена перелёта 230 тыс. рублей на прямой рейс Москва–Белград срывала эти планы. Для Армении цена лежит в районе 75–100 тыс. рублей на троих взрослых, много прямых рейсов различных авиакомпаний, как российских (Аэрофлот, Ютэйр, Уральские авиалинии и т. д.), так и армянских — ShirakAvia, FlyOne Armenia. Последний шаг перед окончательным выбором в пользу Армении — найти школу. Искали на каналах t.me/ru_schools_armenia, t.me/erevanmoms.',
+    note_2025_08_18_p3: 'Делимся чек-листом по переезду:',
+    note_2025_08_18_li1:
+      'Доверенность на близкого. Необходима для представления ваших интересов в организациях. Для сдачи квартиры от вашего лица это нужно указать отдельной строкой.',
+    note_2025_08_18_li2:
+      'Снять наличные рубли для обмена в Армении. Карты банков РФ не принимаются для оплаты, нужна наличка. Самый выгодный курс драм/рубль в обменниках SAS — сети универмагов в Ереване. За выгодным курсом можно следить в телеграм-каналах, например t.me/armeniaCurrency.',
+    note_2025_08_18_li3:
+      'Обзавестись ВНЖ или продумать визаран. Нерезидент может находиться на территории Армении 180 дней, далее необходим визаран. У нас оформлен ВНЖ работодателем. Ребёнок до 18 лет может проживать в Армении без необходимости пересекать границу каждые полгода.',
+    note_2025_08_18_li4:
+      'Выбрать школу. Выбору школы будет посвящён отдельный пост.',
+    note_2025_08_18_li5:
+      'Выбрать квартиру. В каналах Еревана и Армении множество предложений по съёму; есть сайт list.am, где в разделе долгосрочной аренды можно подобрать квартиру. Минус этого сайта — множество фейковых предложений от риелторов. Мы воспользовались услугами риелтора, порекомендованного знакомыми.',
+    note_2025_08_18_li6:
+      'Сдать квартиру. Для сдачи московской квартиры мы воспользовались сервисом Яндекс.Аренда. Преимущество — не надо встречаться с арендатором, можно выбрать жильца по анкете в приложении. Есть договор. Минус — сдавать сложнее. Для арендаторов сервис включает в стоимость аренды ежемесячную комиссию 7%, что увеличивает плату.',
+    note_2025_08_18_li7:
+      'Настройка необходимых сервисов. Необходимо скачать приложения банков, Госуслуги, mos.ru, кабинет налогоплательщика. Все приложения работают через VPN.',
+    note_2025_08_18_li8:
+      'Проверка задолженностей: неоплаченные штрафы, алименты и т. п. Иначе на границе не выпустят.',
     note_2025_06_17_date: '17 июня 2025',
     note_2025_06_17_title: 'Невозможно произнести',
     note_2025_06_17_alt: 'Александр Таманян',
