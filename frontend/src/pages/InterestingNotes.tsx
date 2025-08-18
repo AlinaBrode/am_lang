@@ -33,14 +33,54 @@ const notes: Note[] = [
           <p>{t('note_2025_08_18_p2')}</p>
           <p>{t('note_2025_08_18_p3')}</p>
           <ul className="list-disc list-inside space-y-2">
-            <li>{t('note_2025_08_18_li1')}</li>
-            <li>{t('note_2025_08_18_li2')}</li>
-            <li>{t('note_2025_08_18_li3')}</li>
-            <li>{t('note_2025_08_18_li4')}</li>
-            <li>{t('note_2025_08_18_li5')}</li>
-            <li>{t('note_2025_08_18_li6')}</li>
-            <li>{t('note_2025_08_18_li7')}</li>
-            <li>{t('note_2025_08_18_li8')}</li>
+            <li className="space-y-1">
+              <p>
+                <strong>{t('note_2025_08_18_li1_title')}</strong>
+              </p>
+              <p>{t('note_2025_08_18_li1_text')}</p>
+            </li>
+            <li className="space-y-1">
+              <p>
+                <strong>{t('note_2025_08_18_li2_title')}</strong>
+              </p>
+              <p>{t('note_2025_08_18_li2_text')}</p>
+            </li>
+            <li className="space-y-1">
+              <p>
+                <strong>{t('note_2025_08_18_li3_title')}</strong>
+              </p>
+              <p>{t('note_2025_08_18_li3_text')}</p>
+            </li>
+            <li className="space-y-1">
+              <p>
+                <strong>{t('note_2025_08_18_li4_title')}</strong>
+              </p>
+              <p>{t('note_2025_08_18_li4_text')}</p>
+            </li>
+            <li className="space-y-1">
+              <p>
+                <strong>{t('note_2025_08_18_li5_title')}</strong>
+              </p>
+              <p>{t('note_2025_08_18_li5_text')}</p>
+            </li>
+            <li className="space-y-1">
+              <p>
+                <strong>{t('note_2025_08_18_li6_title')}</strong>
+              </p>
+              <p>{t('note_2025_08_18_li6_text')}</p>
+            </li>
+            <li className="space-y-1">
+              <p>
+                <strong>{t('note_2025_08_18_li7_title')}</strong>
+              </p>
+              <p>{t('note_2025_08_18_li7_text')}</p>
+            </li>
+            <li className="space-y-1">
+              <p>
+                <strong>{t('note_2025_08_18_li8_title')}</strong>
+              </p>
+              <p>{t('note_2025_08_18_li8_text')}</p>
+            </li>
           </ul>
         </div>
       </div>
@@ -119,7 +159,11 @@ const notes: Note[] = [
         <div className="space-y-4 text-lg">
           <p>{t('note_2025_06_17_p1')}</p>
           <p>{t('note_2025_06_17_p2')}</p>
-          <p>{t('note_2025_06_17_p3')}</p>
+          <p>
+            {t('note_2025_06_17_p3_part1')}
+            <mark>{t('note_2025_06_17_p3_highlight')}</mark>
+            {t('note_2025_06_17_p3_part2')}
+          </p>
         </div>
       </div>
     ),
