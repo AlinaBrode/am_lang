@@ -6,6 +6,7 @@ import architectImg from '../assets/architect.webp'
 import lurikImg from '../assets/stories/lurik_00.png'
 import reptileImg from '../assets/reptile.webp'
 import hrazdanImg from '../assets/bilingual/hrazdan.webp'
+import moveImg from '../assets/stories/move_to_armenia__preparation.webp'
 import type { ReactNode } from 'react'
 
 interface Note {
@@ -16,6 +17,35 @@ interface Note {
 }
 
 const notes: Note[] = [
+  {
+    slug: 'moving-to-yerevan-part-1',
+    dateKey: 'note_2025_08_18_date',
+    titleKey: 'note_2025_08_18_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={moveImg}
+          alt={t('note_2025_08_18_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p>{t('note_2025_08_18_p1')}</p>
+          <p>{t('note_2025_08_18_p2')}</p>
+          <p>{t('note_2025_08_18_p3')}</p>
+          <ul className="list-disc list-inside space-y-2">
+            <li>{t('note_2025_08_18_li1')}</li>
+            <li>{t('note_2025_08_18_li2')}</li>
+            <li>{t('note_2025_08_18_li3')}</li>
+            <li>{t('note_2025_08_18_li4')}</li>
+            <li>{t('note_2025_08_18_li5')}</li>
+            <li>{t('note_2025_08_18_li6')}</li>
+            <li>{t('note_2025_08_18_li7')}</li>
+            <li>{t('note_2025_08_18_li8')}</li>
+          </ul>
+        </div>
+      </div>
+    ),
+  },
   {
     slug: 'why-javascript-on-a-language-site',
     dateKey: 'note_2025_07_20_date',
