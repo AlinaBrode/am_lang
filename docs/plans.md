@@ -55,6 +55,7 @@
 * make our stories linkable, create a link from gihub to story in the site 
 * create a short on youtube (using veo?) for small_etudes_post_00
   * can't progress, try later
+* fix lurik photo file 
 
 
 
