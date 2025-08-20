@@ -5,6 +5,7 @@ import Meta from '../components/Meta'
 import primitiveImg from '../assets/etudes/primitive_reference.webp'
 import letVarConstImg from '../assets/etudes/let_var_const_musketeers.webp'
 import hoistingImg from '../assets/etudes/let_var_const_musketeers_hoisting.webp'
+import swapImg from '../assets/etudes/swap.webp'
 
 interface Etude {
   titleKey: string
@@ -18,6 +19,24 @@ interface Etude {
 }
 
 const etudes: Etude[] = [
+  {
+    titleKey: 'etude_2025_08_22_title',
+    dateKey: 'etude_2025_08_22_date',
+    altKey: 'etude_2025_08_22_alt',
+    longTextKeys: [
+      'etude_2025_08_22_long1',
+      'etude_2025_08_22_long2',
+      'etude_2025_08_22_long3',
+      'etude_2025_08_22_long4',
+    ],
+    shortTextKeys: [
+      'etude_2025_08_22_short1',
+      'etude_2025_08_22_short2',
+      'etude_2025_08_22_short3',
+    ],
+    img: swapImg,
+    slug: 'swap',
+  },
   {
     titleKey: 'etude_2025_08_17_title',
     dateKey: 'etude_2025_08_17_date',
