@@ -166,6 +166,22 @@ const strings: Record<Lang, Record<string, string>> = {
     etude_2025_08_17_short2: 'var is accessible before declaration (undefined)',
     etude_2025_08_17_short3: 'let and const are inaccessible before declaration',
     etude_2025_08_17_short4: 'TDZ enforces this rule',
+    etude_2025_08_22_date: '22 Aug 2025',
+    etude_2025_08_22_title: 'Swap two values',
+    etude_2025_08_22_alt: 'Swapping two variables in JavaScript',
+    etude_2025_08_22_long1:
+      `So far we have just discussed placing values into variables, and it seems like nothing exciting can be done here. But here comes a famous question: how to swap the values of two variables? It is an important part of sorting algorithms. Try to think about it. You have two variables:<pre><code>let a = 5, b = 8;
+...
+console.log("a=", a, "b=", b);</code></pre>`,
+    etude_2025_08_22_long2:
+      'Your task is to place code instead of ..., so the output is: a=8, b=5. Of course, you should make the solution generic and use assignments between variables. Note that statements like a = b or b = a immediately ruin your game because after them one of the values is gone. You can avoid this pitfall by introducing a third variable. Try to write your own program and test it in the console of your browser.',
+    etude_2025_08_22_long3:
+      'The code you get is a famous "swap" function one can find in libraries. The harder and not so well-known problem is how to swap values without introducing a third variable. Here you can think about other operations besides pure assignment.',
+    etude_2025_08_22_long4:
+      'If you get stuck, you can check answers on our github page: <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/swap/swap_three.js" target="_blank" rel="noopener noreferrer">three</a>, <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/swap/swap_minus.js" target="_blank" rel="noopener noreferrer">minus</a> and <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/swap/swap_xor.js" target="_blank" rel="noopener noreferrer">xor</a>. Also you can play in our swap simulator "ref".',
+    etude_2025_08_22_short1: 'swap(a, b) moves the value of a to b and b to a',
+    etude_2025_08_22_short2: 'Common approach: use three variables',
+    etude_2025_08_22_short3: 'Trick: only two variables are enough',
     drivers_title: 'Reliable drivers',
     drivers_col_name: 'Driver',
     drivers_col_region: 'Region',
@@ -330,6 +346,22 @@ const strings: Record<Lang, Record<string, string>> = {
     etude_2025_08_17_short2: 'var доступна до объявления (undefined)',
     etude_2025_08_17_short3: 'let и const недоступны до объявления',
     etude_2025_08_17_short4: 'TDZ обеспечивает это поведение',
+    etude_2025_08_22_date: '22 августа 2025',
+    etude_2025_08_22_title: 'Обмен значениями',
+    etude_2025_08_22_alt: 'обмен значениями двух переменных в JavaScript',
+    etude_2025_08_22_long1:
+      `До сих пор мы только присваивали значения переменным, и казалось, что ничего интересного сделать нельзя. Но есть известная задача: как обменять значения двух переменных? Это важная часть сортировочных алгоритмов. Попробуйте подумать. У вас есть две переменные:<pre><code>let a = 5, b = 8;
+...
+console.log("a=", a, "b=", b);</code></pre>`,
+    etude_2025_08_22_long2:
+      'Ваша задача — вставить код вместо ..., чтобы вывод был: a=8, b=5. Разумеется, решение должно быть универсальным и использовать присваивания между переменными. Учтите, что выражения a = b или b = a сразу портят игру: одно из значений теряется. Избежать этой ловушки можно, введя третью переменную. Попробуйте написать свою программу и протестировать её в консоли браузера.',
+    etude_2025_08_22_long3:
+      'Получившийся код — известная функция «swap», которую можно встретить в библиотеках. Более сложная и менее известная задача — обменять значения без введения третьей переменной. Здесь можно подумать о других операциях, кроме чистого присваивания.',
+    etude_2025_08_22_long4:
+      'Если застряли, загляните на наш GitHub: <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/swap/swap_three.js" target="_blank" rel="noopener noreferrer">three</a>, <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/swap/swap_minus.js" target="_blank" rel="noopener noreferrer">minus</a> и <a href="https://github.com/AlinaBrode/js_snippets_blog/blob/main/swap/swap_xor.js" target="_blank" rel="noopener noreferrer">xor</a>. Также можно поиграть в наш симулятор обмена «ref».',
+    etude_2025_08_22_short1: 'swap(a, b) переносит значение из a в b и из b в a',
+    etude_2025_08_22_short2: 'Обычный подход — использовать три переменные',
+    etude_2025_08_22_short3: 'Хитрость — достаточно двух переменных',
     drivers_title: 'Проверенные водители',
     drivers_col_name: 'Водитель',
     drivers_col_region: 'Регион',
