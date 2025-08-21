@@ -1,10 +1,5 @@
 
-* fix error in article "It's impossible to pronounce". Review for similar.
-
-
 # Site
-* put on site Alina and Arseniy "hello!" intruduction
-* in alphabet trainer somehow make it obvious that you are to click on uppercase letter
 * instagram
 * next step with registered user
   * subscription:
@@ -162,4 +157,7 @@
 * duplicate our posts on site in our telegram channel
 * each note in interesting notes should be linkable (to share link in telegram or on the other site)
 * make publication on linkedin with reference to programming post
+* fix error in article "It's impossible to pronounce". Review for similar.
+* put on site Alina and Arseniy "hello!" intruduction
+* in alphabet trainer somehow make it obvious that you are to click on uppercase letter
 
