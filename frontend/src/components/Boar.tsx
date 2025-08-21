@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import boarImg from '../assets/little-boar400x600.webp'
 import telegramLogo from '../assets/telegram_logo.svg'
 import { useLanguage, type Lang } from '../useLanguage'
@@ -8,14 +9,24 @@ const phrases: Record<Lang, string[]> = {
   ru: ['Привет!', 'Хорошего дня!', 'Учите армянский!']
 }
 
+const alphabetAdvice: Record<Lang, string> = {
+  en: 'Try and click on an uppercase letter',
+  ru: 'Попробуй нажать на заглавную букву'
+}
+
 export default function Boar() {
   const { lang, t } = useLanguage()
+  const location = useLocation()
   const [phrase, setPhrase] = useState('')
 
   useEffect(() => {
-    const list = phrases[lang]
-    setPhrase(list[Math.floor(Math.random() * list.length)])
-  }, [lang])
+    if (location.pathname.includes('/alphabet')) {
+      setPhrase(alphabetAdvice[lang])
+    } else {
+      const list = phrases[lang]
+      setPhrase(list[Math.floor(Math.random() * list.length)])
+    }
+  }, [lang, location.pathname])
 
   return (
     <div className="fixed right-2 bottom-2 z-50 w-24 sm:w-32 md:w-40 text-center">
