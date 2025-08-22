@@ -6,7 +6,8 @@ import architectImg from '../assets/architect.webp'
 import lurikImg from '../assets/stories/lurik_00.png'
 import reptileImg from '../assets/reptile.webp'
 import hrazdanImg from '../assets/bilingual/hrazdan.webp'
-import moveImg from '../assets/stories/move_to_armenia__preparation.webp'
+import movePart1Img from '../assets/stories/move_to_armenia__preparation.webp'
+import movePart2Img from '../assets/stories/move_to_armenia__preparation_00.webp'
 import type { ReactNode } from 'react'
 
 interface Note {
@@ -18,13 +19,75 @@ interface Note {
 
 const notes: Note[] = [
   {
+    slug: 'moving-to-yerevan-part-2',
+    dateKey: 'note_2025_08_25_date',
+    titleKey: 'note_2025_08_25_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={movePart2Img}
+          alt={t('note_2025_08_25_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p>{t('note_2025_08_25_p1')}</p>
+          <p>{t('note_2025_08_25_p2')}</p>
+          <p>{t('note_2025_08_25_p3')}</p>
+          <p>{t('note_2025_08_25_p4')}</p>
+          <p>{t('note_2025_08_25_p5')}</p>
+          <p>
+            <strong>{t('note_2025_08_25_private')}</strong>
+          </p>
+          <p>
+            <strong>{t('note_2025_08_25_private_cons_title')}</strong>
+          </p>
+          <ul className="list-disc list-inside space-y-2">
+            <li>{t('note_2025_08_25_private_con1')}</li>
+            <li>{t('note_2025_08_25_private_con2')}</li>
+          </ul>
+          <p>
+            <strong>{t('note_2025_08_25_private_pros_title')}</strong>
+          </p>
+          <ul className="list-disc list-inside space-y-2">
+            <li>{t('note_2025_08_25_private_pro1')}</li>
+            <li>{t('note_2025_08_25_private_pro2')}</li>
+            <li>{t('note_2025_08_25_private_pro3')}</li>
+            <li>{t('note_2025_08_25_private_pro4')}</li>
+            <li>{t('note_2025_08_25_private_pro5')}</li>
+            <li>{t('note_2025_08_25_private_pro6')}</li>
+          </ul>
+          <p>
+            <strong>{t('note_2025_08_25_public')}</strong>
+          </p>
+          <p>
+            <strong>{t('note_2025_08_25_public_pros_title')}</strong>
+          </p>
+          <ul className="list-disc list-inside space-y-2">
+            <li>{t('note_2025_08_25_public_pro1')}</li>
+          </ul>
+          <p>
+            <strong>{t('note_2025_08_25_public_cons_title')}</strong>
+          </p>
+          <ul className="list-disc list-inside space-y-2">
+            <li>{t('note_2025_08_25_public_con1')}</li>
+            <li>{t('note_2025_08_25_public_con2')}</li>
+            <li>{t('note_2025_08_25_public_con3')}</li>
+            <li>{t('note_2025_08_25_public_con4')}</li>
+          </ul>
+          <p>{t('note_2025_08_25_docs')}</p>
+          <p>{t('note_2025_08_25_p6')}</p>
+        </div>
+      </div>
+    ),
+  },
+  {
     slug: 'moving-to-yerevan-part-1',
     dateKey: 'note_2025_08_18_date',
     titleKey: 'note_2025_08_18_title',
     render: (t) => (
       <div className="grid md:grid-cols-2 gap-4 items-start">
         <img
-          src={moveImg}
+          src={movePart1Img}
           alt={t('note_2025_08_18_alt')}
           className="w-full md:max-w-xs mx-auto"
         />
