@@ -95,6 +95,44 @@ const strings: Record<Lang, Record<string, string>> = {
     note_2025_08_18_li8_title: 'Check for outstanding debts: unpaid fines, child support...',
     note_2025_08_18_li8_text:
       'Otherwise you may not be allowed to leave the country.',
+    note_2025_08_25_date: '25 Aug 2025',
+    note_2025_08_25_title: 'Moving to Yerevan. Part 2',
+    note_2025_08_25_alt: 'School visit in Yerevan',
+    note_2025_08_25_p1:
+      'One of the toughest questions of relocation is how a child will react. It is stressful for an adult, and doubly so for a teenager. When we discussed moving, Vlad was 12\u00bd; he moved at 13. Choosing a school was fundamental. I carefully studied school channels; here is the main <a href="https://t.me/ru_schools_armenia" target="_blank" rel="noopener noreferrer">channel</a> again. It has a handy table listing schools and tuition. Based on parent comments and our vision we considered private schools with smaller classes and more attentive teachers. Entrance exams reduce the risk of bullying.',
+    note_2025_08_25_p2:
+      'At the time our friends lived in Yerevan and helped with advice on choosing schools and stories about life there, convincing us that our choice of country and city was a good idea. They later moved to Scotland where Olga runs an interesting blog about life there and the antique trade. From the list we looked at the Free School, Newberg and Perspektiva. All had good reviews and a young team of passionate teachers. During our summer vacation we decided to visit Yerevan, tour the schools, meet the principal, head teacher and teachers, and see the neighborhoods and buildings. We made appointments. In Perspektiva and the Free School, Vlad took entrance exams in Russian, math and English. At Newberg we saw the building and met the director. Atmosphere-wise Vlad liked Newberg most, but we did not attend the exams in person.',
+    note_2025_08_25_p3:
+      'After returning to Moscow he took Russian and math exams online, had an interview in English and a talk with a psychologist. He was accepted into 7th grade. We do not regret this choice: he studies with pleasure and met good classmates. We formed a community with their parents. The only downside for me is that our school cannot provide an international diploma, unlike the Free School with international accreditation or, additionally, BISA (a Cambridge-accredited school). Another plus of our school is its location in the cleaner and cooler Arabkir district.',
+    note_2025_08_25_p4:
+      'Back to worries: the move was easy for our child. He packed with us, helped choose an apartment (that will be a separate post) and enthusiastically joined the preparations despite concerns about new classmates and teachers. Of course, it all depends on the child.',
+    note_2025_08_25_p5:
+      'Here is my personal list of private and public schools (based on what I read in channels and our experience).',
+    note_2025_08_25_private: 'Private',
+    note_2025_08_25_private_cons_title: 'Cons:',
+    note_2025_08_25_private_con1: 'Diplomas are not recognized abroad.',
+    note_2025_08_25_private_con2: 'High tuition\u2014about $400 per month or more.',
+    note_2025_08_25_private_pros_title: 'Pros:',
+    note_2025_08_25_private_pro1: 'No social security card required for admission or study.',
+    note_2025_08_25_private_pro2: 'Individual approach.',
+    note_2025_08_25_private_pro3: 'Quality teaching.',
+    note_2025_08_25_private_pro4: 'More foreign language hours.',
+    note_2025_08_25_private_pro5: 'Small classes: 7\u201310 students.',
+    note_2025_08_25_private_pro6: 'Comfortable environment.',
+    note_2025_08_25_public: 'Public',
+    note_2025_08_25_public_pros_title: 'Pros:',
+    note_2025_08_25_public_pro1:
+      'A state certificate issued in Armenia is accepted abroad; specific requirements depend on the country and university, and tuition is free.',
+    note_2025_08_25_public_cons_title: 'Cons:',
+    note_2025_08_25_public_con1:
+      'Admission can be difficult: registration is online and requires a social security card.',
+    note_2025_08_25_public_con2: 'Classes can be large.',
+    note_2025_08_25_public_con3: 'Education quality.',
+    note_2025_08_25_public_con4: 'Higher chance of bullying.',
+    note_2025_08_25_docs:
+      'Documents from a Russian school are easy to retrieve: come, write an application and take your personal file.',
+    note_2025_08_25_p6:
+      'If you have any questions, feel free to ask in the comments.',
     note_2025_06_17_date: '17 Jun 2025',
     note_2025_06_17_title: "It's impossible to pronounce",
     note_2025_06_17_alt: 'Alexander Tamanian',
@@ -275,6 +313,43 @@ console.log("a=", a, "b=", b);</code></pre>`,
     note_2025_08_18_li8_title: 'Проверка задолженностей: неоплаченные штрафы, алименты...',
     note_2025_08_18_li8_text:
       'Иначе на границе не выпустят.',
+    note_2025_08_25_date: '25 августа 2025',
+    note_2025_08_25_title: 'Подготовка к переезду. Часть 2',
+    note_2025_08_25_alt: 'Осмотр школы в Ереване',
+    note_2025_08_25_p1:
+      'Один из самых непростых вопросов переезда — как ребёнок отнесётся к нему. Для взрослого человека это стресс. Для ребёнка, тем более подростка, — стресс вдвойне. На момент разговоров о переезде Владу было 12,5 лет, переехал он в 13. Вопрос выбора школы был основополагающим. Я внимательно изучала каналы школ; ссылку на основной <a href="https://t.me/ru_schools_armenia" target="_blank" rel="noopener noreferrer">канал</a> оставлю ещё раз. Там есть удобная таблица со списком всех школ, стоимостью обучения. По комментариям родителей и по нашему видению рассматривали частные школы: меньше классы, более внимательное отношение к ученикам. Есть отбор при поступлении, поэтому риск буллинга уменьшается.',
+    note_2025_08_25_p2:
+      'На момент раздумий о переезде наши друзья жили в Ереване и очень помогли нам советами при выборе школ, рассказами о жизни в Ереване, а также убедили, что наш выбор страны и города действительно хорошая затея. Сейчас они переехали в Шотландию, у Ольги интересный блог про жизнь в Шотландии и антикварное дело. Из списка школ рассматривали «Свободную школу», «Нюберг», «Перспективу». Много хороших отзывов, молодой коллектив педагогов — людей увлечённых и продвинутых. На период летнего отпуска решили ехать в Ереван, посмотреть школы, познакомиться лично с директором, завучем, учителями; посмотреть район и здание школы. Мы записались на приём. В «Перспективе» и «Свободной школе» Влад писал вступительные экзамены по русскому, математике и английскому языку. В «Нюберге» мы посмотрели здание, познакомились с директором. По атмосфере ребёнку больше всего понравился «Нюберг», но мы не попали на экзамены очно.',
+    note_2025_08_25_p3:
+      'После возвращения в Москву он онлайн сдавал русский и математику, прошёл интервью на английском языке и беседу с психологом. Его приняли в 7-й класс. Мы не жалеем об этом выборе: ребёнок учится с удовольствием, там он познакомился с хорошими ребятами. У нас сформировалось комьюнити из родителей одноклассников Влада. Единственный минус для меня сейчас — на базе нашей школы нельзя получить международный диплом, как, например, в «Свободной школе», где есть международная аккредитация, или дополнительно, окончив BISA (школа с кэмбриджской аккредитацией). Также плюсом нашей школы является расположение в более чистом и менее жарком районе — Арабкире.',
+    note_2025_08_25_p4:
+      'Возвращаясь к тревогам: ребёнку переезд дался легко, он вместе с нами собирался, участвовал в выборе квартиры (об этом будет отдельный пост); со всем авантюризмом включился в сборы и обсуждения, несмотря на опасения относительно новых одноклассников и учителей. Но, конечно, всё зависит от ребёнка.',
+    note_2025_08_25_p5:
+      'Мой личный список частных и государственных школ (основан на том, что я вычитывала в каналах и личном опыте).',
+    note_2025_08_25_private: 'Частные',
+    note_2025_08_25_private_cons_title: 'Минусы:',
+    note_2025_08_25_private_con1: 'Диплом об окончании не принимается за границей.',
+    note_2025_08_25_private_con2: 'Высокая стоимость обучения — примерно 400 долларов в месяц и выше.',
+    note_2025_08_25_private_pros_title: 'Плюсы:',
+    note_2025_08_25_private_pro1: 'Для поступления и обучения не нужна соцкарта.',
+    note_2025_08_25_private_pro2: 'Индивидуальный подход.',
+    note_2025_08_25_private_pro3: 'Качество преподавания.',
+    note_2025_08_25_private_pro4: 'Больше часов иностранного языка.',
+    note_2025_08_25_private_pro5: 'Небольшие классы: 7–10 человек.',
+    note_2025_08_25_private_pro6: 'Комфортный климат.',
+    note_2025_08_25_public: 'Государственные',
+    note_2025_08_25_public_pros_title: 'Плюсы:',
+    note_2025_08_25_public_pro1:
+      'Государственный аттестат, выданный в Армении, признаётся при поступлении за рубеж; конкретные требования зависят от страны и университета, обучение бесплатно.',
+    note_2025_08_25_public_cons_title: 'Минусы:',
+    note_2025_08_25_public_con1: 'Непросто попасть: запись электронная, необходима соцкарта.',
+    note_2025_08_25_public_con2: 'Могут быть большие классы.',
+    note_2025_08_25_public_con3: 'Качество образования.',
+    note_2025_08_25_public_con4: 'Больше вероятность буллинга.',
+    note_2025_08_25_docs:
+      'Документы из российской школы забираются просто. Приходишь, пишешь заявление, забираешь личное дело.',
+    note_2025_08_25_p6:
+      'Если есть какие-то вопросы, можно смело задавать их в комментариях.',
     note_2025_06_17_date: '17 июня 2025',
     note_2025_06_17_title: 'Невозможно произнести',
     note_2025_06_17_alt: 'Александр Таманян',
