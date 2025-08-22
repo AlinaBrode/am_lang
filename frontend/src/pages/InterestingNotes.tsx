@@ -30,11 +30,11 @@ const notes: Note[] = [
           className="w-full md:max-w-xs mx-auto"
         />
         <div className="space-y-4 text-lg">
-          <p>{t('note_2025_08_25_p1')}</p>
-          <p>{t('note_2025_08_25_p2')}</p>
-          <p>{t('note_2025_08_25_p3')}</p>
-          <p>{t('note_2025_08_25_p4')}</p>
-          <p>{t('note_2025_08_25_p5')}</p>
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_25_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_25_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_25_p3') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_25_p4') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_25_p5') }} />
           <p>
             <strong>{t('note_2025_08_25_private')}</strong>
           </p>
@@ -42,19 +42,51 @@ const notes: Note[] = [
             <strong>{t('note_2025_08_25_private_cons_title')}</strong>
           </p>
           <ul className="list-disc list-inside space-y-2">
-            <li>{t('note_2025_08_25_private_con1')}</li>
-            <li>{t('note_2025_08_25_private_con2')}</li>
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_private_con1'),
+              }}
+            />
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_private_con2'),
+              }}
+            />
           </ul>
           <p>
             <strong>{t('note_2025_08_25_private_pros_title')}</strong>
           </p>
           <ul className="list-disc list-inside space-y-2">
-            <li>{t('note_2025_08_25_private_pro1')}</li>
-            <li>{t('note_2025_08_25_private_pro2')}</li>
-            <li>{t('note_2025_08_25_private_pro3')}</li>
-            <li>{t('note_2025_08_25_private_pro4')}</li>
-            <li>{t('note_2025_08_25_private_pro5')}</li>
-            <li>{t('note_2025_08_25_private_pro6')}</li>
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_private_pro1'),
+              }}
+            />
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_private_pro2'),
+              }}
+            />
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_private_pro3'),
+              }}
+            />
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_private_pro4'),
+              }}
+            />
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_private_pro5'),
+              }}
+            />
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_private_pro6'),
+              }}
+            />
           </ul>
           <p>
             <strong>{t('note_2025_08_25_public')}</strong>
@@ -63,19 +95,39 @@ const notes: Note[] = [
             <strong>{t('note_2025_08_25_public_pros_title')}</strong>
           </p>
           <ul className="list-disc list-inside space-y-2">
-            <li>{t('note_2025_08_25_public_pro1')}</li>
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_public_pro1'),
+              }}
+            />
           </ul>
           <p>
             <strong>{t('note_2025_08_25_public_cons_title')}</strong>
           </p>
           <ul className="list-disc list-inside space-y-2">
-            <li>{t('note_2025_08_25_public_con1')}</li>
-            <li>{t('note_2025_08_25_public_con2')}</li>
-            <li>{t('note_2025_08_25_public_con3')}</li>
-            <li>{t('note_2025_08_25_public_con4')}</li>
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_public_con1'),
+              }}
+            />
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_public_con2'),
+              }}
+            />
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_public_con3'),
+              }}
+            />
+            <li
+              dangerouslySetInnerHTML={{
+                __html: t('note_2025_08_25_public_con4'),
+              }}
+            />
           </ul>
-          <p>{t('note_2025_08_25_docs')}</p>
-          <p>{t('note_2025_08_25_p6')}</p>
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_25_docs') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_25_p6') }} />
         </div>
       </div>
     ),
@@ -92,57 +144,89 @@ const notes: Note[] = [
           className="w-full md:max-w-xs mx-auto"
         />
         <div className="space-y-4 text-lg">
-          <p>{t('note_2025_08_18_p1')}</p>
-          <p>{t('note_2025_08_18_p2')}</p>
-          <p>{t('note_2025_08_18_p3')}</p>
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_18_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_18_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_18_p3') }} />
           <ul className="list-disc list-inside space-y-2">
             <li className="space-y-1">
               <p>
                 <strong>{t('note_2025_08_18_li1_title')}</strong>
               </p>
-              <p>{t('note_2025_08_18_li1_text')}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t('note_2025_08_18_li1_text'),
+                }}
+              />
             </li>
             <li className="space-y-1">
               <p>
                 <strong>{t('note_2025_08_18_li2_title')}</strong>
               </p>
-              <p>{t('note_2025_08_18_li2_text')}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t('note_2025_08_18_li2_text'),
+                }}
+              />
             </li>
             <li className="space-y-1">
               <p>
                 <strong>{t('note_2025_08_18_li3_title')}</strong>
               </p>
-              <p>{t('note_2025_08_18_li3_text')}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t('note_2025_08_18_li3_text'),
+                }}
+              />
             </li>
             <li className="space-y-1">
               <p>
                 <strong>{t('note_2025_08_18_li4_title')}</strong>
               </p>
-              <p>{t('note_2025_08_18_li4_text')}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t('note_2025_08_18_li4_text'),
+                }}
+              />
             </li>
             <li className="space-y-1">
               <p>
                 <strong>{t('note_2025_08_18_li5_title')}</strong>
               </p>
-              <p>{t('note_2025_08_18_li5_text')}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t('note_2025_08_18_li5_text'),
+                }}
+              />
             </li>
             <li className="space-y-1">
               <p>
                 <strong>{t('note_2025_08_18_li6_title')}</strong>
               </p>
-              <p>{t('note_2025_08_18_li6_text')}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t('note_2025_08_18_li6_text'),
+                }}
+              />
             </li>
             <li className="space-y-1">
               <p>
                 <strong>{t('note_2025_08_18_li7_title')}</strong>
               </p>
-              <p>{t('note_2025_08_18_li7_text')}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t('note_2025_08_18_li7_text'),
+                }}
+              />
             </li>
             <li className="space-y-1">
               <p>
                 <strong>{t('note_2025_08_18_li8_title')}</strong>
               </p>
-              <p>{t('note_2025_08_18_li8_text')}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t('note_2025_08_18_li8_text'),
+                }}
+              />
             </li>
           </ul>
         </div>
@@ -161,10 +245,10 @@ const notes: Note[] = [
           className="w-full md:max-w-xs mx-auto"
         />
         <div className="space-y-4 text-lg">
-          <p>{t('note_2025_07_20_p1')}</p>
-          <p>{t('note_2025_07_20_p2')}</p>
-          <p>{t('note_2025_07_20_p3')}</p>
-          <p>{t('note_2025_07_20_p4')}</p>
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_20_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_20_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_20_p3') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_20_p4') }} />
         </div>
       </div>
     ),
@@ -181,10 +265,10 @@ const notes: Note[] = [
           className="w-full md:max-w-xs mx-auto"
         />
         <div className="space-y-4 text-lg">
-          <p>{t('note_2025_07_07_p1')}</p>
-          <p>{t('note_2025_07_07_p2')}</p>
-          <p>{t('note_2025_07_07_p3')}</p>
-          <p>{t('note_2025_07_07_p4')}</p>
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_07_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_07_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_07_p3') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_07_p4') }} />
         </div>
       </div>
     ),
@@ -201,9 +285,9 @@ const notes: Note[] = [
           className="w-full md:max-w-xs mx-auto"
         />
         <div className="space-y-4 text-lg">
-          <p>{t('note_2025_06_19_p1')}</p>
-          <p>{t('note_2025_06_19_p2')}</p>
-          <p>{t('note_2025_06_19_p3')}</p>
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_06_19_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_06_19_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_06_19_p3') }} />
         </div>
       </div>
     ),
