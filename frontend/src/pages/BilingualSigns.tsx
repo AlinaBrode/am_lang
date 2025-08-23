@@ -15,8 +15,8 @@ interface Sign {
 const signs: Sign[] = [
   {
     slug: 'hrazdan-railroad-station',
-    dateKey: 'sign_2025_07_20_date',
-    titleKey: 'sign_2025_07_20_title',
+    dateKey: 'sign_2025_08_12_date',
+    titleKey: 'sign_2025_08_12_title',
     render: (t, lang) => {
       const translit =
         lang === 'ru'
@@ -27,12 +27,12 @@ const signs: Sign[] = [
         <div className="grid md:grid-cols-2 gap-4 items-start">
           <img
             src={hrazdanImg}
-            alt={t('sign_2025_07_20_alt')}
+            alt={t('sign_2025_08_12_alt')}
             className="w-full md:max-w-xs mx-auto"
           />
           <div className="space-y-4 text-lg">
-            <p>{t('sign_2025_07_20_p1')}</p>
-            <p>{t('sign_2025_07_20_p2')}</p>
+            <p>{t('sign_2025_08_12_p1')}</p>
+            <p>{t('sign_2025_08_12_p2')}</p>
             <table className="table-auto border-collapse mt-4">
               <tbody>
                 <tr>

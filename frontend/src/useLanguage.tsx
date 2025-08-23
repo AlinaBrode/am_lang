@@ -45,23 +45,23 @@ const strings: Record<Lang, Record<string, string>> = {
     small_etudes_title: 'Small etudes',
     interesting_notes_title: 'Interesting notes',
     bilingual_signs_title: 'Bilingual signs',
-    sign_2025_07_20_date: '12 Aug 2025',
-    sign_2025_07_20_title: 'Hrazdan railroad station',
-    sign_2025_07_20_alt: 'Hrazdan railroad station sign',
-    sign_2025_07_20_p1:
+    sign_2025_08_12_date: '12 Aug 2025',
+    sign_2025_08_12_title: 'Hrazdan railroad station',
+    sign_2025_08_12_alt: 'Hrazdan railroad station sign',
+    sign_2025_08_12_p1:
       'In Armenia, many signs are also translated into Russian or English. This is a surprisingly good way to learn the Armenian alphabet. Today we want to share with you a picture we took at the Hrazdan railway station. This place is not widely known as a tourist attraction but nevertheless has its own charm. Later we will share more photos of this place.',
-    sign_2025_07_20_p2:
+    sign_2025_08_12_p2:
       'Below is a table showing the correspondence between the Armenian name ՀՐԱԶԴԱՆ and its Latin transliteration “hrazdan.” Here one can see that the letter Հ (H) is not pronounced in this context, Ր corresponds to “R,” Ա to “A,” Զ to “Z,” Դ to “D,” the second Ա again to “A,” and Ն to “N.”',
-    note_2025_07_20_date: '11 Aug 2025',
-    note_2025_07_20_title: 'Why JavaScript on a language site',
-    note_2025_07_20_alt: 'Hrazdan Gorge in Yerevan',
-    note_2025_07_20_p1:
+    note_2025_08_11_date: '11 Aug 2025',
+    note_2025_08_11_title: 'Why JavaScript on a language site',
+    note_2025_08_11_alt: 'Hrazdan Gorge in Yerevan',
+    note_2025_08_11_p1:
       'It may seem strange to find a programming section on a site about Armenian words and notes about Yerevan.',
-    note_2025_07_20_p2:
+    note_2025_08_11_p2:
       'After leaving my accounting career, I chose to retrain as a frontend developer. After a Practicum course I kept writing training programs in JS and exploring HTML and CSS.',
-    note_2025_07_20_p3:
+    note_2025_08_11_p3:
       'At the same time we tried to learn Armenian. The alphabet was a barrier: it is bigger than the Russian one, upper and lowercase letters differ, and no simple self-study guides combined picture, word, meaning and pronunciation.',
-    note_2025_07_20_p4:
+    note_2025_08_11_p4:
       'We noticed many signs with Armenian words duplicated in Russian or Latin letters, making the alphabet easier to grasp. So we launched a simple HTML/CSS/JS project for newcomers like us and added a blog section about JavaScript basics\u2014after all, it is a language too.',
     note_2025_08_18_date: '18 Aug 2025',
     note_2025_08_18_title: 'Moving to Yerevan. Part 1',
@@ -264,23 +264,23 @@ console.log("a=", a, "b=", b);</code></pre>`,
     small_etudes_title: 'маленькие этюды',
     interesting_notes_title: 'любопытные заметки',
     bilingual_signs_title: 'Двуязычные вывески',
-    sign_2025_07_20_date: '12 августа 2025',
-    sign_2025_07_20_title: 'Железнодорожная станция Раздан',
-    sign_2025_07_20_alt: 'вывеска железнодорожной станции Раздан',
-    sign_2025_07_20_p1:
+    sign_2025_08_12_date: '12 августа 2025',
+    sign_2025_08_12_title: 'Железнодорожная станция Раздан',
+    sign_2025_08_12_alt: 'вывеска железнодорожной станции Раздан',
+    sign_2025_08_12_p1:
       'В Армении многие вывески продублированы на русском или английском. Это удивительно хороший способ выучить армянский алфавит. Сегодня мы хотим поделиться фотографией, сделанной на железнодорожной станции Раздан. Это место не так популярно у туристов, но всё же обладает своим шармом. Позже мы поделимся и другими фотографиями этого места.',
-    sign_2025_07_20_p2:
+    sign_2025_08_12_p2:
       'Ниже приведена таблица соответствия между армянским названием ՀՐԱԶԴԱՆ и его русской транслитерацией «раздан». Видно, что буква Հ (H) здесь не произносится, Ր соответствует «Р», Ա — «А», Զ — «З», Դ — «Д», второе Ա снова «А», а Ն — «Н».',
-    note_2025_07_20_date: '11 августа 2025',
-    note_2025_07_20_title: 'Зачем JavaScript на языковом сайте',
-    note_2025_07_20_alt: 'ущелье Раздана в Ереване',
-    note_2025_07_20_p1:
+    note_2025_08_11_date: '11 августа 2025',
+    note_2025_08_11_title: 'Зачем JavaScript на языковом сайте',
+    note_2025_08_11_alt: 'ущелье Раздана в Ереване',
+    note_2025_08_11_p1:
       'Сначала может показаться странным, что на сайте о армянских словах и заметках про Армению есть раздел про программирование.',
-    note_2025_07_20_p2:
+    note_2025_08_11_p2:
       'После того как я окончательно порвала с бухгалтерией и законами, выбрала переподготовку по фронтенду и после курса Практикума продолжаю писать учебные программки на JS, выкладывать их на git и разбираться в html и css.',
-    note_2025_07_20_p3:
+    note_2025_08_11_p3:
       'Параллельно мы пытались учить армянский язык. Алфавит оказался непреодолимым: он больше и сложнее русского, заглавные и строчные буквы различаются, а простых самоучителей со связкой картинка-слово-значение-произношение нет.',
-    note_2025_07_20_p4:
+    note_2025_08_11_p4:
       'На городских вывесках мы заметили дублирование армянских слов русскими или латинскими буквами, что облегчает освоение алфавита. Так возникла идея простого проекта на html, css и js для таких релокантов, как мы. Поэтому в блог добавили раздел про основы JavaScript — ведь это тоже язык.',
     note_2025_08_18_date: '18 августа 2025',
     note_2025_08_18_title: 'Переезд в Ереван. Часть 1',

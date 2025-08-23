@@ -235,20 +235,20 @@ const notes: Note[] = [
   },
   {
     slug: 'why-javascript-on-a-language-site',
-    dateKey: 'note_2025_07_20_date',
-    titleKey: 'note_2025_07_20_title',
+    dateKey: 'note_2025_08_11_date',
+    titleKey: 'note_2025_08_11_title',
     render: (t) => (
       <div className="grid md:grid-cols-2 gap-4 items-start">
         <img
           src={hrazdanImg}
-          alt={t('note_2025_07_20_alt')}
+          alt={t('note_2025_08_11_alt')}
           className="w-full md:max-w-xs mx-auto"
         />
         <div className="space-y-4 text-lg">
-          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_20_p1') }} />
-          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_20_p2') }} />
-          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_20_p3') }} />
-          <p dangerouslySetInnerHTML={{ __html: t('note_2025_07_20_p4') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_11_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_11_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_11_p3') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_08_11_p4') }} />
         </div>
       </div>
     ),
