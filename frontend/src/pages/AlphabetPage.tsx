@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { onAuthStateChanged } from 'firebase/auth'
 import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
 import LetterModal from '../components/LetterModal'
 import type { WordInfo } from '../components/LetterModal'
 import { rawWordInfoList } from '../data/rawWordInfoList'
+import { auth } from '../lib/firebase'
 
 const groupedWordInfo = rawWordInfoList.reduce(
   (acc, info) => {
@@ -64,9 +66,19 @@ const letterSoundMap: Record<string, { en: string; ru: string }> = Object.fromEn
   letters.map(([upper, , en, ru]) => [upper, { en, ru }])
 )
 
+const defaultLetters = new Set(['Ա', 'Բ', 'Գ', 'Խ', 'Շ', 'Ֆ', 'Մ'])
+
 export default function AlphabetPage() {
   const { t } = useLanguage()
   const [active, setActive] = useState<WordInfo | null>(null)
+  const [authorized, setAuthorized] = useState<boolean | null>(null)
+
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, (u) => {
+      setAuthorized(u != null)
+    })
+    return () => unsub()
+  }, [])
 
   const openInfo = (letter: string) => {
     const infoList = wordInfoMap[letter]
@@ -97,18 +109,25 @@ export default function AlphabetPage() {
         <tbody>
           {letters.map(([armUpper, armLower, en, ru]) => {
             const isMissing = !wordInfoMap[armUpper]
+            const isAccessible = authorized || defaultLetters.has(armUpper)
             return (
-            <tr key={armUpper} className={isMissing ? 'bg-orange-100' : ''}>
-              <td
-                className="border px-2 text-center text-2xl cursor-pointer hover:bg-sky-100"
-                onClick={() => openInfo(armUpper)}
-              >
-                {armUpper}
-              </td>
-              <td className="border px-2 text-center text-2xl">{armLower}</td>
-              <td className="border px-2">{en}</td>
-              <td className="border px-2">{ru}</td>
-          </tr>
+              <tr key={armUpper} className={isMissing ? 'bg-orange-100' : ''}>
+                <td
+                  className={`border px-2 text-center text-2xl ${
+                    isAccessible && !isMissing
+                      ? 'cursor-pointer hover:bg-sky-100'
+                      : 'bg-[#B25328] text-white cursor-not-allowed'
+                  }`}
+                  onClick={
+                    isAccessible && !isMissing ? () => openInfo(armUpper) : undefined
+                  }
+                >
+                  {armUpper}
+                </td>
+                <td className="border px-2 text-center text-2xl">{armLower}</td>
+                <td className="border px-2">{en}</td>
+                <td className="border px-2">{ru}</td>
+              </tr>
             )
           })}
         </tbody>
