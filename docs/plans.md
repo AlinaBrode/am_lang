@@ -64,7 +64,7 @@
   * subscription:
     * limit access without payment
   * per user payment tracking
-
+* click on a blocked letter in vocabulary trainer - show a sign with explanation what they to do, like in "print a card" page
 
 
 * on pause until Yerevan
