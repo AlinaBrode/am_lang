@@ -1,8 +1,6 @@
-* fix code so dates in variables name are the same as in content
 
 # Site
 * create a new post in telegram about bilingual signs
-* fix width of "login" and "password" inputs in the sign up form
 * find telegram channels about Armenian language education, check whether we can mention our channel and web site
   * use query about Armenian alphabet
 * find forums where people asks about armenian basics
@@ -178,4 +176,6 @@
 * make restricted access to alphabet trainer and word trainer. Unregistered user can see a subset of cards only. registered can see all cards.
 * download bilingual photos to computer
 * fix too heavy expression "популярной туристической достопримечательностью" in Hrazdan article
+* fix code so dates in variables name are the same as in content
+* fix width of "login" and "password" inputs in the sign up form
 
