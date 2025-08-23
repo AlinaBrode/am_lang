@@ -39,22 +39,42 @@ export default function AuthPanel() {
 
   if (user) {
     return (
-      <div style={{ padding: "1rem", border: "1px solid #ccc", borderRadius: 4 }}>
-        <p>Signed in as <b>{user.email}</b></p>
+      <div
+        style={{
+          padding: "1rem",
+          border: "1px solid #ccc",
+          borderRadius: 4,
+          width: "100%",
+        }}
+      >
+        <p>
+          Signed in as <b>{user.email}</b>
+        </p>
         <button onClick={() => signOut(auth)}>Sign out</button>
       </div>
     );
   }
 
   return (
-    <div style={{ padding: "1rem", border: "1px solid #ccc", borderRadius: 4 }}>
-      <form onSubmit={handleSubmit} style={{ display: "grid", gap: 8 }}>
+    <div
+      style={{
+        padding: "1rem",
+        border: "1px solid #ccc",
+        borderRadius: 4,
+        width: "100%",
+      }}
+    >
+      <form
+        onSubmit={handleSubmit}
+        style={{ display: "grid", gap: 8, width: "100%" }}
+      >
         <input
           type="email"
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
+          style={{ width: "100%" }}
         />
         <input
           type="password"
@@ -62,6 +82,7 @@ export default function AuthPanel() {
           value={pass}
           onChange={(e) => setPass(e.target.value)}
           required
+          style={{ width: "100%" }}
         />
         <button type="submit">{isNew ? "Register" : "Sign in"}</button>
       </form>
