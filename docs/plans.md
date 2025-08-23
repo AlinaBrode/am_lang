@@ -1,14 +1,7 @@
-* next step with registered user
-  * subscription:
-    * limit access without payment
-  * per user payment tracking
-
+* fix code so dates in variables name are the same as in content
 
 # Site
 * create a new post in telegram about bilingual signs
-* download bilingual photos to computer
-* fix too heavy expression "популярной туристической достопримечательностью" in Hrazdan article
-* fix code so dates in variables name are the same as in content
 * fix width of "login" and "password" inputs in the sign up form
 * find telegram channels about Armenian language education, check whether we can mention our channel and web site
   * use query about Armenian alphabet
@@ -66,6 +59,12 @@
   * xor explanation, examples
   * xor properties, task about fire alarm in the large corporation
   * explanation of "swap two values" using xor
+* put card with owl to word trainer list
+* next step with registered user
+  * subscription:
+    * limit access without payment
+  * per user payment tracking
+
 
 
 * on pause until Yerevan
@@ -176,4 +175,7 @@
 * put the information and link to our channel in instagram
 * add new post about moved p.2
 * junior: operations - plus, minus, devision, multiplication, % && || ! & | ^
+* make restricted access to alphabet trainer and word trainer. Unregistered user can see a subset of cards only. registered can see all cards.
+* download bilingual photos to computer
+* fix too heavy expression "популярной туристической достопримечательностью" in Hrazdan article
 
