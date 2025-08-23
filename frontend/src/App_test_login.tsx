@@ -70,18 +70,22 @@ export default function App() {
     <div style={{ maxWidth: 420, margin: "40px auto", fontFamily: "system-ui" }}>
       <h1>{isNew ? "Create account" : "Sign in"}</h1>
       <form onSubmit={handleSubmit}>
-        <div style={{ display: "grid", gap: 8 }}>
+        <div style={{ display: "grid", gap: 8, width: "100%" }}>
           <input
             type="email"
             placeholder="Email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)} required
+            onChange={(e) => setEmail(e.target.value)}
+            required
+            style={{ width: "100%" }}
           />
           <input
             type="password"
             placeholder="Password"
             value={pass}
-            onChange={(e) => setPass(e.target.value)} required
+            onChange={(e) => setPass(e.target.value)}
+            required
+            style={{ width: "100%" }}
           />
           <button type="submit">{isNew ? "Register" : "Sign in"}</button>
         </div>
