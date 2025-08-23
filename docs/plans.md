@@ -2,7 +2,6 @@
   * subscription:
     * limit access without payment
   * per user payment tracking
-* add new post about moved p.2
 
 
 # Site
@@ -54,7 +53,19 @@
 * fix lurik photo file (reduce size)
 * introduce several sections into telegram channel (separate programming, language, relocation)
 * fix in post of Lurik Komitasa to Bagramyan
-
+* posts on programming:
+  * create a react application for three variables swaps
+    * put the link into previous post
+  * note on / and % - taking an integer part toward zero
+  * junior: problems on simple operations, floor ceiling
+  * junior: array object
+  * junior: math module - pow, sqrt, ...
+  * middle: operations over mixed types arguments: "a" + [] ..., {} + {}, [] + [], {} + [], [] + {}
+  * binary representation: table for the first 8 numbers
+  * bitwise explanation, examples
+  * xor explanation, examples
+  * xor properties, task about fire alarm in the large corporation
+  * explanation of "swap two values" using xor
 
 
 * on pause until Yerevan
@@ -163,4 +174,6 @@
 * put on site Alina and Arseniy "hello!" intruduction
 * in alphabet trainer somehow make it obvious that you are to click on uppercase letter
 * put the information and link to our channel in instagram
+* add new post about moved p.2
+* junior: operations - plus, minus, devision, multiplication, % && || ! & | ^
 
