@@ -6,6 +6,7 @@ import primitiveImg from '../assets/etudes/primitive_reference.webp'
 import letVarConstImg from '../assets/etudes/let_var_const_musketeers.webp'
 import hoistingImg from '../assets/etudes/let_var_const_musketeers_hoisting.webp'
 import swapImg from '../assets/etudes/swap.webp'
+import operatorsImg from '../assets/etudes/operators_on_the_wall.webp'
 
 interface Etude {
   titleKey: string
@@ -19,6 +20,23 @@ interface Etude {
 }
 
 const etudes: Etude[] = [
+  {
+    titleKey: 'etude_2025_08_29_title',
+    dateKey: 'etude_2025_08_29_date',
+    altKey: 'etude_2025_08_29_alt',
+    longTextKeys: [
+      'etude_2025_08_29_long1',
+      'etude_2025_08_29_long2',
+      'etude_2025_08_29_long3',
+    ],
+    shortTextKeys: [
+      'etude_2025_08_29_short1',
+      'etude_2025_08_29_short2',
+      'etude_2025_08_29_short3',
+    ],
+    img: operatorsImg,
+    slug: 'operators',
+  },
   {
     titleKey: 'etude_2025_08_22_title',
     dateKey: 'etude_2025_08_22_date',
