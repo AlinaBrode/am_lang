@@ -1,13 +1,7 @@
 
+
 # Site
 * create a new post in telegram about bilingual signs
-* find telegram channels about Armenian language education, check whether we can mention our channel and web site
-  * use query about Armenian alphabet
-* find forums where people asks about armenian basics
-* our site is not educational, it is a hobby place where we express our own opinion and share our experience
-* create a special post in telegram channel: useful feedback, set a link on this post to collect feedback
-* in armenian school for russians we put our advertisement for site and channel
-  * 2000 rub for advertisement in yandex
 * https://www.internations.org/armenia-expats/russians#:~:text=%2A%20Browse%20our%20high,Russian%20embassy%20and%20many%20others
   * find other russians to share your hobbies with - find groups for studying Armenian, share site and channel
 * find forums and channels with armenian tutors, ask them about our site, would they consider it interesting or helpful
@@ -63,6 +57,17 @@
     * limit access without payment
   * per user payment tracking
 * click on a blocked letter in vocabulary trainer - show a sign with explanation what they to do, like in "print a card" page
+* figure out what to do with https://t.me/ru_schools_armenia
+* check iBuben
+* create lecture for: Адрес: Letters and Numbers по адресу: Ереван, улица Туманяна, 35Г
+* check application: Ariboon: Armenian language
+* create advertisment card https://t.me/Vmeste_Armenia/14627
+* find telegram channels about Armenian language education, check whether we can mention our channel and web site
+  * use query about Armenian alphabet
+* find forums where people asks about armenian basics
+* create a special post in telegram channel: useful feedback, set a link on this post to collect feedback
+* renew sitemap.xml, there shold be 16 pages
+
 
 
 * on pause until Yerevan
@@ -178,4 +183,8 @@
 * fix too heavy expression "популярной туристической достопримечательностью" in Hrazdan article
 * fix code so dates in variables name are the same as in content
 * fix width of "login" and "password" inputs in the sign up form
+* post about operations in JS
+* our site is not educational, it is a hobby place where we express our own opinion and share our experience
+* put 1000 rubles on tg channel promotion
+* 2000 rub for advertisement in yandex
 
