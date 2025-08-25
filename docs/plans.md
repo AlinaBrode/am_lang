@@ -67,6 +67,7 @@
 * find forums where people asks about armenian basics
 * create a special post in telegram channel: useful feedback, set a link on this post to collect feedback
 * renew sitemap.xml, there shold be 16 pages
+* fix yerevan post with ev problem
 
 
 
