@@ -52,6 +52,14 @@ const strings: Record<Lang, Record<string, string>> = {
       'In Armenia, many signs are also translated into Russian or English. This is a surprisingly good way to learn the Armenian alphabet. Today we want to share with you a picture we took at the Hrazdan railway station. This place is not widely known as a tourist attraction but nevertheless has its own charm. Later we will share more photos of this place.',
     sign_2025_08_12_p2:
       'Below is a table showing the correspondence between the Armenian name ՀՐԱԶԴԱՆ and its Latin transliteration “hrazdan.” Here one can see that the letter Հ (H) is not pronounced in this context, Ր corresponds to “R,” Ա to “A,” Զ to “Z,” Դ to “D,” the second Ա again to “A,” and Ն to “N.”',
+    sign_2025_08_25_date: '25 Aug 2025',
+    sign_2025_08_25_title: 'Yerevan / Երևան',
+    sign_2025_08_25_sign_alt: 'Road sign with the word Yerevan in Armenian',
+    sign_2025_08_25_bench_alt: 'Bench with the word Yerevan in Armenian',
+    sign_2025_08_25_p1:
+      'Yerevan is full of bilingual signs. While strolling and looking around, you can dive into the Armenian alphabet. At first we just noticed them, and now we deliberately hunt for them. Today we show a road sign with the city name itself: Yerevan — Ե-Ր-Ե-Վ-Ա-Ն.',
+    sign_2025_08_25_p2:
+      'You can see it not only on plaques and facades but also on street benches—an urban art form from Soviet times. We will show more such references later. As a bonus, here is the word “ԵՐԵՎԱՆ” on a Yerevan bench.',
     note_2025_08_11_date: '11 Aug 2025',
     note_2025_08_11_title: 'Why JavaScript on a language site',
     note_2025_08_11_alt: 'Hrazdan Gorge in Yerevan',
@@ -283,6 +291,14 @@ console.log("a=", a, "b=", b);</code></pre>`,
       'В Армении многие вывески продублированы на русском или английском. Это удивительно хороший способ выучить армянский алфавит. Сегодня мы хотим поделиться фотографией, сделанной на железнодорожной станции Раздан. Это место не так популярно у туристов, но всё же обладает своим шармом. Позже мы поделимся и другими фотографиями этого места.',
     sign_2025_08_12_p2:
       'Ниже приведена таблица соответствия между армянским названием ՀՐԱԶԴԱՆ и его русской транслитерацией «раздан». Видно, что буква Հ (H) здесь не произносится, Ր соответствует «Р», Ա — «А», Զ — «З», Դ — «Д», второе Ա снова «А», а Ն — «Н».',
+    sign_2025_08_25_date: '25 августа 2025',
+    sign_2025_08_25_title: 'Ереван / Երևան',
+    sign_2025_08_25_sign_alt: 'дорожный знак с надписью Ереван на армянском',
+    sign_2025_08_25_bench_alt: 'скамейка с надписью Ереван на армянском',
+    sign_2025_08_25_p1:
+      'В Ереване множество двуязычных вывесок, по которым, прогуливаясь и глазея по сторонам, можно погружаться в мир армянского алфавита. Сначала мы просто их подмечали, а теперь целенаправленно «охотимся». Сегодня для вас — дорожный знак с названием самого города: Ереван — Ե-Ր-Ե-Վ-Ա-Ն.',
+    sign_2025_08_25_p2:
+      'В городе оно встречается не только на табличках и фасадах, но и на уличных скамейках — это уже отдельный вид городского искусства времён советского союза, здесь ещё не раз будут такие отсылки. Бонусом показываем слово «ԵՐԵՎԱՆ» на ереванской скамейке.',
     note_2025_08_11_date: '11 августа 2025',
     note_2025_08_11_title: 'Зачем JavaScript на языковом сайте',
     note_2025_08_11_alt: 'ущелье Раздана в Ереване',
