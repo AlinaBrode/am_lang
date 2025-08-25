@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom'
 import { useLanguage, type Lang } from '../useLanguage'
 import Meta from '../components/Meta'
 import hrazdanImg from '../assets/bilingual/hrazdan.webp'
+import signYerevanImg from '../assets/bilingual/sign_yerevan.webp'
+import benchYerevanImg from '../assets/bilingual/bench_yerevan.webp'
 import type { ReactNode } from 'react'
 
 interface Sign {
@@ -52,6 +54,52 @@ const signs: Sign[] = [
               </tbody>
             </table>
           </div>
+        </div>
+      )
+    },
+  },
+  {
+    slug: 'yerevan-city-sign',
+    dateKey: 'sign_2025_08_25_date',
+    titleKey: 'sign_2025_08_25_title',
+    render: (t, lang) => {
+      const translit =
+        lang === 'ru'
+          ? ['е', 'р', 'е', 'в', 'а', 'н']
+          : ['y', 'e', 'r', 'e', 'v', 'a', 'n']
+      const armenian = ['Ե', 'Ր', 'Ե', 'Վ', 'Ա', 'Ն']
+      return (
+        <div className="space-y-4 text-lg">
+          <p>{t('sign_2025_08_25_p1')}</p>
+          <img
+            src={signYerevanImg}
+            alt={t('sign_2025_08_25_sign_alt')}
+            className="w-full md:max-w-xs mx-auto"
+          />
+          <table className="table-auto border-collapse mt-4">
+            <tbody>
+              <tr>
+                {armenian.map((l, i) => (
+                  <td key={i} className="border px-2 py-1">
+                    {l}
+                  </td>
+                ))}
+              </tr>
+              <tr>
+                {translit.map((l, i) => (
+                  <td key={i} className="border px-2 py-1">
+                    {l}
+                  </td>
+                ))}
+              </tr>
+            </tbody>
+          </table>
+          <p>{t('sign_2025_08_25_p2')}</p>
+          <img
+            src={benchYerevanImg}
+            alt={t('sign_2025_08_25_bench_alt')}
+            className="w-full md:max-w-xs mx-auto"
+          />
         </div>
       )
     },
