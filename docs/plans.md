@@ -69,6 +69,7 @@
 * renew sitemap.xml, there shold be 16 pages
 * fix yerevan post with ev problem
 * qr code from sber
+* on programming page boar says something about programming
 
 
 
