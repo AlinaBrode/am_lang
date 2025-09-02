@@ -7,6 +7,7 @@ import letVarConstImg from '../assets/etudes/let_var_const_musketeers.webp'
 import hoistingImg from '../assets/etudes/let_var_const_musketeers_hoisting.webp'
 import swapImg from '../assets/etudes/swap.webp'
 import operatorsImg from '../assets/etudes/operators_on_the_wall.webp'
+import craneSwapImg from '../assets/etudes/crane_swap.webp'
 
 interface Etude {
   titleKey: string
@@ -20,6 +21,23 @@ interface Etude {
 }
 
 const etudes: Etude[] = [
+  {
+    titleKey: 'etude_2025_09_05_title',
+    dateKey: 'etude_2025_09_05_date',
+    altKey: 'etude_2025_09_05_alt',
+    longTextKeys: [
+      'etude_2025_09_05_long1',
+      'etude_2025_09_05_long2',
+      'etude_2025_09_05_long3',
+    ],
+    shortTextKeys: [
+      'etude_2025_09_05_short1',
+      'etude_2025_09_05_short2',
+      'etude_2025_09_05_short3',
+    ],
+    img: craneSwapImg,
+    slug: 'swap-simulator',
+  },
   {
     titleKey: 'etude_2025_08_29_title',
     dateKey: 'etude_2025_08_29_date',
