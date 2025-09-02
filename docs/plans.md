@@ -1,7 +1,6 @@
 
 
 # Site
-* create a new post in telegram about bilingual signs
 * https://www.internations.org/armenia-expats/russians#:~:text=%2A%20Browse%20our%20high,Russian%20embassy%20and%20many%20others
   * find other russians to share your hobbies with - find groups for studying Armenian, share site and channel
 * find forums and channels with armenian tutors, ask them about our site, would they consider it interesting or helpful
@@ -12,7 +11,6 @@
   * only one column when print
   * on welcome page describe functionality of pdf printing
 * check what Yandex Rhytm is and whether we can use it
-* talk with the Iron Friend about stress exceptions, create an arcticle with this material
 * mobile adaptation:
   * navigation panel is closed by default
 * adjust boar with bubble:
@@ -20,9 +18,7 @@
   * lower bubble
   * put more phrases
   * switch phrases on transitions between pages
-* remove access:
-  * to the most armenian letters in alphabet trainer
-  * to corresponding pictures in word training
+
 * move nav panel button to avoid overlap with content
 * adjust colors of background blanket and blue color on side panel
 * take an entry from pdf with armenian-expat community, make a move
@@ -190,4 +186,9 @@
 * our site is not educational, it is a hobby place where we express our own opinion and share our experience
 * put 1000 rubles on tg channel promotion
 * 2000 rub for advertisement in yandex
-
+* create a new post in telegram about bilingual signs
+* talk with the Iron Friend about stress exceptions, create an arcticle with this material
+  * in our current words there is no exceptions, on hold for now
+* remove access:
+  * to the most armenian letters in alphabet trainer
+  * to corresponding pictures in word training
