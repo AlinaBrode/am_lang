@@ -60,6 +60,22 @@ const strings: Record<Lang, Record<string, string>> = {
       'Yerevan is full of bilingual signs. While strolling and looking around, you can dive into the Armenian alphabet. At first we just noticed them, and now we deliberately hunt for them. Today we show a road sign with the city name itself: Yerevan — Ե-Ր-Ե-Վ-Ա-Ն.',
     sign_2025_08_25_p2:
       'You can see it not only on plaques and facades but also on street benches—an urban art form from Soviet times. We will show more such references later. As a bonus, here is the word “ԵՐԵՎԱՆ” on a Yerevan bench.',
+    note_2025_09_01_date: '1 Sep 2025',
+    note_2025_09_01_title: 'Pros and cons of life in Yerevan. Part 1',
+    note_2025_09_01_alt: 'Pros and cons of life in Yerevan',
+    note_2025_09_01_p1:
+      'After two years of living in Armenia, in Yerevan, we put together a list of pros and cons that may help anyone considering Yerevan as a place to live. A small disclaimer: for us the pros still outweigh any cons—we love Yerevan as it is, cozy and homely.',
+    note_2025_09_01_pros_title: 'Pros:',
+    note_2025_09_01_li1:
+      '<strong>Openness and friendliness of locals.</strong> People create the atmosphere of a place, and here they are wonderful: open and kind, ready to help.',
+    note_2025_09_01_li2:
+      '<strong>Antiquity and uniqueness.</strong> Yerevan is more than 2,800 years old. Antiquity permeates the city and its surroundings: ancient monasteries and fortresses, the heritage of the kingdom of Urartu, winemaking, many interesting personalities who contributed not only to Armenian but also to world history. Yerevan and Armenia are like a rich full-bodied wine whose flavor reveals itself gradually.',
+    note_2025_09_01_li3:
+      '<strong>Warm and dry climate.</strong> The weather in Yerevan is very pleasant: we extend summer by three months—May is already a summer month, and until November temperatures can reach 20°C. The heat is tolerable thanks to the dry climate and the convenient layout of the center: when walking, you can always stay on the shady side.',
+    note_2025_09_01_li4:
+      '<strong>Fruits and vegetables.</strong> Excellent quality, and you can always find options for any budget. We prefer buying at vegetable stalls near our home. Out of season, imported fruit from Iran is of decent quality. In season, prices for fruit and vegetables are low.',
+    note_2025_09_01_li5:
+      '<strong>Cheap taxis.</strong> We mostly walk around Yerevan because we love long strolls, or we use taxis. They are affordable even during rush hour. For example, from our Arabkir district to the center at rush hour you can get there for about 1,200 drams (~300 rubles).',
     note_2025_08_11_date: '11 Aug 2025',
     note_2025_08_11_title: 'Why JavaScript on a language site',
     note_2025_08_11_alt: 'Hrazdan Gorge in Yerevan',
@@ -311,6 +327,22 @@ console.log("a=", a, "b=", b);</code></pre>`,
       'В Ереване множество двуязычных вывесок, по которым, прогуливаясь и глазея по сторонам, можно погружаться в мир армянского алфавита. Сначала мы просто их подмечали, а теперь целенаправленно «охотимся». Сегодня для вас — дорожный знак с названием самого города: Ереван — Ե-Ր-Ե-Վ-Ա-Ն.',
     sign_2025_08_25_p2:
       'В городе оно встречается не только на табличках и фасадах, но и на уличных скамейках — это уже отдельный вид городского искусства времён советского союза, здесь ещё не раз будут такие отсылки. Бонусом показываем слово «ԵՐԵՎԱՆ» на ереванской скамейке.',
+    note_2025_09_01_date: '1 сентября 2025',
+    note_2025_09_01_title: 'Плюсы и минусы жизни в Ереване. Часть 1',
+    note_2025_09_01_alt: 'Плюсы и минусы жизни в Ереване',
+    note_2025_09_01_p1:
+      'По прошествии двух лет жизни в Армении, в Ереване, мы сформировали список плюсов и минусов, который может быть полезен тем, кто рассматривает Ереван как город для проживания. Сразу оговорюсь: для нас плюсы всё равно перевешивают любые минусы — мы любим Ереван таким, какой он есть, уютным и ламповым.',
+    note_2025_09_01_pros_title: 'Итак, плюсы:',
+    note_2025_09_01_li1:
+      '<strong>открытость и дружелюбие местных.</strong> Именно люди создают атмосферу места, а здесь они замечательные: открытые и добрые, готовые помочь.',
+    note_2025_09_01_li2:
+      '<strong>древность и самобытность.</strong> Еревану более 2800 лет. Древность пропитывает и окутывает город и окрестности. Древние монастыри и крепости, наследие царства Урарту, виноделие, множество интересных личностей, которые внесли вклад не только в историю Армении, но и в мировую. Ереван и Армения — как насыщенное густое вино, вкус которого раскрывается постепенно.',
+    note_2025_09_01_li3:
+      '<strong>тёплый и сухой климат.</strong> В Ереване очень приятная погода: мы продлеваем себе лето на три месяца — май уже летний месяц, а до ноября температура может достигать 20 градусов. Жару переносить терпимо из-за сухости климата и удачной застройки центра: гуляя, всегда можно идти по теневой стороне.',
+    note_2025_09_01_li4:
+      '<strong>фрукты и овощи.</strong> Отличное качество фруктов и овощей, можно всегда выбрать по своему кошельку. Мы предпочитаем покупать возле дома в овощных палатках. Вне сезона импортные фрукты из Ирана неплохого качества. В сезон цены на фрукты и овощи низкие.',
+    note_2025_09_01_li5:
+      '<strong>дешёвое такси.</strong> В Ереване мы передвигаемся пешком — мы любим длительные прогулки по городу — или пользуемся такси. Оно доступно по цене даже в час пик. Например, от нашего района Арабкир до центра в час пик можно доехать за 1200 драм (≈300 руб.).',
     note_2025_08_11_date: '11 августа 2025',
     note_2025_08_11_title: 'Зачем JavaScript на языковом сайте',
     note_2025_08_11_alt: 'ущелье Раздана в Ереване',
