@@ -60,6 +60,23 @@ const strings: Record<Lang, Record<string, string>> = {
       'Yerevan is full of bilingual signs. While strolling and looking around, you can dive into the Armenian alphabet. At first we just noticed them, and now we deliberately hunt for them. Today we show a road sign with the city name itself: Yerevan — Ե-Ր-Ե-Վ-Ա-Ն.',
     sign_2025_08_25_p2:
       'You can see it not only on plaques and facades but also on street benches—an urban art form from Soviet times. We will show more such references later. As a bonus, here is the word “ԵՐԵՎԱՆ” on a Yerevan bench.',
+    note_2025_09_06_date: '6 Sep 2025',
+    note_2025_09_06_title: 'Sevan trip. Part 1',
+    note_2025_09_06_alt: 'Lake Sevan view from Tsovasar hotel',
+    note_2025_09_06_p1:
+      'Our spontaneous trip turned out to be very rich and memorable for just one and a half days. Step by step. Today we talk about the hotel where we stayed — <a href="https://yandex.com/maps/-/CLUAI68s" target="_blank" rel="noopener noreferrer">Tsovasar Family Rest Complex</a>.',
+    note_2025_09_06_p2:
+      'We booked a room with a kitchen-living room, bedroom and a balcony overlooking Sevan. The weather at the lake is very pleasant at this time: sunny and calm during the day, air temperature 20–22 °C and water about 19 °C. Impressions of the hotel:',
+    note_2025_09_06_li1: 'Friendly staff.',
+    note_2025_09_06_li2: 'Nice grounds with an equipped descent into the lake and a small beach.',
+    note_2025_09_06_li3:
+      'Tasty breakfasts (omelet, cheeses, rolls, sausages, pancakes, cottage cheese, yogurt). There is a choice, everything is fresh and delicious.',
+    note_2025_09_06_p3:
+      'You can have lunch or dinner at the restaurant. The menu is tasty and varied, mostly Armenian cuisine. A full dinner for three cost us 20 000 drams including service.',
+    note_2025_09_06_p4:
+      'The area has many gazebos, benches and lounge areas. There is also a place to barbecue. Price: 36 000 drams per night. In our opinion the price matches the quality.',
+    note_2025_09_06_p5:
+      'Since our channel is also about the Armenian language, let\'s look at the word Ծովասար (Tsovasar). It consists of two parts: Ծով (tsov) → “sea” and սար (sar) → “mountain.” Altogether it means “sea mountain.”',
     note_2025_09_01_date: '1 Sep 2025',
     note_2025_09_01_title: 'Pros and cons of life in Yerevan. Part 1',
     note_2025_09_01_alt: 'Pros and cons of life in Yerevan',
@@ -327,6 +344,23 @@ console.log("a=", a, "b=", b);</code></pre>`,
       'В Ереване множество двуязычных вывесок, по которым, прогуливаясь и глазея по сторонам, можно погружаться в мир армянского алфавита. Сначала мы просто их подмечали, а теперь целенаправленно «охотимся». Сегодня для вас — дорожный знак с названием самого города: Ереван — Ե-Ր-Ե-Վ-Ա-Ն.',
     sign_2025_08_25_p2:
       'В городе оно встречается не только на табличках и фасадах, но и на уличных скамейках — это уже отдельный вид городского искусства времён советского союза, здесь ещё не раз будут такие отсылки. Бонусом показываем слово «ԵՐԵՎԱՆ» на ереванской скамейке.',
+    note_2025_09_06_date: '6 сентября 2025',
+    note_2025_09_06_title: 'Севан. Часть 1',
+    note_2025_09_06_alt: 'Озеро Севан из отеля Tsovasar',
+    note_2025_09_06_p1:
+      'Так вот. Наша спонтанная поездка оказалась очень насыщенной и запоминающейся для полутора дней. По порядку. Сегодня речь об отеле, в который мы заселились — <a href="https://yandex.com/maps/-/CLUAI68s" target="_blank" rel="noopener noreferrer">Tsovasar Family Rest Complex</a>.',
+    note_2025_09_06_p2:
+      'Мы взяли номер с кухней‑гостиной, спальней и балконом с видом на Севан. На Севане в это время очень приятная погода: солнечно и днём безветрено, температура воздуха 20–22 °C, воды ~19 °C. Впечатления от отеля:',
+    note_2025_09_06_li1: 'Доброжелательный персонал.',
+    note_2025_09_06_li2: 'Приятная территория с оборудованным спуском в озеро и небольшим пляжем.',
+    note_2025_09_06_li3:
+      'Вкусные завтраки (омлет, сыры, рулетики, сосиски, блинчики, творог, йогурт). Выбор есть, всё свежее и вкусное.',
+    note_2025_09_06_p3:
+      'В ресторане можно пообедать или поужинать. Меню вкусное и разнообразное, в основном блюда армянской кухни. На троих людей полноценный ужин нам обошёлся 20 000 драм, включая сбор за обслуживание.',
+    note_2025_09_06_p4:
+      'На территории много различных беседок, скамеек, площадок с лежаками. Также есть место для приготовления шашлыка. По цене: 36 000 драм за ночь. На наш вкус цена соответствует качеству.',
+    note_2025_09_06_p5:
+      'Так как наш канал ещё и про армянский язык, давайте посмотрим на слово Ծովասар (Цовасар). Слово состоит из двух частей: Ծով (цов) → «море» и սար (сар) → «гора». В целом получается «морская гора».',
     note_2025_09_01_date: '1 сентября 2025',
     note_2025_09_01_title: 'Плюсы и минусы жизни в Ереване. Часть 1',
     note_2025_09_01_alt: 'Плюсы и минусы жизни в Ереване',
