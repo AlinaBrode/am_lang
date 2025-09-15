@@ -8,6 +8,7 @@ import hoistingImg from '../assets/etudes/let_var_const_musketeers_hoisting.webp
 import swapImg from '../assets/etudes/swap.webp'
 import operatorsImg from '../assets/etudes/operators_on_the_wall.webp'
 import craneSwapImg from '../assets/etudes/crane_swap.webp'
+import binaryImg from '../assets/etudes/binary.webp'
 
 interface Etude {
   titleKey: string
@@ -21,6 +22,23 @@ interface Etude {
 }
 
 const etudes: Etude[] = [
+  {
+    titleKey: 'etude_2025_09_15_title',
+    dateKey: 'etude_2025_09_15_date',
+    altKey: 'etude_2025_09_15_alt',
+    longTextKeys: [
+      'etude_2025_09_15_long1',
+      'etude_2025_09_15_long2',
+      'etude_2025_09_15_long3',
+      'etude_2025_09_15_long4',
+    ],
+    shortTextKeys: [
+      'etude_2025_09_15_short1',
+      'etude_2025_09_15_short2',
+    ],
+    img: binaryImg,
+    slug: 'binary-base-2',
+  },
   {
     titleKey: 'etude_2025_09_05_title',
     dateKey: 'etude_2025_09_05_date',
@@ -200,4 +218,3 @@ export default function SmallEtudes() {
     </>
   )
 }
-

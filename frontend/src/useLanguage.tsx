@@ -296,6 +296,20 @@ console.log("a=", a, "b=", b);</code></pre>`,
     etude_2025_09_05_short1: 'React simulator of three-variable swap',
     etude_2025_09_05_short2: '<a href="https://alinabrode.github.io/js_snippets_blog/swap_abt_simple/" target="_blank" rel="noopener noreferrer">Link</a> to try',
     etude_2025_09_05_short3: 'SVG to align circles',
+    etude_2025_09_15_date: '15 Sep 2025',
+    etude_2025_09_15_title: 'Base-2 representation',
+    etude_2025_09_15_alt: 'Binary representation illustration',
+    etude_2025_09_15_long1:
+      'In <a href="/en/small_etudes/swap" target="_blank" rel="noopener noreferrer">one of the previous posts</a> we discussed the solution for the \'swap two values within three variables\' problem which uses the XOR operator. Here we take one step back to explain what\'s going on. For full details on positional notation in base 2, see <a href="https://en.wikipedia.org/wiki/Binary_number" target="_blank" rel="noopener noreferrer">Wikipedia</a>. Key ideas:',
+    etude_2025_09_15_long2:
+      '<ul class="list-disc pl-6"><li>any integer can be written as a sequence of 0 and 1 digits</li><li>we can convert binary to decimal and back</li></ul>',
+    etude_2025_09_15_long3:
+      'To convert binary to decimal, sum bits with their weights (from right to left): 1, 2, 4, 8, 16, .... Examples: <code>101</code> = 1×4 + 0×2 + 1×1 = 5; <code>011</code> = 0×4 + 1×2 + 1×1 = 3.',
+    etude_2025_09_15_long4:
+      'For 3-bit numbers: <code>000 → 0</code><br/> <code>001 → 1</code><br/> <code>010 → 2</code><br/> <code>011 → 3</code><br/> <code>100 → 4</code><br/> <code>101 → 5</code><br/> <code>110 → 6</code><br/> <code>111 → 7</code>. To convert decimal to binary, find the decimal value and take its binary counterpart.',
+    etude_2025_09_15_short1: 'A number can be written in binary form',
+    etude_2025_09_15_short2:
+      '<a href="https://en.wikipedia.org/wiki/Binary_number" target="_blank" rel="noopener noreferrer">Binary on Wikipedia</a>',
     drivers_title: 'Reliable drivers',
     drivers_col_name: 'Driver',
     drivers_col_region: 'Region',
@@ -589,6 +603,20 @@ console.log("a=", a, "b=", b);</code></pre>`,
     etude_2025_09_05_short1: 'React-симулятор обмена трёх переменных',
     etude_2025_09_05_short2: '<a href="https://alinabrode.github.io/js_snippets_blog/swap_abt_simple/" target="_blank" rel="noopener noreferrer">Ссылка</a> для игры',
     etude_2025_09_05_short3: 'SVG для выравнивания кругов',
+    etude_2025_09_15_date: '15 сентября 2025',
+    etude_2025_09_15_title: 'Двоичное представление числа',
+    etude_2025_09_15_alt: 'Иллюстрация двоичного представления',
+    etude_2025_09_15_long1:
+      'В <a href="/ru/small_etudes/swap" target="_blank" rel="noopener noreferrer">одной из предыдущих заметок</a> мы разбирали решение задачи «обменять два значения тремя переменными» с использованием оператора XOR. Здесь сделаем шаг назад и объясним, что происходит. Подробности о позиционной системе счисления по основанию 2 см. в <a href="https://ru.wikipedia.org/wiki/Двоичная_система_счисления" target="_blank" rel="noopener noreferrer">Википедии</a>. Главное:',
+    etude_2025_09_15_long2:
+      '<ul class="list-disc pl-6"><li>любое целое число можно записать последовательностью 0 и 1</li><li>можно переводить двоичное представление в десятичное и обратно</li></ul>',
+    etude_2025_09_15_long3:
+      'Чтобы перевести двоичное число в десятичное, суммируем биты с весами (справа налево): 1, 2, 4, 8, 16, …. Примеры: <code>101</code> = 1×4 + 0×2 + 1×1 = 5; <code>011</code> = 0×4 + 1×2 + 1×1 = 3.',
+    etude_2025_09_15_long4:
+      'Для трёхбитных чисел: <code>000 → 0</code><br/> <code>001 → 1</code><br/> <code>010 → 2</code><br/> <code>011 → 3</code><br/> <code>100 → 4</code><br/> <code>101 → 5</code><br/> <code>110 → 6</code><br/> <code>111 → 7</code>. Чтобы перевести из десятичного в двоичное, найдите число в правом столбце и возьмите соответствующую запись слева.',
+    etude_2025_09_15_short1: 'Число можно записать в двоичном виде',
+    etude_2025_09_15_short2:
+      '<a href="https://ru.wikipedia.org/wiki/Двоичная_система_счисления" target="_blank" rel="noopener noreferrer">Википедия: двоичная система</a>',
     drivers_title: 'Проверенные водители',
     drivers_col_name: 'Водитель',
     drivers_col_region: 'Регион',
