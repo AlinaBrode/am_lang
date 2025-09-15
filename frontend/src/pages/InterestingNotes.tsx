@@ -10,6 +10,8 @@ import movePart1Img from '../assets/stories/move_to_armenia__preparation.webp'
 import movePart2Img from '../assets/stories/move_to_armenia__preparation_00.webp'
 import plusMinusImg from '../assets/stories/plus_minus_00.webp'
 import sevanImg from '../assets/stories/Sevan_for_site.webp'
+import tsovasarEateryImg from '../assets/stories/tsovasar_eatery.webp'
+import height1900Collage from '../assets/stories/2025_09_height_1900_collage.webp'
 import type { ReactNode } from 'react'
 
 interface Note {
@@ -21,16 +23,43 @@ interface Note {
 
 const notes: Note[] = [
   {
+    slug: 'sevan-part-2',
+    dateKey: 'note_2025_09_14_date',
+    titleKey: 'note_2025_09_14_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={height1900Collage}
+          alt={t('note_2025_09_14_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_14_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_14_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_14_p3') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_14_p4') }} />
+        </div>
+      </div>
+    ),
+  },
+  {
     slug: 'sevan-part-1',
     dateKey: 'note_2025_09_06_date',
     titleKey: 'note_2025_09_06_title',
     render: (t) => (
       <div className="grid md:grid-cols-2 gap-4 items-start">
-        <img
-          src={sevanImg}
-          alt={t('note_2025_09_06_alt')}
-          className="w-full md:max-w-xs mx-auto"
-        />
+        <div className="flex flex-col gap-4 items-center">
+          <img
+            src={sevanImg}
+            alt={t('note_2025_09_06_alt')}
+            className="w-full md:max-w-xs mx-auto"
+          />
+          <img
+            src={tsovasarEateryImg}
+            alt={t('note_2025_09_06_alt')}
+            className="w-full md:max-w-xs mx-auto"
+          />
+        </div>
         <div className="space-y-4 text-lg">
           <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_06_p1') }} />
           <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_06_p2') }} />

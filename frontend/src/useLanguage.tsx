@@ -72,11 +72,22 @@ const strings: Record<Lang, Record<string, string>> = {
     note_2025_09_06_li3:
       'Tasty breakfasts (omelet, cheeses, rolls, sausages, pancakes, cottage cheese, yogurt). There is a choice, everything is fresh and delicious.',
     note_2025_09_06_p3:
-      'You can have lunch or dinner at the restaurant. The menu is tasty and varied, mostly Armenian cuisine. A full dinner for three cost us 20 000 drams including service.',
+      'You can have lunch or dinner at the restaurant. The menu is tasty and varied, mostly Armenian cuisine. A full dinner for three cost us 20 000 drams including service. <a href="https://t.me/alina_yerevan_js/56" target="_blank" rel="noopener noreferrer">Our Telegram post</a> with the restaurant menu.',
     note_2025_09_06_p4:
       'The area has many gazebos, benches and lounge areas. There is also a place to barbecue. Price: 36 000 drams per night. In our opinion the price matches the quality.',
     note_2025_09_06_p5:
       'Since our channel is also about the Armenian language, let\'s look at the word Ծովասար (Tsovasar). It consists of two parts: Ծով (tsov) → “sea” and սար (sar) → “mountain.” Altogether it means “sea mountain.”',
+    note_2025_09_14_date: '14 Sep 2025',
+    note_2025_09_14_title: 'Sevan trip. Part 2',
+    note_2025_09_14_alt: 'Altitude 1900 dive club on Lake Sevan',
+    note_2025_09_14_p1:
+      'As mentioned earlier, our one-and-a-half-day getaway was full of places and activities. On day two we found a dive club on the lakeshore. The “Altitude 1900” club can be found on <a href="https://www.booking.com/Share-eAKyW1W" target="_blank" rel="noopener noreferrer">Booking</a>, on <a href="https://diving.am/ru/dive-resort/" target="_blank" rel="noopener noreferrer">their website</a> or on <a href="https://maps.app.goo.gl/R47hhhHg7mjxbVLy9" target="_blank" rel="noopener noreferrer">Google Maps</a>. They also offer hotel services—rooms are small but fine to stay overnight. There is diving gear rental and SUP boards. The weather favored us—sunny and calm—so we rented SUPs and enjoyed a pleasant 1.5‑hour paddle on a mirror‑smooth lake.',
+    note_2025_09_14_p2:
+      'Even during the phone booking, the service pleasantly surprised me. The club director turned out to be very friendly and gladly answered all our questions. Absolutely European‑level service.',
+    note_2025_09_14_p3:
+      'As a bonus, the company is a distributor of ScubaPro gear—clothing and accessories for water sports—at procurement prices. For reference: we found a similar shop in Moscow, and prices there were roughly 1.5× higher. We couldn’t resist and bought a few things.',
+    note_2025_09_14_p4:
+      'There is also a small café on the grounds where you can have a tasty snack: sandwiches, fries, pancakes, coffee and tea. Prices are perfectly reasonable. The territory is bright and stylish—photos attached.',
     note_2025_09_01_date: '1 Sep 2025',
     note_2025_09_01_title: 'Pros and cons of life in Yerevan. Part 1',
     note_2025_09_01_alt: 'Pros and cons of life in Yerevan',
@@ -356,11 +367,22 @@ console.log("a=", a, "b=", b);</code></pre>`,
     note_2025_09_06_li3:
       'Вкусные завтраки (омлет, сыры, рулетики, сосиски, блинчики, творог, йогурт). Выбор есть, всё свежее и вкусное.',
     note_2025_09_06_p3:
-      'В ресторане можно пообедать или поужинать. Меню вкусное и разнообразное, в основном блюда армянской кухни. На троих людей полноценный ужин нам обошёлся 20 000 драм, включая сбор за обслуживание.',
+      'В ресторане можно пообедать или поужинать. Меню вкусное и разнообразное, в основном блюда армянской кухни. На троих людей полноценный ужин нам обошёлся 20 000 драм, включая сбор за обслуживание. <a href="https://t.me/alina_yerevan_js/56" target="_blank" rel="noopener noreferrer">Наш пост</a> в телеге с меню ресторана.',
     note_2025_09_06_p4:
       'На территории много различных беседок, скамеек, площадок с лежаками. Также есть место для приготовления шашлыка. По цене: 36 000 драм за ночь. На наш вкус цена соответствует качеству.',
     note_2025_09_06_p5:
       'Так как наш канал ещё и про армянский язык, давайте посмотрим на слово Ծովասар (Цовасар). Слово состоит из двух частей: Ծով (цов) → «море» и սար (сар) → «гора». В целом получается «морская гора».',
+    note_2025_09_14_date: '14 сентября 2025',
+    note_2025_09_14_title: 'Севан. Часть 2',
+    note_2025_09_14_alt: 'Дайв-клуб «Высота 1900» на озере Севан',
+    note_2025_09_14_p1:
+      'Как говорилось ранее, полуторадневный отпуск оказался насыщенным интересными местами и активностями. Во второй день мы нашли дайв‑клуб на берегу озера. Клуб «Высота 1900» можно найти <a href="https://www.booking.com/Share-eAKyW1W" target="_blank" rel="noopener noreferrer">на букинге</a>, <a href="https://diving.am/ru/dive-resort/" target="_blank" rel="noopener noreferrer">в интернете</a> или <a href="https://maps.app.goo.gl/R47hhhHg7mjxbVLy9" target="_blank" rel="noopener noreferrer">на гуглокартах</a>. Клуб предоставляет услуги гостиницы — комнаты небольшие, но чтобы переночевать, вполне подойдут. Есть аренда оборудования для погружения и аренда сапбордов. Мы решили арендовать сапы, тем более погода благоприятствовала — было солнечно и безветренно. Мы совершили приятный полуторачасовой заплыв по абсолютно зеркальному озеру.',
+    note_2025_09_14_p2:
+      'Ещё по телефону при бронировании меня приятно удивил сервис. Директор клуба оказался очень приятным и доброжелательным человеком, который с удовольствием ответил на все наши вопросы. Абсолютно европейский сервис.',
+    note_2025_09_14_p3:
+      'Бонусом оказалось, что компания является дистрибьютором продукции ScubaPro — одежды и аксессуаров для водных видов спорта по закупочным ценам. Для справки: мы находили в Москве подобный магазин, и стоимость товаров в нём была примерно в полтора раза выше. Мы не смогли устоять и купили несколько вещей.',
+    note_2025_09_14_p4:
+      'Также на территории есть кафешка, где можно вкусно перекусить: сэндвичи, картошка фри, блинчики, кофе и чай. Цены абсолютно нормальные. Территория оформлена ярко и стильно, фотки прилагаем.',
     note_2025_09_01_date: '1 сентября 2025',
     note_2025_09_01_title: 'Плюсы и минусы жизни в Ереване. Часть 1',
     note_2025_09_01_alt: 'Плюсы и минусы жизни в Ереване',
