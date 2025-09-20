@@ -88,6 +88,24 @@ const strings: Record<Lang, Record<string, string>> = {
       'As a bonus, the company is a distributor of ScubaPro gear—clothing and accessories for water sports—at procurement prices. For reference: we found a similar shop in Moscow, and prices there were roughly 1.5× higher. We couldn’t resist and bought a few things.',
     note_2025_09_14_p4:
       'There is also a small café on the grounds where you can have a tasty snack: sandwiches, fries, pancakes, coffee and tea. Prices are perfectly reasonable. The territory is bright and stylish—photos attached.',
+    note_2025_09_18_date: '18 Sep 2025',
+    note_2025_09_18_title: 'Pros and cons of life in Yerevan. Part 2',
+    note_2025_09_18_alt: 'Pros and cons — part 2 illustration',
+    note_2025_09_18_p1:
+      'We continue the list of “pros” of life in Yerevan.',
+    note_2025_09_18_pros_title: 'Pros:',
+    note_2025_09_18_li1:
+      '<strong>Fresh, high‑quality meat.</strong> Wide selection of pork, chicken, and beef; prices can be high, sometimes above Moscow levels—but more on that below.',
+    note_2025_09_18_li2:
+      '<strong>Many accessible attractions.</strong> If you want to see mountains, monasteries, Lake Sevan, or relax in a quiet hotel, most are about an hour’s drive away. Very convenient. Tourist areas offer cozy hotels for any taste. You can use taxis or trusted drivers.',
+    note_2025_09_18_li3:
+      '<strong>Yerevan’s attractions.</strong> Countless museums: the History Museum, National Gallery, Saryan Museum, Khachaturian Museum, Komitas Museum, and more. We still haven’t seen them all after two years. Yerevan hosts exhibitions and festivals; for example, in June there’s a lively, tasty Wine Days festival with several central streets closed for pedestrians to stroll and sample local wines and food.',
+    note_2025_09_18_li4:
+      '<strong>Nature.</strong> Extraordinary mountain landscapes that fascinate and captivate. We’re lucky to have frequent school hikes into the mountains, so hiking has become a habit—and we’re not tired of it).',
+    note_2025_09_18_li5:
+      '<strong>High quality restaurants and cafes.</strong> The city center is busy and touristy, with options for every taste—from sushi to traditional Armenian cuisine. Evening Yerevan is utterly charming and cozy.',
+    note_2025_09_18_li6:
+      '<strong>Views.</strong> Besides stunning man‑made sights like the Cascade, Yerevan also has natural ones. We love walking along the Hrazdan Gorge for its unique views, and the view from the bridge to Davtashen is breathtaking.',
     note_2025_09_01_date: '1 Sep 2025',
     note_2025_09_01_title: 'Pros and cons of life in Yerevan. Part 1',
     note_2025_09_01_alt: 'Pros and cons of life in Yerevan',
@@ -397,6 +415,24 @@ console.log("a=", a, "b=", b);</code></pre>`,
       'Бонусом оказалось, что компания является дистрибьютором продукции ScubaPro — одежды и аксессуаров для водных видов спорта по закупочным ценам. Для справки: мы находили в Москве подобный магазин, и стоимость товаров в нём была примерно в полтора раза выше. Мы не смогли устоять и купили несколько вещей.',
     note_2025_09_14_p4:
       'Также на территории есть кафешка, где можно вкусно перекусить: сэндвичи, картошка фри, блинчики, кофе и чай. Цены абсолютно нормальные. Территория оформлена ярко и стильно, фотки прилагаем.',
+    note_2025_09_18_date: '18 сентября 2025',
+    note_2025_09_18_title: 'Плюсы и минусы жизни в Ереване. Часть 2',
+    note_2025_09_18_alt: 'Плюсы и минусы — часть 2, иллюстрация',
+    note_2025_09_18_p1:
+      'Продолжаем список «плюсов» жизни в Ереване.',
+    note_2025_09_18_pros_title: 'Плюсы:',
+    note_2025_09_18_li1:
+      '<strong>Качественное свежее мясо.</strong> Большой выбор свинины, курицы, говядины; цены могут быть высокими, порой выше московских — но об этом ниже.',
+    note_2025_09_18_li2:
+      '<strong>Множество доступных достопримечательностей.</strong> Если хочется посмотреть горы, монастыри, озеро Севан или отдохнуть от суеты в тихом отеле — чаще всего это около часа пути. Очень удобно. В туристических местах много уютных отелей на любой вкус. Можно воспользоваться такси или услугами знакомых водителей.',
+    note_2025_09_18_li3:
+      '<strong>Достопримечательности Еревана.</strong> Множество музеев: исторический, Галерея, музей Сарьяна, Хачатуряна, Комитаса и др. Живя два года, мы ещё не всё обошли. В Ереване проходят выставки и фестивали; например, в июне — шумный, вкусный фестиваль вина: несколько улиц в центре перекрывают, чтобы пешеходы могли прогуливаться и дегустировать местные вино и еду.',
+    note_2025_09_18_li4:
+      '<strong>Природа.</strong> Необыкновенные горные пейзажи восхищают и завораживают. Нам повезло: у нас от школы часто бывают походы в горы, поэтому хайкинг стал привычным делом — и нам не надоело).',
+    note_2025_09_18_li5:
+      '<strong>Высокое качество ресторанов и кафе.</strong> Центр города людный и туристический; здесь можно найти варианты на любой вкус — от суши до традиционной армянской кухни. Вечерний Ереван совершенно очаровательный и ламповый.',
+    note_2025_09_18_li6:
+      '<strong>Виды.</strong> Кроме рукотворных достопримечательностей вроде Каскада, в Ереване есть и нерукотворные. Мы любим прогулки по ущелью реки Раздан за уникальные виды, а на мосту в Давташен дух захватывает как нигде.',
     note_2025_09_01_date: '1 сентября 2025',
     note_2025_09_01_title: 'Плюсы и минусы жизни в Ереване. Часть 1',
     note_2025_09_01_alt: 'Плюсы и минусы жизни в Ереване',

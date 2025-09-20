@@ -9,6 +9,7 @@ import hrazdanImg from '../assets/bilingual/hrazdan.webp'
 import movePart1Img from '../assets/stories/move_to_armenia__preparation.webp'
 import movePart2Img from '../assets/stories/move_to_armenia__preparation_00.webp'
 import plusMinusImg from '../assets/stories/plus_minus_00.webp'
+import positivesides2Img from '../assets/positivesides2.webp'
 import sevanImg from '../assets/stories/Sevan_for_site.webp'
 import tsovasarEateryImg from '../assets/stories/tsovasar_eatery.webp'
 import height1900Collage from '../assets/stories/2025_09_height_1900_collage.webp'
@@ -22,6 +23,34 @@ interface Note {
 }
 
 const notes: Note[] = [
+  {
+    slug: 'pros-and-cons-of-life-in-yerevan-part-2',
+    dateKey: 'note_2025_09_18_date',
+    titleKey: 'note_2025_09_18_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={positivesides2Img}
+          alt={t('note_2025_09_18_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_18_p1') }} />
+          <p>
+            <strong>{t('note_2025_09_18_pros_title')}</strong>
+          </p>
+          <ul className="list-disc list-inside space-y-2">
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_09_18_li1') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_09_18_li2') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_09_18_li3') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_09_18_li4') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_09_18_li5') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_09_18_li6') }} />
+          </ul>
+        </div>
+      </div>
+    ),
+  },
   {
     slug: 'sevan-part-2',
     dateKey: 'note_2025_09_14_date',
