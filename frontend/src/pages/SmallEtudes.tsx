@@ -9,6 +9,7 @@ import swapImg from '../assets/etudes/swap.webp'
 import operatorsImg from '../assets/etudes/operators_on_the_wall.webp'
 import craneSwapImg from '../assets/etudes/crane_swap.webp'
 import binaryImg from '../assets/etudes/binary.webp'
+import xorImg from '../assets/etudes/xor_operation.webp'
 
 interface Etude {
   titleKey: string
@@ -22,6 +23,27 @@ interface Etude {
 }
 
 const etudes: Etude[] = [
+  {
+    titleKey: 'etude_2025_09_20_title',
+    dateKey: 'etude_2025_09_20_date',
+    altKey: 'etude_2025_09_20_alt',
+    longTextKeys: [
+      'etude_2025_09_20_long1',
+      'etude_2025_09_20_long2',
+      'etude_2025_09_20_long3',
+      'etude_2025_09_20_long4',
+      'etude_2025_09_20_long5',
+    ],
+    shortTextKeys: [
+      'etude_2025_09_20_short1',
+      'etude_2025_09_20_short2',
+      'etude_2025_09_20_short3',
+      'etude_2025_09_20_short4',
+      'etude_2025_09_20_short5',
+    ],
+    img: xorImg,
+    slug: 'xor',
+  },
   {
     titleKey: 'etude_2025_09_15_title',
     dateKey: 'etude_2025_09_15_date',
