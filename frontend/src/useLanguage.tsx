@@ -60,6 +60,23 @@ const strings: Record<Lang, Record<string, string>> = {
       'Yerevan is full of bilingual signs. While strolling and looking around, you can dive into the Armenian alphabet. At first we just noticed them, and now we deliberately hunt for them. Today we show a road sign with the city name itself: Yerevan — Ե-Ր-Ե-Վ-Ա-Ն.',
     sign_2025_08_25_p2:
       'You can see it not only on plaques and facades but also on street benches—an urban art form from Soviet times. We will show more such references later. As a bonus, here is the word “ԵՐԵՎԱՆ” on a Yerevan bench.',
+    note_2025_09_22_date: '22 Sep 2025',
+    note_2025_09_22_title: 'Pros and cons of life in Yerevan, part 3',
+    note_2025_09_22_alt: 'Minus collage: downsides of life in Yerevan',
+    note_2025_09_22_p1:
+      'As promised, here is a small spoon of tar in our barrel of Yerevan honey. Today — a few <strong>cons</strong>, mostly about prices.',
+    note_2025_09_22_li1:
+      '<strong>Groceries and meat prices.</strong> Sometimes higher than in Moscow. Fruit and vegetables are cheaper at stalls near residential houses. Meat prices are similar to, or higher than, Moscow. Supermarket prices vary widely for the same products, and stalls differ too. We shop at the “Yerevan City” chain; SAS is significantly more expensive. You have to keep a mental note of a fair price: it can “jump” even in the same place.',
+    note_2025_09_22_li2:
+      '<strong>Housing costs.</strong> After 2022, Yerevan rents jumped several times and have been going down slowly. For example, a 3‑room apartment in Arabkir with an average or older good renovation costs from 300–400k AMD/month (≈70–80k RUB) plus utilities. In other Armenian cities rent is much lower.',
+    note_2025_09_22_li3:
+      '<strong>High utility bills.</strong> There is no central heating in Yerevan, so in winter utilities can reach 100k AMD (≈20k RUB).',
+    note_2025_09_22_li4:
+      '<strong>Service quality is uneven.</strong> In malls, when buying electronics, you may not get full product information or a proper consultation.',
+    note_2025_09_22_li5:
+      '<strong>Electronics are pricey.</strong> Around 30% more expensive than in Moscow.',
+    note_2025_09_22_p2:
+      '<strong>Air pollution.</strong> In winter there is often no wind, and smoke from stoves in private sectors covers the city with smog. Many heat with whatever they have, even car tires. At other times it\'s a bit easier, but dust from the Ararat Valley settles in a layer you could wipe daily. Sometimes a landfill near the city catches fire. On peak days, people advise wearing a respirator outdoors.',
     note_2025_09_06_date: '6 Sep 2025',
     note_2025_09_06_title: 'Sevan trip. Part 1',
     note_2025_09_06_alt: 'Lake Sevan view from Tsovasar hotel',
@@ -406,6 +423,23 @@ console.log("a=", a, "b=", b);</code></pre>`,
       'В Ереване множество двуязычных вывесок, по которым, прогуливаясь и глазея по сторонам, можно погружаться в мир армянского алфавита. Сначала мы просто их подмечали, а теперь целенаправленно «охотимся». Сегодня для вас — дорожный знак с названием самого города: Ереван — Ե-Ր-Ե-Վ-Ա-Ն.',
     sign_2025_08_25_p2:
       'В городе оно встречается не только на табличках и фасадах, но и на уличных скамейках — это уже отдельный вид городского искусства времён советского союза, здесь ещё не раз будут такие отсылки. Бонусом показываем слово «ԵՐԵՎԱՆ» на ереванской скамейке.',
+    note_2025_09_22_date: '22 сентября 2025',
+    note_2025_09_22_title: 'Плюсы и минусы жизни в Ереване ч.3',
+    note_2025_09_22_alt: 'Коллаж с минусом: минусы жизни в Ереване',
+    note_2025_09_22_p1:
+      'Как и обещали, добавляем небольшую ложку дёгтя в нашу бочку ереванского мёда. Сегодня — несколько <strong>минусов</strong>, в основном про цены.',
+    note_2025_09_22_li1:
+      '<strong>Цены на продукты и мясо.</strong> Бывает, выше московских. В палатках возле домов фрукты и овощи дешевле. Мясо на уровне или выше Москвы. В супермаркетах цены на одни и те же товары сильно различаются, палатки тоже отличаются. Мы закупаемся в сети «Ереван‑Сити», в сети SAS заметно дороже. Всегда приходится держать в голове «адекватную» цену — она может «прыгать» даже в одном и том же месте.',
+    note_2025_09_22_li2:
+      '<strong>Цены на жильё.</strong> После 2022 года аренда выросла в разы и снижается очень медленно. Например, 3‑комнатная квартира в Арабкире со средним ремонтом или хорошим, но не свежим, — от 300–400 тыс. драм в месяц (≈70–80 тыс. руб.) без учёта коммуналки. В других городах Армении аренда значительно ниже.',
+    note_2025_09_22_li3:
+      '<strong>Высокие коммунальные платежи.</strong> В Ереване нет центрального отопления, поэтому зимой коммуналка может доходить до 100 тыс. драм (≈20 тыс. руб.).',
+    note_2025_09_22_li4:
+      '<strong>Сфера обслуживания.</strong> Например, в ТЦ при покупке техники можно не получить полноценную консультацию и информацию о товаре.',
+    note_2025_09_22_li5:
+      '<strong>Цена на технику.</strong> На ~30% выше московских.',
+    note_2025_09_22_p2:
+      '<strong>Загрязнённость воздуха.</strong> Зимой часто штиль, и дым печек из частного сектора накрывает город шапкой смога. Многие топят чем попало, в т.ч. покрышками. В остальное время чуть легче, но пыль из Ереванской долины оседает слоем, который можно стирать каждый день. Иногда в пригороде горит свалка. В пиковые дни советуют выходить с респиратором.',
     note_2025_09_06_date: '6 сентября 2025',
     note_2025_09_06_title: 'Севан. Часть 1',
     note_2025_09_06_alt: 'Озеро Севан из отеля Tsovasar',
