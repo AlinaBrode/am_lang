@@ -75,8 +75,10 @@ const strings: Record<Lang, Record<string, string>> = {
       '<strong>Service quality is uneven.</strong> In malls, when buying electronics, you may not get full product information or a proper consultation.',
     note_2025_09_22_li5:
       '<strong>Electronics are pricey.</strong> Around 30% more expensive than in Moscow.',
-    note_2025_09_22_p2:
+    note_2025_09_22_li6:
       '<strong>Air pollution.</strong> In winter there is often no wind, and smoke from stoves in private sectors covers the city with smog. Many heat with whatever they have, even car tires. At other times it\'s a bit easier, but dust from the Ararat Valley settles in a layer you could wipe daily. Sometimes a landfill near the city catches fire. On peak days, people advise wearing a respirator outdoors.',
+    note_2025_09_22_p2:
+      'That\'s our list for today; everyone\'s experience will differ.',
     note_2025_09_06_date: '6 Sep 2025',
     note_2025_09_06_title: 'Sevan trip. Part 1',
     note_2025_09_06_alt: 'Lake Sevan view from Tsovasar hotel',
@@ -438,8 +440,10 @@ console.log("a=", a, "b=", b);</code></pre>`,
       '<strong>Сфера обслуживания.</strong> Например, в ТЦ при покупке техники можно не получить полноценную консультацию и информацию о товаре.',
     note_2025_09_22_li5:
       '<strong>Цена на технику.</strong> На ~30% выше московских.',
-    note_2025_09_22_p2:
+    note_2025_09_22_li6:
       '<strong>Загрязнённость воздуха.</strong> Зимой часто штиль, и дым печек из частного сектора накрывает город шапкой смога. Многие топят чем попало, в т.ч. покрышками. В остальное время чуть легче, но пыль из Ереванской долины оседает слоем, который можно стирать каждый день. Иногда в пригороде горит свалка. В пиковые дни советуют выходить с респиратором.',
+    note_2025_09_22_p2:
+      'На сегодня всё; опыт у всех разный.',
     note_2025_09_06_date: '6 сентября 2025',
     note_2025_09_06_title: 'Севан. Часть 1',
     note_2025_09_06_alt: 'Озеро Севан из отеля Tsovasar',
