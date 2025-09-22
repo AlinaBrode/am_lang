@@ -14,6 +14,7 @@ import sevanImg from '../assets/stories/Sevan_for_site.webp'
 import tsovasarEateryImg from '../assets/stories/tsovasar_eatery.webp'
 import height1900Collage from '../assets/stories/2025_09_height_1900_collage.webp'
 import minusImg from '../assets/stories/minus_for_site.webp'
+import minus00Img from '../assets/stories/minus_00.webp'
 import type { ReactNode } from 'react'
 
 interface Note {
@@ -471,6 +472,8 @@ export default function InterestingNotes() {
     <>
       <Meta />
       <div className="p-4">
+        {/* preload an extra image so it is served by hosting */}
+        <img src={minus00Img} alt="minus_00" className="hidden" aria-hidden="true" />
         <h1 className="text-xl font-bold mb-4">
           {t('interesting_notes_title')}
         </h1>
