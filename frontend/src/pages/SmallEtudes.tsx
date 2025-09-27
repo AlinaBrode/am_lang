@@ -10,6 +10,7 @@ import operatorsImg from '../assets/etudes/operators_on_the_wall.webp'
 import craneSwapImg from '../assets/etudes/crane_swap.webp'
 import binaryImg from '../assets/etudes/binary.webp'
 import xorImg from '../assets/etudes/xor_operation.webp'
+import strictProofImg from '../assets/etudes/strict_proof.webp'
 
 interface Etude {
   titleKey: string
@@ -23,6 +24,24 @@ interface Etude {
 }
 
 const etudes: Etude[] = [
+  {
+    titleKey: 'etude_2025_09_20b_title',
+    dateKey: 'etude_2025_09_20b_date',
+    altKey: 'etude_2025_09_20b_alt',
+    longTextKeys: [
+      'etude_2025_09_20b_long1',
+      'etude_2025_09_20b_long2',
+      'etude_2025_09_20b_long3',
+      'etude_2025_09_20b_long4',
+    ],
+    shortTextKeys: [
+      'etude_2025_09_20b_short1',
+      'etude_2025_09_20b_short2',
+      'etude_2025_09_20b_short3',
+    ],
+    img: strictProofImg,
+    slug: 'xor-proof',
+  },
   {
     titleKey: 'etude_2025_09_20_title',
     dateKey: 'etude_2025_09_20_date',

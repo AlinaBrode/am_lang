@@ -366,6 +366,21 @@ console.log("a=", a, "b=", b);</code></pre>`,
     etude_2025_09_20_short4: 'Associative, commutative, self-inverse',
     etude_2025_09_20_short5:
       '<a href="https://en.wikipedia.org/wiki/Exclusive_or" target="_blank" rel="noopener noreferrer">Wikipedia: XOR</a>',
+
+    etude_2025_09_20b_date: '20 Sep 2025',
+    etude_2025_09_20b_title: 'Proof of XOR swap',
+    etude_2025_09_20b_alt: 'Strict proof of XOR swap',
+    etude_2025_09_20b_long1:
+      'In <a href="/en/small_etudes/xor" target="_blank" rel="noopener noreferrer">the previous note</a> we demonstrated XOR‑swap with an example and a table. Demonstration is not a proof. Here is a concise, rigorous explanation of why XOR‑swap works.',
+    etude_2025_09_20b_long2:
+      'Think of <code>a ^ b</code> as toggling bits of <code>a</code> wherever <code>b</code> has 1s. Doing it twice restores the original: <code>a ^ b ^ b = a</code>.',
+    etude_2025_09_20b_long3:
+      '<pre class="bg-gray-100 p-2 rounded overflow-x-auto text-sm">// Let initial values be a0 and b0\nlet a = a0, b = b0\na = a ^ b      // a = a0 ^ b0,        b = b0\nb = a ^ b      // a = a0 ^ b0,        b = b0 ^ (a0 ^ b0) = a0\na = a ^ b      // a = a0 ^ b0 ^ a0 = b0, b = a0\n</pre>',
+    etude_2025_09_20b_long4:
+      'The result is general: the values are swapped without a temporary variable, for any integers <code>a0</code> and <code>b0</code>.',
+    etude_2025_09_20b_short1: 'XOR toggles bits: a ^ b ^ b = a',
+    etude_2025_09_20b_short2: 'Step‑by‑step proof for a0, b0',
+    etude_2025_09_20b_short3: 'Swap without a temp variable',
     drivers_title: 'Reliable drivers',
     drivers_col_name: 'Driver',
     drivers_col_region: 'Region',
@@ -729,6 +744,21 @@ console.log("a=", a, "b=", b);</code></pre>`,
     etude_2025_09_20_short4: 'Ассоциативность, коммутативность, самоуничтожение',
     etude_2025_09_20_short5:
       '<a href="https://ru.wikipedia.org/wiki/XOR" target="_blank" rel="noopener noreferrer">Википедия: XOR</a>',
+
+    etude_2025_09_20b_date: '20 сентября 2025',
+    etude_2025_09_20b_title: 'Доказательство обмена через XOR',
+    etude_2025_09_20b_alt: 'Строгое доказательство XOR‑обмена',
+    etude_2025_09_20b_long1:
+      'В <a href="/ru/small_etudes/xor" target="_blank" rel="noopener noreferrer">прошлой заметке</a> мы показали XOR‑обмен на примере и таблице. Демонстрация — это не доказательство. Ниже — краткое строгое объяснение, почему XOR‑обмен работает.',
+    etude_2025_09_20b_long2:
+      'Думайте о <code>a ^ b</code> как о переключении (инвертировании) битов <code>a</code> в тех позициях, где у <code>b</code> стоят 1. Дважды инвертируем — получаем исходное: <code>a ^ b ^ b = a</code>.',
+    etude_2025_09_20b_long3:
+      '<pre class="bg-gray-100 p-2 rounded overflow-x-auto text-sm">// Пусть исходные значения — a0 и b0\nlet a = a0, b = b0\na = a ^ b      // a = a0 ^ b0,        b = b0\nb = a ^ b      // a = a0 ^ b0,        b = b0 ^ (a0 ^ b0) = a0\na = a ^ b      // a = a0 ^ b0 ^ a0 = b0, b = a0\n</pre>',
+    etude_2025_09_20b_long4:
+      'Результат общий: значения меняются местами без временной переменной для любых целых <code>a0</code> и <code>b0</code>.',
+    etude_2025_09_20b_short1: 'XOR переключает биты: a ^ b ^ b = a',
+    etude_2025_09_20b_short2: 'Пошаговое доказательство для a0, b0',
+    etude_2025_09_20b_short3: 'Обмен без временной переменной',
     drivers_title: 'Проверенные водители',
     drivers_col_name: 'Водитель',
     drivers_col_region: 'Регион',
