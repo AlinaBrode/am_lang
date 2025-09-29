@@ -60,6 +60,26 @@ const strings: Record<Lang, Record<string, string>> = {
       'Yerevan is full of bilingual signs. While strolling and looking around, you can dive into the Armenian alphabet. At first we just noticed them, and now we deliberately hunt for them. Today we show a road sign with the city name itself: Yerevan — Ե-Ր-Ե-Վ-Ա-Ն.',
     sign_2025_08_25_p2:
       'You can see it not only on plaques and facades but also on street benches—an urban art form from Soviet times. We will show more such references later. As a bonus, here is the word “ԵՐԵՎԱՆ” on a Yerevan bench.',
+
+    note_2025_09_27_date: '27 Sep 2025',
+    note_2025_09_27_title: 'Apartment rent. Part 1 (Tenant)',
+    note_2025_09_27_alt: 'Moving with boxes between rented apartments in Yerevan',
+    note_2025_09_27_p1:
+      'Barev everyone! Today — practical matters: rent. Whether you are a landlord or a tenant, the word usually comes with hassle. Right now we are both: in Yerevan we rent, in Moscow we lease out our flat. Today — about us as tenants.',
+    note_2025_09_27_p2:
+      'We started with <a href="https://list.am" target="_blank" rel="noopener noreferrer">list.am</a>: filters by rooms, price, district are convenient. The minus is many fake listings. Often realtors reply: you call about a specific ad — they say it\'s already rented but “we have other options.” We weren\'t lucky with the app and turned to a realtor.',
+    note_2025_09_27_p3:
+      'We didn\'t choose at random — we followed a friend\'s recommendation and never regretted it. Our realtor is Nikolay — for us, a benchmark of professionalism, kindness and charisma.',
+    note_2025_09_27_li1:
+      '<strong>Cons:</strong> you pay a commission — 30–50% of a month\'s rent. Our realtor takes 30%.',
+    note_2025_09_27_li2:
+      '<strong>Pros:</strong> you pick 5–6 apartments, and all are shown the same day; the realtor provides a car. Ours did not take a commission on our repeat request.',
+    note_2025_09_27_p4:
+      'In Armenia the rental income tax is 10%, but many landlords don\'t pay it. If you need registration at the residence address, a landlord who doesn\'t declare income can refuse.',
+    note_2025_09_27_p5:
+      'Once you choose an option, you sign a contract, pay the commission and move in. Our realtor arranged the move and negotiated the initial price down. For the first flat he also negotiated buying missing items: microwave, iron, vacuum cleaner. We got lucky — not all do this.',
+    note_2025_09_27_p6:
+      'In short: you can search yourself for free, or pay a commission and get a service — help with the move and carrying things. We can share our realtor\'s contacts and recommend him. The photo of our move between apartments is a bonus.',
     note_2025_09_22_date: '22 Sep 2025',
     note_2025_09_22_title: 'Pros and cons of life in Yerevan, part 3',
     note_2025_09_22_alt: 'Minus collage: downsides of life in Yerevan',
@@ -177,7 +197,7 @@ const strings: Record<Lang, Record<string, string>> = {
       'Armenian channels offer many rental options; there is list.am where in the long-term rental section one can pick an apartment. The downside of this site is many fake listings from realtors. We used a realtor recommended by friends.',
     note_2025_08_18_li6_title: 'Rent out your apartment',
     note_2025_08_18_li6_text:
-      "We used Yandex.Rent to lease our Moscow flat. You don't have to meet the tenant; you choose one via an application form. There's a contract. The downside is that it's harder to rent out. For tenants the service adds a 7% monthly commission to the rent.",
+      "We used Yandex.Rent to lease our Moscow flat. You don\'t have to meet the tenant; you choose one via an application form. There's a contract. The downside is that it\'s harder to rent out. For tenants the service adds a 7% monthly commission to the rent.",
     note_2025_08_18_li7_title: 'Set up essential services',
     note_2025_08_18_li7_text:
       "Download necessary apps—banking, Gosuslugi, mos.ru, the taxpayer's cabinet. All apps work via VPN.",
@@ -223,7 +243,7 @@ const strings: Record<Lang, Record<string, string>> = {
     note_2025_08_25_p6:
       'If you have any questions, feel free to ask in the comments.',
     note_2025_06_17_date: '17 Jun 2025',
-    note_2025_06_17_title: "It's impossible to pronounce",
+    note_2025_06_17_title: "It\'s impossible to pronounce",
     note_2025_06_17_alt: 'Alexander Tamanian',
     note_2025_06_17_p1:
       'At the foot of the majestic Cascade stands a monument dedicated to Alexander Tamanian\u2014a great man with a troubled life. He was the visionary behind the master plan of Yerevan, the very layout we see today.',
@@ -759,7 +779,27 @@ console.log("a=", a, "b=", b);</code></pre>`,
     etude_2025_09_20b_short1: 'XOR переключает биты: a ^ b ^ b = a',
     etude_2025_09_20b_short2: 'Пошаговое доказательство для a0, b0',
     etude_2025_09_20b_short3: 'Обмен без временной переменной',
-    drivers_title: 'Проверенные водители',
+    
+    note_2025_09_27_date: '27 сентября 2025',
+    note_2025_09_27_title: 'Аренда квартиры. Часть 1 (Арендатор)',
+    note_2025_09_27_alt: 'Переезд с коробками между арендными квартирами в Ереване',
+    note_2025_09_27_p1:
+      'Барев всем! Сегодня — про бытовые дела: аренду. Кем бы ты ни был — арендодателем или арендатором, это слово обычно ассоциируется с хлопотами. Сейчас мы в обеих ролях: в Ереване снимаем, в Москве — сдаём квартиру. Сегодня — про нас, арендаторов.',
+    note_2025_09_27_p2:
+      'Когда мы искали квартиру, сразу пошли на <a href="https://list.am" target="_blank" rel="noopener noreferrer">list.am</a>. Приложение удобное: можно отфильтровать по количеству комнат, цене, району. Есть минус: очень много фейковых аккаунтов. Часто отвечают риелторы: звонишь по конкретному объявлению — говорят, что квартира уже сдана, но «есть другие варианты». Нам с приложением не повезло, поэтому обратились к риелтору.',
+    note_2025_09_27_p3:
+      'Пошли не к первому встречному, а воспользовались рекомендацией друзей, о чём ни разу не пожалели. Нашего риелтора зовут Николай и для нас это — верх профессионализма, доброжелательности и харизмы.',
+    note_2025_09_27_li1:
+      '<strong>Минусы:</strong> платишь комиссию — 30–50% от месячной платы. Наш риелтор берёт 30%.',
+    note_2025_09_27_li2:
+      '<strong>Плюсы:</strong> выбираешь 5–6 квартир, за день показывают все варианты; риелтор предоставляет машину. Наш риелтор не взял комиссию при повторном обращении.',
+    note_2025_09_27_p4:
+      'В Армении подоходный налог с аренды — 10%, но многие арендодатели его не платят. Поэтому, если понадобится регистрация по месту проживания, недекларирующий арендодатель может отказать.',
+    note_2025_09_27_p5:
+      'Когда вариант выбран, происходит подписание договора, оплата комиссии и заселение. Наш риелтор организовал переезд и сбил первоначальную цену. В случае с первой квартирой договорился о покупке недостающих вещей: микроволновки, утюга, пылесоса. Нам, правда, повезло с риелтором — не все так делают.',
+    note_2025_09_27_p6:
+      'Тут выбор простой: искать самим бесплатно или заплатить комиссию и получить сервис — помощь с переездом и погрузкой вещей. Контактами риелтора готовы поделиться и можем его рекомендовать. Фото нашего переезда из одной квартиры в другую — бонус.',
+drivers_title: 'Проверенные водители',
     drivers_col_name: 'Водитель',
     drivers_col_region: 'Регион',
     drivers_col_cars: 'Доступные машины',

@@ -14,6 +14,7 @@ import sevanImg from '../assets/stories/Sevan_for_site.webp'
 import tsovasarEateryImg from '../assets/stories/tsovasar_eatery.webp'
 import height1900Collage from '../assets/stories/2025_09_height_1900_collage.webp'
 import minusImg from '../assets/stories/minus_for_site.webp'
+import rent1Img from '../assets/stories/rent1.webp'
 import minus00Img from '../assets/stories/minus_00.webp'
 import type { ReactNode } from 'react'
 
@@ -25,6 +26,32 @@ interface Note {
 }
 
 const notes: Note[] = [
+  {
+    slug: 'rent-in-yerevan-part-1-tenant',
+    dateKey: 'note_2025_09_27_date',
+    titleKey: 'note_2025_09_27_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={rent1Img}
+          alt={t('note_2025_09_27_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_27_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_27_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_27_p3') }} />
+          <ul className="list-disc list-inside space-y-2">
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_09_27_li1') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_09_27_li2') }} />
+          </ul>
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_27_p4') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_27_p5') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_09_27_p6') }} />
+        </div>
+      </div>
+    ),
+  },
   {
     slug: 'downsides-of-life-in-yerevan',
     dateKey: 'note_2025_09_22_date',
