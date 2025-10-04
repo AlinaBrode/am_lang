@@ -15,6 +15,7 @@ import tsovasarEateryImg from '../assets/stories/tsovasar_eatery.webp'
 import height1900Collage from '../assets/stories/2025_09_height_1900_collage.webp'
 import minusImg from '../assets/stories/minus_for_site.webp'
 import rent1Img from '../assets/stories/rent1.webp'
+import moscowLetImg from '../assets/stories/moscow_let.webp'
 import minus00Img from '../assets/stories/minus_00.webp'
 import type { ReactNode } from 'react'
 
@@ -26,6 +27,41 @@ interface Note {
 }
 
 const notes: Note[] = [
+  {
+    slug: 'rent-in-moscow-part-2-landlord',
+    dateKey: 'note_2025_10_04_date',
+    titleKey: 'note_2025_10_04_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={moscowLetImg}
+          alt={t('note_2025_10_04_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_04_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_04_p2') }} />
+          <p>
+            <strong>{t('note_2025_10_04_good')}</strong>
+          </p>
+          <ul className="list-disc list-inside space-y-2">
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_10_04_li1') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_10_04_li2') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_10_04_li3') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_10_04_li4') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_10_04_li5') }} />
+          </ul>
+          <p>
+            <strong>{t('note_2025_10_04_bad')}</strong>
+          </p>
+          <ul className="list-disc list-inside space-y-2">
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_10_04_li6') }} />
+            <li dangerouslySetInnerHTML={{ __html: t('note_2025_10_04_li7') }} />
+          </ul>
+        </div>
+      </div>
+    ),
+  },
   {
     slug: 'rent-in-yerevan-part-1-tenant',
     dateKey: 'note_2025_09_27_date',

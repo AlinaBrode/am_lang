@@ -60,6 +60,28 @@ const strings: Record<Lang, Record<string, string>> = {
       'Yerevan is full of bilingual signs. While strolling and looking around, you can dive into the Armenian alphabet. At first we just noticed them, and now we deliberately hunt for them. Today we show a road sign with the city name itself: Yerevan — Ե-Ր-Ե-Վ-Ա-Ն.',
     sign_2025_08_25_p2:
       'You can see it not only on plaques and facades but also on street benches—an urban art form from Soviet times. We will show more such references later. As a bonus, here is the word “ԵՐԵՎԱՆ” on a Yerevan bench.',
+    note_2025_10_04_date: '4 Oct 2025',
+    note_2025_10_04_title: 'Apartment rent in Moscow. Part 2 (Landlord)',
+    note_2025_10_04_alt: 'Moscow apartment letting — moving boxes',
+    note_2025_10_04_p1:
+      'Continuing the “Rent” series — today from the landlord\'s perspective.',
+    note_2025_10_04_p2:
+      'There are different ways to rent out a flat in Moscow: yourself or via services. For two years we\'ve been using Yandex.Rent and here is our experience.',
+    note_2025_10_04_good: 'What\'s convenient:',
+    note_2025_10_04_li1:
+      'All viewings and meetings with tenants are handled by the service.',
+    note_2025_10_04_li2:
+      'They also take care of the handover after move‑out.',
+    note_2025_10_04_li3:
+      'The contract includes a fee for early termination by the tenant.',
+    note_2025_10_04_li4:
+      'Damage is compensated: an inventory and photos are made before renting. We had two broken chairs reimbursed.',
+    note_2025_10_04_li5: 'Insurance is included in the price.',
+    note_2025_10_04_bad: 'What\'s not so convenient:',
+    note_2025_10_04_li6:
+      'The contract is official, for 11 months. Tax is mandatory (4% for self‑employed). Payments come directly from Yandex.Rent — the tax office sees it.',
+    note_2025_10_04_li7:
+      'The commission is included in the rent, so the flat looks pricier against competitors. The market is saturated, and even in August (peak season) we couldn\'t let it without lowering the price.',
 
     note_2025_09_27_date: '27 Sep 2025',
     note_2025_09_27_title: 'Apartment rent. Part 1 (Tenant)',
@@ -460,6 +482,26 @@ console.log("a=", a, "b=", b);</code></pre>`,
       'В Ереване множество двуязычных вывесок, по которым, прогуливаясь и глазея по сторонам, можно погружаться в мир армянского алфавита. Сначала мы просто их подмечали, а теперь целенаправленно «охотимся». Сегодня для вас — дорожный знак с названием самого города: Ереван — Ե-Ր-Ե-Վ-Ա-Ն.',
     sign_2025_08_25_p2:
       'В городе оно встречается не только на табличках и фасадах, но и на уличных скамейках — это уже отдельный вид городского искусства времён советского союза, здесь ещё не раз будут такие отсылки. Бонусом показываем слово «ԵՐԵՎԱՆ» на ереванской скамейке.',
+    note_2025_10_04_date: '4 октября 2025',
+    note_2025_10_04_title: 'Аренда в Москве. Часть 2 (Арендодатель)',
+    note_2025_10_04_alt: 'Аренда квартиры в Москве — переезд с коробками',
+    note_2025_10_04_p1:
+      'Продолжаем рубрику «Аренда» — сегодня со стороны арендодателя.',
+    note_2025_10_04_p2:
+      'Сдавать квартиру в Москве можно по‑разному: самому или через сервисы. Мы два года пользуемся «Яндекс.Арендой» и делимся опытом.',
+    note_2025_10_04_good: 'Что удобно:',
+    note_2025_10_04_li1:
+      'Все показы и встречи с жильцами берёт на себя сервис.',
+    note_2025_10_04_li2: 'Он же отвечает за приёмку квартиры после выезда.',
+    note_2025_10_04_li3: 'Договором предусмотрен штраф за досрочный съезд.',
+    note_2025_10_04_li4:
+      'Ущерб компенсируют: перед сдачей составляют опись и фото. У нас так вернули деньги за два сломанных стула.',
+    note_2025_10_04_li5: 'В стоимость включена страховка.',
+    note_2025_10_04_bad: 'Что не очень:',
+    note_2025_10_04_li6:
+      'Договор официальный, на 11 месяцев. Налог платить обязательно (для самозанятых 4%). Деньги приходят напрямую от «Яндекс.Аренды», налоговая всё видит.',
+    note_2025_10_04_li7:
+      'Комиссия включается в стоимость аренды, и квартира выглядит дороже на фоне конкурентов. Сейчас рынок перенасыщен, и даже в августе — пиковый сезон — сдать не удалось без снижения цены.',
     note_2025_09_22_date: '22 сентября 2025',
     note_2025_09_22_title: 'Плюсы и минусы жизни в Ереване ч.3',
     note_2025_09_22_alt: 'Коллаж с минусом: минусы жизни в Ереване',
