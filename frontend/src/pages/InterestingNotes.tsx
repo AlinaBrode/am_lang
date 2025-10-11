@@ -16,6 +16,8 @@ import height1900Collage from '../assets/stories/2025_09_height_1900_collage.web
 import minusImg from '../assets/stories/minus_for_site.webp'
 import rent1Img from '../assets/stories/rent1.webp'
 import moscowLetImg from '../assets/stories/moscow_let.webp'
+import kaliningradPreludeImg from '../assets/stories/elista_kaliningrad.webp'
+import kaliningradBeginImg from '../assets/stories/high_way__toll__dolgoprudny.webp'
 import minus00Img from '../assets/stories/minus_00.webp'
 import type { ReactNode } from 'react'
 
@@ -27,6 +29,46 @@ interface Note {
 }
 
 const notes: Note[] = [
+  {
+    slug: 'kaliningrad-prelude',
+    dateKey: 'note_2025_10_11a_date',
+    titleKey: 'note_2025_10_11a_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={kaliningradPreludeImg}
+          alt={t('note_2025_10_11a_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11a_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11a_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11a_p3') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11a_p4') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11a_p5') }} />
+        </div>
+      </div>
+    ),
+  },
+  {
+    slug: 'kaliningrad-beginning',
+    dateKey: 'note_2025_10_11b_date',
+    titleKey: 'note_2025_10_11b_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={kaliningradBeginImg}
+          alt={t('note_2025_10_11b_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11b_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11b_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11b_p3') }} />
+        </div>
+      </div>
+    ),
+  },
   {
     slug: 'rent-in-moscow-part-2-landlord',
     dateKey: 'note_2025_10_04_date',

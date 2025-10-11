@@ -121,7 +121,30 @@ const strings: Record<Lang, Record<string, string>> = {
       '<strong>Air pollution.</strong> In winter there is often no wind, and smoke from stoves in private sectors covers the city with smog. Many heat with whatever they have, even car tires. At other times it\'s a bit easier, but dust from the Ararat Valley settles in a layer you could wipe daily. Sometimes a landfill near the city catches fire. On peak days, people advise wearing a respirator outdoors.',
     note_2025_09_22_p2:
       'That\'s our list for today; everyone\'s experience will differ.',
-    note_2025_09_06_date: '6 Sep 2025',
+        note_2025_10_11a_date: '11 Oct 2025',
+    note_2025_10_11a_title: 'Kaliningrad. Prelude.',
+    note_2025_10_11a_alt: 'Kalmykia crossed out: trip to Kaliningrad',
+    note_2025_10_11a_p1:
+      'As promised, we write in the style of a “letter from Prostokvashino.” The mic goes to Alina.',
+    note_2025_10_11a_p2:
+      'Hi everyone! The poll winner was “Stories from life and trips”. Second place went to two other topics—we\'ll cover them later. Today we turn the calendar back almost five years to tell the story of our spectacular trip to <s>Elista</s> Kaliningrad, part 1.',
+    note_2025_10_11a_p3:
+      'During Vlad\'s school break we decided to travel together. At first we chose Elista: Asian flavor, Buddhism, the magic Poplar—it sounded intriguing. Arseniy had been there and liked it; also in April it\'s warmer than in Moscow. Tickets bought, hotel booked.',
+    note_2025_10_11a_p4:
+      'Then came February 2022. Flights to some destinations were suspended. Elista was on the list. We had to return tickets and cancel the hotel. “How about Kaliningrad? They say it\'s beautiful!” — “Let\'s go!” Tickets bought, hotel chosen. Plan: three days in Svetlogorsk (with a car to see the surroundings) and two days in Kaliningrad. Sounds like a plan!',
+    note_2025_10_11a_p5:
+      'Red flags started when the apartment owner told us the day before that he couldn\'t check us in due to heating issues. We canceled that option, frantically searched and booked another. Departure day! Vacation mode on—time to travel.',
+
+    note_2025_10_11b_date: '11 Oct 2025',
+    note_2025_10_11b_title: 'Kaliningrad. The Beginning.',
+    note_2025_10_11b_alt: 'Toll lane and transponder barrier on the highway',
+    note_2025_10_11b_p1:
+      'Nothing foreshadowed anything. We left home with an hour and twenty to spare—four hours before the departure from Sheremetyevo. A small argument: taxi or car‑sharing? A flap of a butterfly\'s wing—and we chose car‑sharing.',
+    note_2025_10_11b_p2:
+      'Task #1. Car‑sharing or taxi? After a brief discussion we chose car‑sharing. With spare time, just in case. Off we go. Then it gets weird: first red flag. We approach the toll transponder and… can\'t figure out how it works.',
+    note_2025_10_11b_p3:
+      'That\'s how our “beginning” began. The full story is to be continued.',
+note_2025_09_06_date: '6 Sep 2025',
     note_2025_09_06_title: 'Sevan trip. Part 1',
     note_2025_09_06_alt: 'Lake Sevan view from Tsovasar hotel',
     note_2025_09_06_p1:
@@ -521,7 +544,30 @@ console.log("a=", a, "b=", b);</code></pre>`,
       '<strong>Загрязнённость воздуха.</strong> Зимой часто штиль, и дым печек из частного сектора накрывает город шапкой смога. Многие топят чем попало, в т.ч. покрышками. В остальное время чуть легче, но пыль из Ереванской долины оседает слоем, который можно стирать каждый день. Иногда в пригороде горит свалка. В пиковые дни советуют выходить с респиратором.',
     note_2025_09_22_p2:
       'На сегодня всё; опыт у всех разный.',
-    note_2025_09_06_date: '6 сентября 2025',
+        note_2025_10_11a_date: '11 октября 2025',
+    note_2025_10_11a_title: 'Калининград. Предначало.',
+    note_2025_10_11a_alt: 'Элиста зачёркнута: поездка в Калининград',
+    note_2025_10_11a_p1:
+      'Как и обещали, пишем в стиле письма из Простоквашино. Микрофон перехватывает Алина.',
+    note_2025_10_11a_p2:
+      'Всем привет! По результатам опроса победила рубрика «Истории из жизни и отпуска». Серебро — у двух рубрик, о них позже. Сегодня перелистнём календарь почти на пять лет назад и начнём рассказывать о нашей фееричной поездке в <s>Элисту</s> Калининград, часть 1.',
+    note_2025_10_11a_p3:
+      'На каникулах Влада решили, что нужно куда‑нибудь съездить всей семьёй. Сначала выбрали Элисту: азиатский колорит, буддизм, волшебный Тополь — звучало загадочно. Арсений там уже был, ему понравилось; к тому же в апреле там теплее, чем в Москве. Билеты куплены, гостиница забронирована.',
+    note_2025_10_11a_p4:
+      'Наступает февраль 2022‑го. Часть направлений закрывают для полётов. Элиста — в списке. Билеты сдаём, отель отменяем. «А давай в Калининград? Говорят, там красиво!» — «Давай!» Билеты куплены, гостиница выбрана. План: три дня в Светлогорске (берём машину, чтобы поездить по окрестностям) и два дня — Калининград. Звучит как план!',
+    note_2025_10_11a_p5:
+      'Звоночки начались накануне: хозяин квартиры сообщил, что заселить не сможет — проблемы с отоплением. Этот вариант отменяем, судорожно ищем следующий и бронируем новую квартиру. Итак, день вылета: отпуск, можно не думать о работе и погрузиться в путешествие.',
+
+    note_2025_10_11b_date: '11 октября 2025',
+    note_2025_10_11b_title: 'Калининград. Начало.',
+    note_2025_10_11b_alt: 'Платная полоса и транспондер на трассе',
+    note_2025_10_11b_p1:
+      'Ничто не предвещало. Вышли из дома с запасом в час двадцать — за четыре часа до вылета из Шереметьево. Небольшая перепалка: ехать на такси или на каршеринге? Взмах крыла бабочки — едем на каршеринге.',
+    note_2025_10_11b_p2:
+      'Задача №1. Каршеринг или такси? После короткой дискуссии выбрали каршеринг. Времени с запасом — мало ли что. Поехали. И тут начинается странное: первый звоночек. Подъезжаем к транспондеру и не понимаем, как это работает.',
+    note_2025_10_11b_p3:
+      'Так началось наше «Начало». Продолжение следует.',
+note_2025_09_06_date: '6 сентября 2025',
     note_2025_09_06_title: 'Севан. Часть 1',
     note_2025_09_06_alt: 'Озеро Севан из отеля Tsovasar',
     note_2025_09_06_p1:
