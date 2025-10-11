@@ -46,6 +46,7 @@ const notes: Note[] = [
           <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11a_p3') }} />
           <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11a_p4') }} />
           <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11a_p5') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_11a_p6') }} />
         </div>
       </div>
     ),

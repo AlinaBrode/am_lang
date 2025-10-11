@@ -134,16 +134,18 @@ const strings: Record<Lang, Record<string, string>> = {
       'Then came February 2022. Flights to some destinations were suspended. Elista was on the list. We had to return tickets and cancel the hotel. “How about Kaliningrad? They say it\'s beautiful!” — “Let\'s go!” Tickets bought, hotel chosen. Plan: three days in Svetlogorsk (with a car to see the surroundings) and two days in Kaliningrad. Sounds like a plan!',
     note_2025_10_11a_p5:
       'Red flags started when the apartment owner told us the day before that he couldn\'t check us in due to heating issues. We canceled that option, frantically searched and booked another. Departure day! Vacation mode on—time to travel.',
+    note_2025_10_11a_p6:
+      'Task #1. Car‑sharing or taxi? After a short discussion we chose car‑sharing. With time to spare—just in case.',
 
     note_2025_10_11b_date: '11 Oct 2025',
     note_2025_10_11b_title: 'Kaliningrad. The Beginning.',
     note_2025_10_11b_alt: 'Toll lane and transponder barrier on the highway',
     note_2025_10_11b_p1:
-      'Nothing foreshadowed anything. We left home with an hour and twenty to spare—four hours before the departure from Sheremetyevo. A small argument: taxi or car‑sharing? A flap of a butterfly\'s wing—and we chose car‑sharing.',
+      'Let\'s sample posts according to the poll results. The winner was “Stories from life and trips.” It\'s time to digitize our Kaliningrad journey. Many friends heard this as a stand‑up story; now it\'s a “letter from Prostokvashino.”',
     note_2025_10_11b_p2:
-      'Task #1. Car‑sharing or taxi? After a brief discussion we chose car‑sharing. With spare time, just in case. Off we go. Then it gets weird: first red flag. We approach the toll transponder and… can\'t figure out how it works.',
+      'The Beginning. By Arseniy.',
     note_2025_10_11b_p3:
-      'That\'s how our “beginning” began. The full story is to be continued.',
+      'Nothing foreshadowed anything. We left home with an hour and twenty to spare—four hours before the departure from Sheremetyevo. A small argument: taxi or car‑sharing? A flap of a butterfly\'s wing—and we chose car‑sharing.',
 note_2025_09_06_date: '6 Sep 2025',
     note_2025_09_06_title: 'Sevan trip. Part 1',
     note_2025_09_06_alt: 'Lake Sevan view from Tsovasar hotel',
@@ -557,16 +559,18 @@ console.log("a=", a, "b=", b);</code></pre>`,
       'Наступает февраль 2022‑го. Часть направлений закрывают для полётов. Элиста — в списке. Билеты сдаём, отель отменяем. «А давай в Калининград? Говорят, там красиво!» — «Давай!» Билеты куплены, гостиница выбрана. План: три дня в Светлогорске (берём машину, чтобы поездить по окрестностям) и два дня — Калининград. Звучит как план!',
     note_2025_10_11a_p5:
       'Звоночки начались накануне: хозяин квартиры сообщил, что заселить не сможет — проблемы с отоплением. Этот вариант отменяем, судорожно ищем следующий и бронируем новую квартиру. Итак, день вылета: отпуск, можно не думать о работе и погрузиться в путешествие.',
+    note_2025_10_11a_p6:
+      'Задача №1. Каршеринг или такси? После короткой дискуссии выбрали каршеринг. Времени с запасом — мало ли что.',
 
     note_2025_10_11b_date: '11 октября 2025',
     note_2025_10_11b_title: 'Калининград. Начало.',
     note_2025_10_11b_alt: 'Платная полоса и транспондер на трассе',
     note_2025_10_11b_p1:
-      'Ничто не предвещало. Вышли из дома с запасом в час двадцать — за четыре часа до вылета из Шереметьево. Небольшая перепалка: ехать на такси или на каршеринге? Взмах крыла бабочки — едем на каршеринге.',
+      'Попробуем сэмплить посты согласно распределению из голосования. Больше всего набрал пункт "Истории из жизни и отпуска". Видимо, пришло время оцифровать нашу поездку в Калининград. Многие из присутствующих слышали эту историю вживую в формате стендапа. Пришло время прочитать в формате "письмо из простоквашино".',
     note_2025_10_11b_p2:
-      'Задача №1. Каршеринг или такси? После короткой дискуссии выбрали каршеринг. Времени с запасом — мало ли что. Поехали. И тут начинается странное: первый звоночек. Подъезжаем к транспондеру и не понимаем, как это работает.',
+      'Начало. От Арсения.',
     note_2025_10_11b_p3:
-      'Так началось наше «Начало». Продолжение следует.',
+      'Ничто не предвещало. Ну, то есть, вообще ничто. Вышли из дома с запасом в час двадцать. За четыре часа до вылета из Шереметьево вышли из дома на Ленинском проспекте. Маленькая незаметная перепалка — ехать на такси или на каршеринге. Взмах крыла бабочки и поехали на каршеринге.',
 note_2025_09_06_date: '6 сентября 2025',
     note_2025_09_06_title: 'Севан. Часть 1',
     note_2025_09_06_alt: 'Озеро Севан из отеля Tsovasar',
