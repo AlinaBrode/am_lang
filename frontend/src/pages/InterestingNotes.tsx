@@ -18,6 +18,8 @@ import rent1Img from '../assets/stories/rent1.webp'
 import moscowLetImg from '../assets/stories/moscow_let.webp'
 import kaliningradPreludeImg from '../assets/stories/elista_kaliningrad.webp'
 import kaliningradBeginImg from '../assets/stories/high_way__toll__dolgoprudny.webp'
+import whatYouSowImg from '../assets/stories/what_you_sow.webp'
+import carsharingImg from '../assets/stories/carsharing_sheremetievo.webp'
 import minus00Img from '../assets/stories/minus_00.webp'
 import type { ReactNode } from 'react'
 
@@ -29,6 +31,48 @@ interface Note {
 }
 
 const notes: Note[] = [
+  {
+    slug: 'kaliningrad-what-you-sow',
+    dateKey: 'note_2025_10_15_date',
+    titleKey: 'note_2025_10_15_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={whatYouSowImg}
+          alt={t('note_2025_10_15_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_15_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_15_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_15_p3') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_15_p4') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_15_p5') }} />
+        </div>
+      </div>
+    ),
+  },
+  {
+    slug: 'kaliningrad-day-of-departure',
+    dateKey: 'note_2025_10_12_date',
+    titleKey: 'note_2025_10_12_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={carsharingImg}
+          alt={t('note_2025_10_12_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_12_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_12_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_12_p3') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_12_p4') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_12_p5') }} />
+        </div>
+      </div>
+    ),
+  },
   {
     slug: 'kaliningrad-prelude',
     dateKey: 'note_2025_10_11a_date',

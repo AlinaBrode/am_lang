@@ -121,7 +121,33 @@ const strings: Record<Lang, Record<string, string>> = {
       '<strong>Air pollution.</strong> In winter there is often no wind, and smoke from stoves in private sectors covers the city with smog. Many heat with whatever they have, even car tires. At other times it\'s a bit easier, but dust from the Ararat Valley settles in a layer you could wipe daily. Sometimes a landfill near the city catches fire. On peak days, people advise wearing a respirator outdoors.',
     note_2025_09_22_p2:
       'That\'s our list for today; everyone\'s experience will differ.',
-        note_2025_10_11a_date: '11 Oct 2025',
+    note_2025_10_15_date: '15 Oct 2025',
+    note_2025_10_15_title: 'Kaliningrad. What You Sow.',
+    note_2025_10_15_alt: 'Illustration for the Kaliningrad story "What You Sow"',
+    note_2025_10_15_p1:
+      'Arseniy takes the mic. Previously, our heroes left early, headed to Sheremetyevo via car-sharing, got frazzled, lost heaps of time on transponders and interchanges, and now they sprint with their bags toward the shuttle.',
+    note_2025_10_15_p2:
+      'The shuttle ride from terminal to terminal and the long ramp chew up what little time we had left. Passport control, security. We stop by a cafe to grab a snack. Time to pay. I make the usual left-hand motion that should conjure the bank card. Nothing. I try again; same result. Two more attempts to fish the card out of its usual spot fail. The very storm stirred up by that butterfly\'s wing hits us full force.',
+    note_2025_10_15_p3:
+      'The problem is not even the credit card itself: the entire stack of documents is missing, driver\'s license included. Everything lived together in the wallet. We have a packed cultural itinerary that hinges on renting a car.',
+    note_2025_10_15_p4:
+      'Alina\'s phone rings: everyone is already seated on the plane waiting for us. As the classics say, "During this course Miles realized that failing to decide is often worse than choosing wrong." I insist that Alina and Vlad should fly while I stay behind to deal with the paperwork. Provocative questions follow: "What if you don\'t find it?" There is no time to talk, so we scatter in different directions.',
+    note_2025_10_15_p5:
+      'From this moment the story splits into two parallel streams that occasionally intersect.',
+    note_2025_10_12_date: '12 Oct 2025',
+    note_2025_10_12_title: 'Kaliningrad. Prelude. Day of departure.',
+    note_2025_10_12_alt: 'Car-sharing car at the Sheremetyevo toll booth',
+    note_2025_10_12_p1:
+      'Arseniy takes the mic. Previously, our heroes left early and headed to Sheremetyevo using car-sharing.',
+    note_2025_10_12_p2:
+      'The first storm clouds appeared after we passed Dolgoprudny and tried to conquer the automatic toll gate. As we later realized, squeezing into the transponder lane was a mistake—right nearby was a lane for credit cards. Minus fifteen minutes from our buffer spent nudging forward and backward, trying to shout to an attendant, and tapping a bank card where a transponder was expected. Frazzled and distracted, we finally got through.',
+    note_2025_10_12_p3:
+      'A cold breeze set in when we wondered, “Where can we leave a car-sharing vehicle at Sheremetyevo?” The answer: at a terminal from which we had to take a shuttle to reach ours—another fifteen minutes gone. An hour and twenty, minus fifteen, minus fifteen again equals a fifty-minute reserve.',
+    note_2025_10_12_p4:
+      'The first chilly drops hit when we discovered that the approach to the Sheremetyevo parking lot resembled a bowl of spaghetti, with only one of dozens of exits leading to the garage that accepts car-sharing cars. Three victory laps around the garage cost us half an hour. Finally, thoroughly on edge and with just fifteen minutes left, we pulled into the garage.',
+    note_2025_10_12_p5:
+      'Unload the car. Double-check everything. Frazzled, we slam the doors, return the car through the app, and dash out of the garage. I carefully ask Alina and Vlad whether they left anything behind and urge them to check twice. Thunder rumbles. Navigating out of the garage gobbles up what remained of our buffer. We sprint toward the terminal with zero minutes to spare.',
+    note_2025_10_11a_date: '11 Oct 2025',
     note_2025_10_11a_title: 'Kaliningrad. Prelude.',
     note_2025_10_11a_alt: 'Kalmykia crossed out: trip to Kaliningrad',
     note_2025_10_11a_p1:
@@ -546,7 +572,33 @@ console.log("a=", a, "b=", b);</code></pre>`,
       '<strong>Загрязнённость воздуха.</strong> Зимой часто штиль, и дым печек из частного сектора накрывает город шапкой смога. Многие топят чем попало, в т.ч. покрышками. В остальное время чуть легче, но пыль из Ереванской долины оседает слоем, который можно стирать каждый день. Иногда в пригороде горит свалка. В пиковые дни советуют выходить с респиратором.',
     note_2025_09_22_p2:
       'На сегодня всё; опыт у всех разный.',
-        note_2025_10_11a_date: '11 октября 2025',
+    note_2025_10_15_date: '15 октября 2025',
+    note_2025_10_15_title: 'Калининград. Что посеешь.',
+    note_2025_10_15_alt: 'Иллюстрация к истории «Что посеешь»',
+    note_2025_10_15_p1:
+      'Арсений у микрофона. В предыдущих сериях наши герои вышли заранее и поехали в Шереметьево на каршеринге, раздёргались и потеряли кучу времени на транпондерах и транспортных развязках, а теперь несутся с тюками к шаттлу.',
+    note_2025_10_15_p2:
+      'Переезд на челноке из терминала в терминал, длинный пандус доедают остатки времени, которого и так уже не было. Паспортный контроль, досмотр. Остановились около кафешки купить перекус. Пришло время расплаты. Делаю жест левой рукой, который обычно приводит к тому, что в ней появляется банковская карта. Карта не появилась. Пробую ещё раз. Тот же эффект. Ещё две попытки нашарить карточку на её привычном месте в сумке успехом не увенчались. Нас накрыло той самой бурей, которую принёс взмах крыла бабочки.',
+    note_2025_10_15_p3:
+      'Проблема даже не в кредитной карточке а в том, что отсутствует вся пачка документов, включая права. В ксивнице всё лежало вместе. У нас запланирована большая культурная программа, сильно завязанная на аренду машины.',
+    note_2025_10_15_p4:
+      'Звонок на телефон Алины: в самолёте все уже расселись, ждут нас. Как говорили классики, «В ходе этого курса Майлз понял что не принять решение зачастую хуже, чем принять неправильное». Настойчиво предлагаю Алине и Владу лететь, а мне оставаться и разбираться с документами. Идут провокационные вопросы «А что будет, если не найдёшь?» Но разговаривать некогда и расходимся в разные стороны.',
+    note_2025_10_15_p5:
+      'Начиная с этого момента история разделяется на два стрима, которые будут идти параллельно, время от времени соприкасаясь.',
+    note_2025_10_12_date: '12 октября 2025',
+    note_2025_10_12_title: 'Калининград. Предначало. День вылета.',
+    note_2025_10_12_alt: 'Каршеринг у платного пункта на подъезде к Шереметьево',
+    note_2025_10_12_p1:
+      'Арсений у микрофона. В предыдущих сериях наши герои вышли заранее и поехали в Шереметьево на каршеринге.',
+    note_2025_10_12_p2:
+      'Первые тучи на горизонте появились когда мы проехали Долгопрудный и попытались преодолеть автоматические ворота. Как позже выяснилось, не надо было щемиться в транспондерные ворота, когда рядом были платные по кредитке. Минус пятнадцать минут из запаса на тырканье туда-сюда, попытки докричаться до сотрудника автоматических ворот. Уже немного на взводе с вниманием, рассеянным нервяком и попытками приложить банковскую карточку туда, где ждут транспондер, преодолели этот рубеж.',
+    note_2025_10_12_p3:
+      'Холодным ветерком повеяло когда задались вопросом «А где можно оставить каршеринговую машину в Шереметьево?». Ответ — в терминале, от которого до нашего добираться шатлом — ещё минус 15 минут от нашего запаса. Час двадцать минус пятнадцать, минус 15 — остаётся пятьдесят минут запаса.',
+    note_2025_10_12_p4:
+      'Первые холодные капли упали за шиворот когда обнаружилось что подъезд к стоянке на Шереметьево напоминает тарелку макарон и из десятка съездов только один ведёт к гаражу, в котором можно оставить каршеринг. Три круга почёта вокруг гаража забрали ещё пол часа. И вот мы, уже изрядно на взводе с 15ю минутами запаса на руках остановились в гараже.',
+    note_2025_10_12_p5:
+      'Выгрузка из машины. Тщательнейшие осмотры, не забыли ли чего. Подзапаренные, захлопываем машину, сдаём через прикладуху и несёмся из гаража. Очень внимательно расспрашиваю Алину и Влада, не забыли ли они чего и прошу дважды проверить их свои вещи. Слышны раскаты грома. Выбиралово из гаража сжирает остатки запаса времени. Несёмся со всеми тюками с нулевым запасом времени.',
+    note_2025_10_11a_date: '11 октября 2025',
     note_2025_10_11a_title: 'Калининград. Предначало.',
     note_2025_10_11a_alt: 'Элиста зачёркнута: поездка в Калининград',
     note_2025_10_11a_p1:
