@@ -121,6 +121,57 @@ const strings: Record<Lang, Record<string, string>> = {
       '<strong>Air pollution.</strong> In winter there is often no wind, and smoke from stoves in private sectors covers the city with smog. Many heat with whatever they have, even car tires. At other times it\'s a bit easier, but dust from the Ararat Valley settles in a layer you could wipe daily. Sometimes a landfill near the city catches fire. On peak days, people advise wearing a respirator outdoors.',
     note_2025_09_22_p2:
       'That\'s our list for today; everyone\'s experience will differ.',
+    note_2025_10_25_date: '25 Oct 2025',
+    note_2025_10_25_title: 'Kaliningrad. Suitcase. Part 2.',
+    note_2025_10_25_alt: 'Boarding passes bleached blank by spilled perfume',
+    note_2025_10_25_p0: 'Alina takes the mic.',
+    note_2025_10_25_p1:
+      'Vlad looks at me with huge frightened eyes and says, "Mom, I don\'t know." We walk back into the terminal, I glance at the taxi desk and see our suitcase standing there serenely. It is practically within arm\'s reach, but we have already left the building, and the only way back to the desk is through check-in. We ask the staff to roll the suitcase over to us; they stare wide-eyed, clearly wishing we would disappear because they have no idea what to do. Finally the senior employee says, "Your suitcase will be taken to lost and found, processed there, and only after that can you request it." I insist they give it to me now rather than after some strange bureaucratic delay. I offer to list everything inside so they can check. Suddenly they engage with the problem and suggest, "Show us your boarding passes." I happily dig into my pocket, pull out the passes and proudly show them: "Here they are!" Their eyes go even wider. I look down and realise the cards are blank slips of paper — perfume spilled nearby and the alcohol erased the print.',
+    note_2025_10_25_p2:
+      'While I am talking to the airport staff, I text Arseniy asking him to send the boarding passes. When he does not answer, I delegate the task to Vlad. After a while the photos of our boarding passes arrive. The staff ask, "Why don\'t you have your boarding passes?" I explain that there were three of us flying, and the passes remained with the person who never boarded. Their confusion grows, my tension does not subside. They ask, "Do you have passports?" Shaking our passports, I say, "Give us our suitcase! Do we look like terrorists?!"',
+    note_2025_10_25_p3:
+      'You would not believe it, but the suitcase starts rolling our way. I text Arseniy that we have it and, apparently, are heading toward Svetlogorsk. Sitting in the car, catching my breath and driving past a huge Zabivaka statue, I joke with Vlad: "Look, what a Zabivaka! And where is yours?" Vlad replies, "I don\'t know, I think I lost it." I write to Arseniy, "When you arrive in Kaliningrad, try to find a Zabivaka at the airport." His reply pops up that very moment.',
+    note_2025_10_22_date: '22 Oct 2025',
+    note_2025_10_22_title: 'Kaliningrad. Rental Car.',
+    note_2025_10_22_alt: 'Aeroflot counter at Sheremetyevo airport',
+    note_2025_10_22_p1: 'Arseniy takes the mic.',
+    note_2025_10_22_p2:
+      'The previous post was hefty and still not enough, so the story continues.',
+    note_2025_10_22_p3:
+      'I make it to the Aeroflot desk, explain the situation, and naïvely expect the clerk to care. He doesn\'t — yet a ticket appears, two hours later than the flight Alina and Vlad are on.',
+    note_2025_10_22_p4:
+      'Next problem: the rental car. The pickup is booked for 19:00, but I will land closer to 21:00. I message the rental office; a young man calls back. I float options — maybe cancel, maybe pick up tomorrow, maybe stop by their office. Long pauses. He explains they close at nine. More pauses. Then: for an extra fee they can deliver the car after hours. I brace for disaster and hear a modest “500 rubles.” Cursing him in my head for the dramatic pauses, I agree to meet the car at the airport around ten.',
+    note_2025_10_22_p5:
+      'This negotiation happens while I ride the travelator toward the inter-terminal shuttle. Backpack, shoulder bag, another bag, tablet — and a crowd. The tablet rings: Vlad says Mom needs photos of the boarding passes. I juggle everything, launch the camera, get interrupted by another call, try again. Finally the photos go through, WhatsApp shows two check marks, and the shuttle arrives.',
+    note_2025_10_22_p6:
+      'I tumble out of the shuttle still on the phone. Vlad insists the pictures never arrived; I insist they did. Rant over. Maybe Alina will pick up the story from here.',
+    note_2025_10_19_date: '19 Oct 2025',
+    note_2025_10_19_title: 'Kaliningrad. Road to Putilkovo.',
+    note_2025_10_19_alt: 'Parking quest in a Putilkovo courtyard',
+    note_2025_10_19_p1:
+      'Today\'s illustration is a puzzle: spot the only parking space in Putilkovo.',
+    note_2025_10_19_p2:
+      'Our heroes have burned through their buffer of time, documents, and nerves. Alina and Vlad board the plane, land in Kaliningrad, collect the suitcase — and realize it is gone the moment they sit in the taxi.',
+    note_2025_10_19_p3: 'Arseniy grabs the mic.',
+    note_2025_10_19_p4:
+      'In my timeline I watch Alina trudge toward the plane, step out of the crowd, and tense up about the documents. The bank card — and the entire wallet — must still be in the car-sharing car. Support confirms it and gives me the driver\'s phone. My documents are in Putilkovo, forty minutes away. One task at a time: reach the garage, grab another car, drive to Putilkovo.',
+    note_2025_10_19_p5:
+      'I follow the navigator, take what looks like the right exit from the MKAD, and smack into a barrier. Seven hundred meters reversing under a chorus of honks: apparently I discovered a fake exit to Putilkovo.',
+    note_2025_10_19_p6:
+      'Putilkovo is pure bedroom community — parking is mythical. But the patron saint of kids, drunks, and scrambled minds takes pity: one spot opens up. I meet the driver, his family sympathizes, we swap documents. Halfway down the stairs it hits me: I drove here to pick up my driver\'s license while already driving without it.',
+    note_2025_10_19_p7:
+      'I get back to Sheremetyevo without incident; documents in hand, everything in order — except the tiny detail that the plane has long taken off. Alina texts that there are no more tickets to Kaliningrad today.',
+    note_2025_10_16_date: '16 Oct 2025',
+    note_2025_10_16_title: 'Kaliningrad. What You Sow. Forgotten Suitcase.',
+    note_2025_10_16_alt: 'Our suitcase waiting alone in the airport parking lot',
+    note_2025_10_16_p1:
+      'While we were debating how Arseniy would reach us once he found—or failed to find—the driver\'s license, the phone rang. A strict voice asked, “Are you still flying?” Vlad and I dashed toward our gate, tangled in staircases and exits, but reached it and boarded last under the passengers\' stern stares.',
+    note_2025_10_16_p2:
+      'I checked Moscow–Kaliningrad tickets: none left for today. The flight itself was wonderful. For an hour and twenty minutes I unplugged from the situation, savored the anticipation of rest, read my book.',
+    note_2025_10_16_p3:
+      'After landing it felt like things were finally working out. We were the very first to collect our suitcase — it had never arrived so quickly. I texted Arseniy; he replied that he had found the documents, returned to the airport and even bought a ticket for today, despite there having been none.',
+    note_2025_10_16_p4:
+      'I called Mom, told her we had landed, and teased her with the riddle “Three people set out, two arrived.” I shared the incident; she concluded, “You two make quite a couple.” Encouraged, Vlad and I headed for the taxi desk. The taxi showed up quickly, we got our receipt, and the driver led us to the car in the parking lot. I looked at Vlad and asked, “Where is our suitcase?”',
     note_2025_10_15_date: '15 Oct 2025',
     note_2025_10_15_title: 'Kaliningrad. What You Sow.',
     note_2025_10_15_alt: 'Illustration for the Kaliningrad story "What You Sow"',
@@ -572,6 +623,57 @@ console.log("a=", a, "b=", b);</code></pre>`,
       '<strong>Загрязнённость воздуха.</strong> Зимой часто штиль, и дым печек из частного сектора накрывает город шапкой смога. Многие топят чем попало, в т.ч. покрышками. В остальное время чуть легче, но пыль из Ереванской долины оседает слоем, который можно стирать каждый день. Иногда в пригороде горит свалка. В пиковые дни советуют выходить с респиратором.',
     note_2025_09_22_p2:
       'На сегодня всё; опыт у всех разный.',
+    note_2025_10_25_date: '25 октября 2025',
+    note_2025_10_25_title: 'Калининград. Чемодан. Часть 2.',
+    note_2025_10_25_alt: 'Посадочные талоны, обесцвеченные пролитым парфюмом',
+    note_2025_10_25_p0: 'Алина у микрофона.',
+    note_2025_10_25_p1:
+      'Влад смотрит на меня большими испуганными глазами и, недоумевая, говорит: "Мама, я не знаю". Мы заходим снова в здание аэропорта, я бросаю взгляд на стойку заказа такси и вижу наш чемодан, безмятежно стоящий около неё. И, вроде бы, рукой подать. Но проблема в том, что мы уже покинули здание аэропорта и попасть к стойке можно только через прохождение регистрации. Мы подходим к работникам и просим подкатить к нам наш чемодан. Они смотрят на меня большими круглыми глазами и хотят чтобы мы куда-то испарились, потому что они не понимают, как им поступить в этой ситуации. Вдруг слово берёт самый старший работник и говорит: "Ваш чемодан отдадут в бюро потерянных вещей, его там оформят и только после этого вы сможете обратиться за ним." Я настаиваю на том, чтобы мне мой чемодан отдали сейчас, а не через неопределённое время, после странных бюрократических процедур. Говорю, что могу рассказать, что лежит в чемодане и они смогут проверить. Внезапно сотрудники включаются в проблему и предлагают решение: "А покажите Ваши посадочные талоны." Я с радостью лезу в карман, где они лежат, выхватываю посадочные талоны и гордо показываю: "Вот они!" На что глаза работников округляются. Я не понимаю, в чём дело. Смотрю на посадочный и вижу что на них нет напечатанных данных, это просто пустые листочки бумаги. Всё просто: лежавшие рядом духи пролились и спирт обесцветил надписи.',
+    note_2025_10_25_p2:
+      'Пока я общаюсь с работниками аэропорта, я пишу Арсению и прошу его прислать посадочные талоны. Не получив ответа, я делегирую это занятие Владу. Через некоторое время фотографии наших посадочных талонов приходят. Работники спрашивают: "Почему у вас нет посадочных талонов?" Я объясняю всю историю про то, что мы летели втроём и посадочные талоны остались у того человека, который не прилетел. Непонимание работников растёт. Моё напряжение также не убывает. Работники спрашивают: "А паспорта у вас есть?" Потрясая нашими паспортами, говорю: "Отдайте нам наш чемодан? Мы что, на террористов похожи?!!"',
+    note_2025_10_25_p3:
+      'Вы не поверите, но чемодан начинает катиться в нашу сторону. Я пишу Арсению что чемодан мы получили и, кажется, мы едем в сторону Светлогорска. Сидя в машине, переводя дух и, проезжая мимо огромной статуи Забиваки, перекидываюсь с Владом: "Ой, смотри, какой Забивака! А где твой?" На что Влад говорит: "Я не знаю, по-моему, я его потерял." Тут я пишу Арсению: "По прилёту в Калининград попробуй найти в аэропорту Забиваку". И в этот же момент получаю встречное сообщение.',
+    note_2025_10_22_date: '22 октября 2025',
+    note_2025_10_22_title: 'Калининград. Аренда машины.',
+    note_2025_10_22_alt: 'Стойка Аэрофлота в аэропорту Шереметьево',
+    note_2025_10_22_p1: 'Арсений у микрофона.',
+    note_2025_10_22_p2:
+      'Предыдущий пост был увесистым и всё равно его не хватило. Продолжаем разговор.',
+    note_2025_10_22_p3:
+      'Добрёл до кассы Аэрофлота. Объяснил свою ситуацию и попросил помочь. Во время разговора наивно полагал что говорю с профессионалом, которому есть дело. Наивный. Билет нашёлся. Самолёт на два часа позже того, на котором улетели Алина и Влад.',
+    note_2025_10_22_p4:
+      'Кажется, в целом всё налаживается. Нужно подумать о частностях. Например, об аренде машины. На текущий момент она ждёт в 19:00 в аэропорту. Но буду я на два часа позже, в начале десятого. Набираю в вотсапе сообщение в пункт проката, объясняю ситуацию. Отвечать никто не собирается, но через три минуты мне на вотсап перезванивает молодой человек (МЧ) из проката. Объясняю про 21 вместо 19. Выдвигаю несколько гипотез. Что мол, раз я не успел, наверное, сегодня уже не получится. Что, наверное, может получиться завтра. Что я могу подъехать к их офису. Длинная пауза. МЧ степенно объясняет что в девять их пункт проката уже работать не будет. Пауза. Я пытаюсь сгенерировать ещё несколько предложений, что можно сделать. Пауза. МЧ говорит, что их сотрудник мог бы подвести машину к аэропорту. Но 21 - это уже не рабочее время. Я отчаялся. Принимаю очередную Паузу как должное. Но есть особая услуга - подача машины в нерабочее время. Которая оплачивается отдельно. Я задаю вопрос "сколько это стоит?" уже начиная подозревать что дальше будет Пауза. Не ошибся. Пока ждал, успел уже подумать о продаже почки. Печени. Бессмертной души. Но услышал всего навсего "500 рублей". Мысленно понося МЧ до седьмого колена, в котором у него, видимо, и был Станиславский, договорился о подаче машины в начале десятого к аэропорту.',
+    note_2025_10_22_p5:
+      'Сеанс связи с потомком именитого драматурга был на траволаторе. Пока суть да дело, я доехал до шатла. Это маленькие вагончики, на которых можно переехать с одного терминала на другой. У меня рюкзак, сумка, наплечная сумка и планшет в руках. В шатле людно. Планшет начинает звонить. Влад говорит, что мама просила прислать фото билетов. Начинаю пристраивать весь скарб чтобы сделать снимок. Снимать удобно, так как звонки продолжаются, перекрывая доступ к программе фотографирования. В конце концов справился. Вотсап проставляет галочки, говоря что фотка ушла и получена. Шатл прибывает. Вываливаюсь из шатла, жонглируя всем скарбом и отвечая на звонок. Влад говорит что фотка не пришла. Я говорю что отослал и она получена. Так и поговорили.',
+    note_2025_10_22_p6:
+      'Фух. Выговорился. Откладываю микрофон в сторону. Может, Алина подберёт.',
+    note_2025_10_19_date: '19 октября 2025',
+    note_2025_10_19_title: 'Калининград. Путь в Путилково.',
+    note_2025_10_19_alt: 'Парковочный квест во дворе Путилково',
+    note_2025_10_19_p1:
+      'На картинке загадка: найди парковочное место в Путилково.',
+    note_2025_10_19_p2:
+      'Итак, наши герои потеряли запас времени, документы и кучу нервов. В аэропорту Алина с Владом погрузились в самолёт, долетели до Калининграда, получили чемодан с ленты.  Но при посадке в такси его не оказалось.',
+    note_2025_10_19_p3: 'Арсений у микрофона.',
+    note_2025_10_19_p4:
+      'В моём стриме я проводил взглядом Алину, деревянным шагом почапавшую в сторону самолёта, вышел из толпы и напрягся насчёт документов. Озарения было ярким. Карточка точно была в руках, когда мы тыкались в транспондере и её точно нет сейчас. Значит, она в каршеринговом авто. Служба поддержки обнадёжила: машина уже убыла, дали телефон. Мои документы в Путилково. 40 минут от аэропорта. Одно дело за раз. Дойти до гаража. Взять другой каршеринг, доехать на нём до Путилково.',
+    note_2025_10_19_p5:
+      'Еду по навигатору. Пора сворачивать с МКАД. Свернул. Длинная кривая одноколейка упирается в шлакбаум. Видимо, свернул я как-то по-особенному. Аппетитно и уверенно. За мной - очередь. Сдаю все 700 метров задом, оставляя четверых своих последователей разбираться со шлакбаумом. Оказалось что до настоящего съезда я не доехал метров 300. Это был ложный, безсимптомный съезд в Путилково.',
+    note_2025_10_19_p6:
+      'Путилково - это спальный район. Со всем вытекающим последствием - припарковаться абсолютно негде. Но Бог, покровитель детей, пяных и больных на голову был ко мне в этот день благосклонен. Нашлось свободное место. Одно на весь квартал. Куда я и приткнулся. Созвонился с молодым человеком, у которого нужно забрать документы. Не прерывая видеозвонка прохожу в мажорный двор и, сквозь него, в мажорный подъезд. Короткий разговор, молодой человек и его мама сильно мне сопереживают. Наконец-то у меня в руках ксивница с документами. Спускаюсь по лестнице и в этот момент меня прошибает. Я ехал получать свои документы на машине. За правами. На машине. Я молодец. Второй раз поблагодарил покровителя детей, пьяных и слабых головой.',
+    note_2025_10_19_p7:
+      'Без приключений доехал и припарковался в Шереметьево. Документы на руках, всё в порядке. Только самолёт улетел, а так всё ничего. Переписка с Алиной - она говорит что никаких билетов Москва-Калининград сегодня нет и быть не может.',
+    note_2025_10_16_date: '16 октября 2025',
+    note_2025_10_16_title: 'Калининград. Что посеешь. Забытый чемодан.',
+    note_2025_10_16_alt: 'Забытый чемодан на парковке аэропорта',
+    note_2025_10_16_p1:
+      'Пока мы спорили, как Арсений будет добираться после того, как найдёт или не найдёт права, звонит телефон, и строгий голос спрашивает меня: "А вы летите?" Мы с Владом спешно бежим к нашему гейту, путаемся в лестницах и выходах, но успеваем и заходим в салон последними под строгими взглядами пассажиров.',
+    note_2025_10_16_p2:
+      'Чекнула билеты Москва—Калининград: на сегодня ни одного. Полёт прошёл изумительно. На час двадцать я отключаюсь от всей ситуации, предвкушаю отдых, читаю книжку.',
+    note_2025_10_16_p3:
+      'По прилёту кажется, что всё налаживается. Мы самыми первыми забираем чемодан — так быстро у нас ещё не получалось. Отписываюсь Арсению; он сообщает, что нашёл права, вернулся в аэропорт и даже купил билет на рейс сегодня, хотя их не было.',
+    note_2025_10_16_p4:
+      'Звоню маме, говорю, что прилетели, загадываю загадку про "собралось трое — прилетело двое". Рассказываю про инцидент, слышу: "ну, вы отличная пара". Воодушевлённые, мы с Владом идём к стойке такси, получаем квитанцию, таксист ведёт нас к машине на стоянке. Смотрю на Влада и спрашиваю: "А где наш чемодан?"',
     note_2025_10_15_date: '15 октября 2025',
     note_2025_10_15_title: 'Калининград. Что посеешь.',
     note_2025_10_15_alt: 'Иллюстрация к истории «Что посеешь»',

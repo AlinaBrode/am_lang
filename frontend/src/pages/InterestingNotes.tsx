@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { useLanguage } from '../useLanguage'
 import Meta from '../components/Meta'
 import architectImg from '../assets/architect.webp'
+import forgottenSuitcaseImg from '../assets/stories/forgotten_suitcase.webp'
 import lurikImg from '../assets/stories/lurik_00.png'
 import reptileImg from '../assets/reptile.webp'
 import hrazdanImg from '../assets/bilingual/hrazdan.webp'
@@ -13,6 +14,8 @@ import positivesides2Img from '../assets/positivesides2.webp'
 import sevanImg from '../assets/stories/Sevan_for_site.webp'
 import tsovasarEateryImg from '../assets/stories/tsovasar_eatery.webp'
 import height1900Collage from '../assets/stories/2025_09_height_1900_collage.webp'
+import aeroflotIndifferenceImg from '../assets/stories/aeroflot_indifference.webp'
+import erasedBoardingImg from '../assets/stories/erased_boarding_passes.webp'
 import minusImg from '../assets/stories/minus_for_site.webp'
 import rent1Img from '../assets/stories/rent1.webp'
 import moscowLetImg from '../assets/stories/moscow_let.webp'
@@ -21,6 +24,7 @@ import kaliningradBeginImg from '../assets/stories/high_way__toll__dolgoprudny.w
 import whatYouSowImg from '../assets/stories/what_you_sow.webp'
 import carsharingImg from '../assets/stories/carsharing_sheremetievo.webp'
 import minus00Img from '../assets/stories/minus_00.webp'
+import noParkingImg from '../assets/stories/no_parking_in_putilkovo.webp'
 import type { ReactNode } from 'react'
 
 interface Note {
@@ -31,6 +35,103 @@ interface Note {
 }
 
 const notes: Note[] = [
+  {
+    slug: 'kaliningrad-suitcase-part-2',
+    dateKey: 'note_2025_10_25_date',
+    titleKey: 'note_2025_10_25_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={erasedBoardingImg}
+          alt={t('note_2025_10_25_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          {[
+            'note_2025_10_25_p0',
+            'note_2025_10_25_p1',
+            'note_2025_10_25_p2',
+            'note_2025_10_25_p3',
+          ].map((key) => (
+            <p key={key} dangerouslySetInnerHTML={{ __html: t(key) }} />
+          ))}
+        </div>
+      </div>
+    ),
+  },
+  {
+    slug: 'kaliningrad-rental-car',
+    dateKey: 'note_2025_10_22_date',
+    titleKey: 'note_2025_10_22_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={aeroflotIndifferenceImg}
+          alt={t('note_2025_10_22_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          {[
+            'note_2025_10_22_p1',
+            'note_2025_10_22_p2',
+            'note_2025_10_22_p3',
+            'note_2025_10_22_p4',
+            'note_2025_10_22_p5',
+            'note_2025_10_22_p6',
+          ].map((key) => (
+            <p key={key} dangerouslySetInnerHTML={{ __html: t(key) }} />
+          ))}
+        </div>
+      </div>
+    ),
+  },
+  {
+    slug: 'kaliningrad-road-to-putilkovo',
+    dateKey: 'note_2025_10_19_date',
+    titleKey: 'note_2025_10_19_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={noParkingImg}
+          alt={t('note_2025_10_19_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          {[
+            'note_2025_10_19_p1',
+            'note_2025_10_19_p2',
+            'note_2025_10_19_p3',
+            'note_2025_10_19_p4',
+            'note_2025_10_19_p5',
+            'note_2025_10_19_p6',
+            'note_2025_10_19_p7',
+          ].map((key) => (
+            <p key={key} dangerouslySetInnerHTML={{ __html: t(key) }} />
+          ))}
+        </div>
+      </div>
+    ),
+  },
+  {
+    slug: 'kaliningrad-forgotten-suitcase',
+    dateKey: 'note_2025_10_16_date',
+    titleKey: 'note_2025_10_16_title',
+    render: (t) => (
+      <div className="grid md:grid-cols-2 gap-4 items-start">
+        <img
+          src={forgottenSuitcaseImg}
+          alt={t('note_2025_10_16_alt')}
+          className="w-full md:max-w-xs mx-auto"
+        />
+        <div className="space-y-4 text-lg">
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_16_p1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_16_p2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_16_p3') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('note_2025_10_16_p4') }} />
+        </div>
+      </div>
+    ),
+  },
   {
     slug: 'kaliningrad-what-you-sow',
     dateKey: 'note_2025_10_15_date',
